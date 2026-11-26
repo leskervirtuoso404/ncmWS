@@ -4,15 +4,15 @@
 
 1. **类型不符**：「歌曲类型」标签中不含该流派标签；
 2. **无音源**：播放地址接口返回空 url（歌单里仍在、详情页可访问，但无法下载）；
-3. **重复跳过**：歌名 + 歌手与已收录曲目相同。
+3. **重复跳过**：歌名 + 歌手与前面歌单已收录的曲目相同（顺延取下一首）。
 
-- 「歌单位置」= 该曲目在原始歌单中的序号（从 1 开始）
+- 「歌单位置」= 该曲目在**所在歌单**中的序号（从 1 开始；补充/候补曲目为对应歌单内的序号）
 - 收满 100 首即停止扫描，之后的位置未扫描，不计入「跳过」
-- 若给定歌单扫完仍不足 100 首，其余曲目从分类歌单补充（见 README），不属于本表范围
+- 给定歌单扫完仍不足 100 首时，从分类歌单或指定候补歌单补足，见各节末尾
 
 ## blues（蓝调）— 100blues大师-布鲁斯是他们的生命
 
-歌单共 102 首，扫描前 102 首，收录 69 首，跳过 33 首；另从分类歌单补充 31 首。
+歌单共 102 首，扫描前 102 首，收录 69 首，跳过 33 首；另从补充/候补歌单收录 31 首。
 
 **跳过的位置**：3, 5, 12, 14–16, 18, 20, 22, 25, 28, 30, 33–35, 38–39, 50, 52, 63, 65, 69–71, 75–76, 82–83, 85–86, 92, 100, 102
 
@@ -52,9 +52,45 @@
 | 100 | Call Me Baby | Charlie Patton's War | 流行 | 类型不符 |
 | 102 | Eighth of January | Sid Hemphill | 乡村 | 类型不符 |
 
+### 补充曲目（supplement_playlist:14274068640 — 蓝调悠闲馆 | 一杯蓝调 半日闲情）
+
+| 最终序号 | 歌单位置 | 歌曲名称 | 歌手 | 歌曲类型 |
+| --- | --- | --- | --- | --- |
+| 70 | 1 | (Somebody) Loan Me a Dime | Pat O'Bryan | 蓝调 |
+| 71 | 2 | Slightly Hung Over | Blues Delight | 摇滚 / 蓝调 |
+| 72 | 3 | Silent Nite | Blues Company | 蓝调 |
+| 73 | 4 | Standing on Melting Ice | Twelve Bar Blues Band | R&B / 蓝调 |
+| 74 | 5 | Shook My World | Hughes Taylor | 摇滚 / 蓝调 |
+| 75 | 6 | She's Crazy | JT Coldfire | 摇滚 / 蓝调 |
+| 76 | 7 | Tears From My Eyes | Detroit Blues Band | 蓝调 |
+| 77 | 8 | The Time Has Come | Snowy White | 摇滚 / R&B / 蓝调 |
+| 78 | 9 | The Man Wants Me Dead | Byther Smith | 蓝调 |
+| 79 | 10 | Storm Watch Warning | Dr. Wu' | 蓝调 |
+| 80 | 11 | Ain't Enough Whiskey (feat. Manuel Grimaldi) | D Man / Manuel Grimaldi | 蓝调 |
+| 81 | 14 | What You Gonna Do | Eb Davis Blues Band | 蓝调 |
+| 82 | 15 | I Shouldn't but I Do | Jimmy Reiter | 蓝调 |
+| 83 | 16 | Back Door Man | Boo Boo Davis / ElectroBluesSociety | 蓝调 |
+| 84 | 18 | A Soul That's Been Abused | Hubert Sumlin | 蓝调 |
+| 85 | 19 | Chocolate | Boo Boo Davis | 蓝调 |
+| 86 | 20 | Full Moon over Orlean | Ray Cashman | 蓝调 |
+| 87 | 23 | Two Steps to Hell | Fruteland Jackson | 蓝调 |
+| 88 | 24 | Back in My Arms | DEREK DAVIS | 蓝调 |
+| 89 | 25 | The Thing I Haven't Got | Maria Daines | 蓝调 / 摇滚 |
+| 90 | 27 | Back to the Dirty Town | The Blues Mystery | 摇滚 / 蓝调 |
+| 91 | 29 | Days Like This | Danny Bryant's RedEyeBand / Walter Trout | 蓝调 |
+| 92 | 30 | Love You Night and Day | Steve Big Man Clayton | 蓝调 |
+| 93 | 31 | Chubata Africa | Roland Tchakounte / Roland Tchakounte | 蓝调 |
+| 94 | 32 | Can't Run Anymore | Frankie Rose Duffy Group | 蓝调 |
+| 95 | 34 | Can't Let Go | David Paul Shaw | 蓝调 |
+| 96 | 35 | Bad Feelin' | The Burton Stinson Project | 蓝调 |
+| 97 | 39 | Somebody Hurt You | Keb' Mo' | 蓝调 |
+| 98 | 40 | Don't Answer The Door | B.B. King | 蓝调 |
+| 99 | 42 | Forgot Mrs. Claus | Ben Levin | 蓝调 / 节日音乐 |
+| 100 | 43 | Still Blue | Long John Hunter | 蓝调 |
+
 ## classical（古典）— 世界级古典钢琴曲音乐珍藏
 
-歌单共 95 首，扫描前 95 首，收录 94 首，跳过 1 首；另从分类歌单补充 6 首。
+歌单共 95 首，扫描前 95 首，收录 94 首，跳过 1 首；另从补充/候补歌单收录 6 首。
 
 **跳过的位置**：45
 
@@ -62,9 +98,20 @@
 | --- | --- | --- | --- | --- |
 | 45 | Rhapsodie Sur Un Thème De Paganini Pour Piano & Orchestre, Op.43 : Variation XVIII : Andante Cantabile (Remasterisé En 2009) | Jean-Philippe Collard | — | 无类型信息（音乐百科缺失） |
 
+### 补充曲目（supplement_playlist:8621500200 — 古典造梦机 | 跌进柔软梦中 纵享迷人韵律）
+
+| 最终序号 | 歌单位置 | 歌曲名称 | 歌手 | 歌曲类型 |
+| --- | --- | --- | --- | --- |
+| 95 | 1 | Moonlight' Sonata:1st movement | Ludwig van Beethoven | 古典 |
+| 96 | 2 | 베토벤::Für Elise, Bagatelle in A Minor, WoO 59 | 郎朗 | 古典 |
+| 97 | 3 | Pavane pour une infante défunte, M. 19 (Arr. for Violin and Piano by Louis Fleury) | Manon Galy / Jorge Gonzalez Buajasan | 古典 |
+| 98 | 4 | Widmung, Op. 25 No. 1 (Arr. Liszt, S. 566a) | Martin James Bartlett | 古典 |
+| 99 | 6 | The Well-Tempered Clavier, Book 1, BWV 846-869: I. Prelude and Fugue in C Major, BWV 846 | Jeno Jando | 古典 |
+| 100 | 8 | 3 Nocturnes, Op. 9: No. 2 in E-Flat Major. Andante | Lars Vogt | 古典 |
+
 ## country（乡村）— 美国乡村民谣之旅
 
-歌单共 106 首，扫描前 106 首，收录 50 首，跳过 56 首；另从分类歌单补充 50 首。
+歌单共 106 首，扫描前 106 首，收录 50 首，跳过 56 首；另从补充/候补歌单收录 50 首。
 
 **跳过的位置**：3–6, 8–10, 12–17, 19, 21–22, 24–26, 28–29, 31–32, 38, 40, 43, 52, 61, 63–68, 70–73, 76–89, 91–94
 
@@ -126,6 +173,61 @@
 | 92 | Sad Movies (Make Me Cry) | Sue Thompson | 流行 | 类型不符 |
 | 93 | Tonight I Celebrate My Love for You | Katie Price | 流行 | 类型不符 |
 | 94 | One Way Ticket | ONE OK ROCK | 摇滚 | 类型不符 |
+
+### 补充曲目（supplement_playlist:8282791588 — 乡村乐 | 在音乐中暂别城市·杜比全景声）
+
+| 最终序号 | 歌单位置 | 歌曲名称 | 歌手 | 歌曲类型 |
+| --- | --- | --- | --- | --- |
+| 51 | 1 | Handle On You | Parker McCollum | 乡村 |
+| 52 | 4 | If This Was A Movie (Taylor’s Version) | Taylor Swift | 乡村 |
+| 53 | 5 | You Proof | Morgan Wallen | 乡村 |
+| 54 | 6 | Thought You Should Know | Morgan Wallen | 乡村 |
+| 55 | 7 | Fearless (Taylor’s Version) | Taylor Swift | 乡村 |
+| 56 | 8 | Step Off | Kacey Musgraves | 乡村 |
+| 57 | 9 | Just A Kiss | Lady A | 乡村 |
+| 58 | 11 | What He Didn't Do | Carly Pearce | 乡村 |
+| 59 | 13 | Next Thing You Know | Jordan Davis | 乡村 |
+| 60 | 14 | Kinfolks | Sam Hunt | 乡村 |
+| 61 | 15 | Love Story (Taylor’s Version) | Taylor Swift | 乡村 |
+| 62 | 17 | You Belong With Me (Taylor's Version) | Taylor Swift | 乡村 |
+| 63 | 18 | I Deserve A Drink | Morgan Wallen | 乡村 |
+| 64 | 19 | Mr. Perfectly Fine (Taylor’s Version) (From The Vault) | Taylor Swift | 乡村 |
+| 65 | 21 | Bartender | Lady A | 流行 / 乡村 |
+| 66 | 22 | Waking Up Dreaming | Shania Twain | 乡村 |
+| 67 | 23 | In Case You Didn't Know | Brett Young | 乡村 |
+| 68 | 24 | Are You With Me | Easton Corbin | 乡村 |
+| 69 | 25 | 5 Foot 9 | Tyler Hubbard | 乡村 |
+| 70 | 26 | I Wouldn't Be A Man | Josh Turner | 乡村 |
+| 71 | 27 | Tonight I Wanna Cry | Keith Urban | 乡村 |
+| 72 | 29 | Tulsa Texas (Album Version) | Easton Corbin | 乡村 |
+| 73 | 30 | Kick the Dust Up | Luke Bryan | 乡村 |
+| 74 | 31 | Not Just A Girl | Shania Twain | 乡村 |
+| 75 | 32 | Villain | Lily Rose | 乡村 |
+| 76 | 33 | Soon You’ll Get Better | Taylor Swift / The Chicks | 乡村 |
+| 77 | 34 | Am I The Only One | Aaron Lewis | 乡村 |
+| 78 | 35 | Trailer Park | Jackson Dean | 乡村 |
+| 79 | 36 | Huntin', Fishin' and Lovin' Every Day | Luke Bryan | 乡村 |
+| 80 | 37 | Tied One On | Jon Pardi | 乡村 |
+| 81 | 38 | Hell Yeah | Little Big Town | 乡村 |
+| 82 | 39 | 29 | Carly Pearce | 乡村 |
+| 83 | 40 | Love You Like That | Canaan Smith | 摇滚 / 乡村 |
+| 84 | 41 | Radio (Album Version) | Darius Rucker | 乡村 |
+| 85 | 42 | Velvet Heartbreak | Carrie Underwood | 乡村 |
+| 86 | 43 | Friends Don't | Maddie & Tae | 乡村 |
+| 87 | 44 | Speed | Parker McCollum | 乡村 |
+| 88 | 45 | This Feels A Lot Like Love (Album Version) | Easton Corbin | 乡村 |
+| 89 | 46 | Drive You Out Of My Mind | Kassi Ashton | 乡村 |
+| 90 | 47 | That's How Love Is Made | The War and Treaty | 乡村 |
+| 91 | 48 | It Was Me | George Strait | 乡村 |
+| 92 | 49 | She's Mine | Kip Moore | 乡村 |
+| 93 | 50 | May We All | Florida Georgia Line / Tim McGraw | 乡村 |
+| 94 | 51 | Courtesy Of The Red, White And Blue (The Angry American) | Toby Keith | 乡村 |
+| 95 | 52 | Summer In A Small Town | Kidd G | 乡村 |
+| 96 | 53 | Off The Deep End | Priscilla Block | 乡村 |
+| 97 | 54 | Red Wine + White Couch | Danielle Bradbery | 乡村 |
+| 98 | 55 | Getting Good | Lauren Alaina / Trisha Yearwood | 乡村 |
+| 99 | 56 | Someone | Aaron Lewis | 乡村 |
+| 100 | 57 | Stronger Than I Am | Lily Rose | 乡村 |
 
 ## hiphop（嘻哈说唱）— hiphop炸曲神曲大整合 dancer必备！
 
@@ -202,13 +304,57 @@
 | 34 | Always with me(口琴版) | V.A. | 流行 | 无音源（播放地址为空，无法下载） |
 | 62 | 《夜色钢琴曲》虹之间 | 赵海洋 | 流行 | 无音源（播放地址为空，无法下载） |
 
-## rock（摇滚）— 我喜欢的音乐-摇滚
+## rock（摇滚）— 史上最伟大的100首摇滚歌曲
 
-歌单共 393 首，扫描前 102 首，收录 100 首，跳过 2 首；未使用补充歌单。
+歌单共 96 首，扫描前 96 首，收录 84 首，跳过 12 首；另从补充/候补歌单收录 16 首。
 
-**跳过的位置**：73, 90
+**跳过的位置**：23, 31, 34, 37, 40, 49, 55, 58, 70, 72, 87, 96
 
 | 歌单位置 | 歌曲名称 | 歌手 | 实际歌曲类型 | 跳过原因 |
 | --- | --- | --- | --- | --- |
-| 73 | The Fear | The Score | 摇滚 | 无音源（播放地址为空，无法下载） |
-| 90 | Numb | Linkin Park | 摇滚 / 金属 | 重复跳过（与第 13 首同名同歌手） |
+| 23 | Master of Puppets | Metallica | 金属 | 类型不符 |
+| 31 | Paranoid | Black Sabbath | 金属 | 类型不符 |
+| 34 | God Only Knows | The Beach Boys | 流行 | 类型不符 |
+| 37 | London Calling (Remastered) | The Clash | 朋克 | 类型不符 |
+| 40 | Jump | Van Halen | 流行 | 类型不符 |
+| 49 | Crazy Train | Ozzy Osbourne | 金属 | 类型不符 |
+| 55 | Enter Sandman | Metallica | 金属 | 类型不符 |
+| 58 | Killing In The Name | Rage Against the Machine | 另类/独立 / 金属 | 类型不符 |
+| 70 | For Whom the Bell Tolls | Metallica | 金属 | 类型不符 |
+| 72 | Just What I Needed | The Cars | 流行 / 朋克 | 类型不符 |
+| 87 | Boulevard Of Broken Dreams | Green Day | 朋克 | 类型不符 |
+| 96 | Blitzkrieg Bop (2001 Remaster) | Ramones | 朋克 | 类型不符 |
+
+### 补充曲目（fallback_playlist:722234258 — 欧美摇滚经典）
+
+| 最终序号 | 歌单位置 | 歌曲名称 | 歌手 | 歌曲类型 |
+| --- | --- | --- | --- | --- |
+| 85 | 1 | Soldier Of Fortune | Deep Purple | 摇滚 |
+| 86 | 4 | Mother | Pink Floyd | 流行 / 摇滚 |
+| 87 | 5 | Love Buzz | Nirvana | 摇滚 |
+| 88 | 8 | Home Sweet Home | Mötley Crüe | 摇滚 |
+| 89 | 9 | Estranged | Guns N' Roses | 摇滚 |
+| 90 | 10 | Love Me Like There's No Tomorrow | Freddie Mercury | 摇滚 |
+| 91 | 11 | Oh My Love | John Lennon | 摇滚 |
+| 92 | 12 | No Surprises | Radiohead | 摇滚 |
+| 93 | 16 | Smells Like Teen Spirit | Patti Smith | 摇滚 |
+| 94 | 17 | You and I | Scorpions | 摇滚 |
+| 95 | 18 | Dead, Jail or Rock & Roll | Michael Monroe | 摇滚 |
+| 96 | 19 | Love Song (Live At The Trocadero / 1990) | Tesla | 摇滚 |
+| 97 | 24 | Scene Six: Home | Dream Theater | 摇滚 / 金属 |
+| 98 | 26 | Kingdom of Heaven | 13th Floor Elevators | 摇滚 / 朋克 |
+| 99 | 27 | Tears | Rush | 摇滚 |
+| 100 | 28 | Rock N Roll Train | AC/DC | 流行 / 摇滚 |
+
+候补歌单 722234258 中因规则跳过的曲目：
+
+| 歌单位置 | 歌曲名称 | 歌手 | 跳过原因 |
+| --- | --- | --- | --- |
+| 2 | Smoke on the Water | Deep Purple | 前面的歌单已有该曲，顺延 |
+| 6 | The Great Gig in the Sky | Pink Floyd | 该歌手已候补过 1 首（同歌手只收 1 首） |
+| 13 | Creep | Radiohead | 该歌手已候补过 1 首（同歌手只收 1 首） |
+| 20 | Shine On You Crazy Diamond (Pts. 1-5) | Pink Floyd | 该歌手已候补过 1 首（同歌手只收 1 首） |
+| 21 | Marooned | Pink Floyd | 该歌手已候补过 1 首（同歌手只收 1 首） |
+| 22 | Goodbye Blue Sky | Pink Floyd | 该歌手已候补过 1 首（同歌手只收 1 首） |
+| 23 | Run Like Hell | Pink Floyd | 该歌手已候补过 1 首（同歌手只收 1 首） |
+| 25 | The Best Of Times | Dream Theater | 该歌手已候补过 1 首（同歌手只收 1 首） |

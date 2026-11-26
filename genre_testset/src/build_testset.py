@@ -7,6 +7,8 @@
 4. 仅保留能取到播放地址的曲目，无音源/不可下载的歌曲（歌单里仍在、详情页可访问）一并剔除；
 5. 若类型不符或无音源则继续向后扫描，直到该类别收满 100 首；
    若给定歌单耗尽仍不足 100 首，则从同风格「分类歌单」继续补足（同样需通过标签校验）。
+   rock 例外：候补来源为指定歌单 722234258，候补时同一歌手最多收录 1 首，
+   与前面歌单重复的曲目直接跳过并顺延。
 
 数据来源：
 - 歌单曲目：/api/v6/playlist/detail
@@ -65,7 +67,8 @@ GENRES: list[dict] = [
     {"genre": "hiphop", "tag": "嘻哈说唱", "playlist_id": "439484002", "cat": "说唱"},
     {"genre": "jazz", "tag": "爵士", "playlist_id": "2829895462", "cat": "爵士"},
     {"genre": "pop", "tag": "流行", "playlist_id": "18639113421", "cat": "流行"},
-    {"genre": "rock", "tag": "摇滚", "playlist_id": "18639045526", "cat": "摇滚"},
+    {"genre": "rock", "tag": "摇滚", "playlist_id": "8240950353", "cat": "摇滚",
+     "fallback_playlist_id": "722234258"},
 ]
 
 ZH2EN = {
@@ -221,15 +224,20 @@ def pick(tags_map: dict, name: str, song_id: int) -> tuple[str, str] | None:
 
 
 def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_ids, seen_names, source,
-                  check_url=True):
-    """按歌单顺序扫描，返回符合 tag 且有音源的曲目（最多 need 首）及统计。"""
+                  check_url=True, artist_unique=False, used_artists=None):
+    """按歌单顺序扫描，返回符合 tag 且有音源的曲目（最多 need 首）及统计。
+
+    artist_unique=True 时，同一歌手在本歌单内最多收录一首（候补歌单用）。
+    """
     detail = fetch_playlist(session, str(playlist_id))
     pl = detail["playlist"]
     ids = [t["id"] for t in pl.get("trackIds", [])]
     songs = fetch_song_details(session, ids, str(playlist_id))
 
     out: list[dict] = []
-    st = {"扫描曲目数": 0, "类型不符": 0, "无音源": 0, "无类型信息": 0, "重复跳过": 0}
+    st = {"扫描曲目数": 0, "类型不符": 0, "无音源": 0, "无类型信息": 0, "重复跳过": 0, "重复歌手": 0}
+    if used_artists is None:
+        used_artists = set()
     tag_cache: dict[int, dict] = {}
     idx = 0
     while len(out) < need and idx < len(ids):
@@ -271,6 +279,12 @@ def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_
             if sid in seen_ids or key in seen_names:
                 st["重复跳过"] += 1
                 continue
+            if artist_unique:
+                names = {a.get("name", "").strip().lower() for a in artists if a.get("name")}
+                if names & used_artists:
+                    st["重复歌手"] += 1
+                    continue
+                used_artists |= names
             seen_ids.add(sid)
             seen_names.add(key)
             out.append(
@@ -313,6 +327,7 @@ def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=2
         "无音源": st["无音源"],
         "无类型信息": st["无类型信息"],
         "重复跳过": st["重复跳过"],
+        "重复歌手": st["重复歌手"],
         "补充歌单数": 0,
         "补充曲目数": 0,
         "命中数": len(rows),
@@ -320,7 +335,22 @@ def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=2
     }
     print(f"  给定歌单命中 {len(rows)}/{target}", flush=True)
 
-    if len(rows) < target:
+    fallback_id = cfg.get("fallback_playlist_id")
+    if len(rows) < target and fallback_id:
+        print(f"  不足 {target} 首，改用候补歌单 {fallback_id}（同一歌手最多 1 首）...", flush=True)
+        used_artists: set[str] = set()
+        _, got, st2, _ = scan_playlist(
+            session, cookie, fallback_id, tag, target - len(rows), workers, delay,
+            seen_ids, seen_names, f"fallback_playlist:{fallback_id}", check_url,
+            artist_unique=True, used_artists=used_artists,
+        )
+        for k in ("扫描曲目数", "类型不符", "无音源", "无类型信息", "重复跳过", "重复歌手"):
+            stat[k] += st2[k]
+        stat["补充歌单数"] = 1 if got else 0
+        stat["补充曲目数"] = len(got)
+        rows.extend(got)
+        print(f"    候补歌单 {fallback_id} +{len(got)} 首（歌手去重跳过 {st2['重复歌手']}）", flush=True)
+    elif len(rows) < target:
         print(f"  不足 {target} 首，从「{cfg['cat']}」分类歌单补足 ...", flush=True)
         playlists = fetch_category_playlists(session, cfg["cat"], genre)
         for p in playlists[:max_supplement]:
@@ -332,11 +362,8 @@ def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=2
                 session, cookie, p["id"], tag, target - len(rows), workers, delay,
                 seen_ids, seen_names, f"supplement_playlist:{p['id']}", check_url,
             )
-            stat["扫描曲目数"] += st2["扫描曲目数"]
-            stat["类型不符"] += st2["类型不符"]
-            stat["无音源"] += st2["无音源"]
-            stat["无类型信息"] += st2["无类型信息"]
-            stat["重复跳过"] += st2["重复跳过"]
+            for k in ("扫描曲目数", "类型不符", "无音源", "无类型信息", "重复跳过", "重复歌手"):
+                stat[k] += st2[k]
             if got:
                 stat["补充歌单数"] += 1
                 stat["补充曲目数"] += len(got)
@@ -379,7 +406,8 @@ def main() -> None:
     fields = ["序号", "歌曲名称", "song id", "总时长", "歌手", "artist id", "专辑", "album id",
               "语种", "歌曲类型", "歌曲类型_en", "genre", "歌单位置", "数据来源"]
     summary_fields = ["genre", "给定歌单名称", "给定歌单 id", "给定歌单曲目数", "扫描曲目数", "命中数",
-                      "类型不符", "无音源", "无类型信息", "重复跳过", "补充歌单数", "补充曲目数", "是否满额"]
+                      "类型不符", "无音源", "无类型信息", "重复跳过", "重复歌手",
+                      "补充歌单数", "补充曲目数", "是否满额"]
     summary_path = OUT_DIR / "testset_summary.csv"
     summary_map: dict[str, dict] = {}
     if summary_path.exists():
