@@ -1,0 +1,701 @@
+﻿序号,歌曲名称,song id,总时长,歌手,artist id,专辑,album id,语种,歌曲类型,歌曲类型_en,genre,歌单位置,数据来源
+1,Riding With the King,26641658,04:23,Eric Clapton / B.B. King,32664 / 29326,Riding With The King,2546051,英语,摇滚 / 蓝调,rock / blues,blues,1,given_playlist
+2,What Kind Of Woman Is This?,16660836,05:17,Buddy Guy,29345,Bring 'Em In/Skin Deep,1536180,英语,摇滚 / 蓝调,rock / blues,blues,2,given_playlist
+3,Why Are People Like That?,1514247,03:56,Junior Wells,35485,Come on in This House,154080,英语,蓝调,blues,blues,4,given_playlist
+4,Enough of the Blues,17970293,04:47,Gary Moore,33852,Back to the Blues,1652353,英语,摇滚 / 蓝调,rock / blues,blues,6,given_playlist
+5,The Thrill Is Gone,1079217,05:27,B.B. King,29326,Icon,112416,英语,蓝调,blues,blues,7,given_playlist
+6,Santa's Blues,26211371,03:25,Charles Brown,30227,Putumayo Presents:A Jazz & Blue Christmas,2424045,英语,蓝调 / 节日音乐,blues / holiday,blues,8,given_playlist
+7,Mary Had a Little Lamb,1940007,02:47,Stevie Ray Vaughan / Double Trouble,42953 / 36275257,Texas Flood,195432,英语,流行 / 摇滚 / 蓝调,pop / rock / blues,blues,9,given_playlist
+8,Smoking Gun,1889889,04:07,Robert Cray,42036,20th Century Masters: The Millennium Collection: Best Of Robert Cray,190429,英语,蓝调,blues,blues,10,given_playlist
+9,Bullfrog Blues,1900081,10:16,Rory Gallagher,42141,The Bullfrog Interlude,191580,英语,蓝调,blues,blues,11,given_playlist
+10,One Track Mind,17540498,05:04,Eric Clapton,32664,Back Home,1615488,英语,摇滚 / 蓝调,rock / blues,blues,13,given_playlist
+11,Johnny B. Goode,22078171,02:41,Chuck Berry,29985,20th Century Masters: The Best Of Chuck Berry - The Millennium Collection,2030771,英语,流行 / 摇滚 / 蓝调,pop / rock / blues,blues,17,given_playlist
+12,Parchman Farm Blues,23747592,02:38,Bukka White,48762,The Story Of The Blues,2148388,英语,蓝调,blues,blues,19,given_playlist
+13,You Gonna Miss Me (Live),35920473,02:52,Mance Lipscomb,39130,Live! at The Cabale,3367492,英语,流行 / 蓝调,pop / blues,blues,21,given_playlist
+14,Gonna Make It Somehow,16294062,04:16,Albert King,27614,Truckload Of Lovin',1502955,英语,蓝调,blues,blues,23,given_playlist
+15,Bad Dream Blues,2483634,05:10,Dave Van Ronk,54236,Just Dave Van Ronk,250066,英语,民谣 / 蓝调,folk / blues,blues,24,given_playlist
+16,Santy Anno,22471645,02:35,Odetta,70443,At Town Hall,2058609,英语,蓝调,blues,blues,26,given_playlist
+17,Bring it to Jerome,16684762,02:30,Bo Diddley,29446,"I'm a Man - Singles As & Bs, 1955 - 1959",1538694,英语,蓝调,blues,blues,27,given_playlist
+18,Same Old Games,17162630,02:55,Canned Heat,89440,Friends In The Can,1581064,英语,蓝调,blues,blues,29,given_playlist
+19,Chicago Smokeshop,18683643,05:01,Roy Buchanan,72928,Deluxe Edition,1713324,英语,摇滚 / 蓝调,rock / blues,blues,31,given_playlist
+20,Born in Chicago,36391425,03:09,The Paul Butterfield Blues Band,102088,Complete Albums 1965-1980,3397094,英语,摇滚 / 蓝调,rock / blues,blues,32,given_playlist
+21,Good Day for the Blues,3325962,04:35,Ruth Brown,72852,Good Day for the Blues,336763,英语,蓝调,blues,blues,36,given_playlist
+22,Gotta Move,1029368,02:32,Alexis Korner,27946,R&B from the Marquee,107565,纯音乐,蓝调,blues,blues,37,given_playlist
+23,Heart Of Stone,17950342,04:44,Peter Green,41320,Supernatural - An Anthology,1650423,英语,蓝调,blues,blues,40,given_playlist
+24,All Your Love (Stereo),18678545,03:32,John Mayall's Bluesbreakers,129763,Lost & Found: John Mayall,1712339,英语,蓝调,blues,blues,41,given_playlist
+25,Good rockin' tonight,24423735,02:57,Roy Brown,72925,100 Golden Inspirations for The King,2180652,英语,蓝调,blues,blues,42,given_playlist
+26,"Shake, Rattle and Roll",1125816,03:01,Big Joe Turner,29665,The Very Best of Big Joe Turner,116833,英语,蓝调,blues,blues,43,given_playlist
+27,Voodoo Woman,22225233,02:36,Johnny Otis,35699,The Capitol Years,2043042,英语,蓝调,blues,blues,44,given_playlist
+28,Every Dog Has His Day,22510775,02:20,Pee Wee Crayton,71048,Pee Wee's Blues - The Complete Aladdin And Imperial Recordings,2061604,英语,流行 / 蓝调,pop / blues,blues,45,given_playlist
+29,Pink Champagne,5118722,03:03,Joe Liggins,35698,The History of Rhythm and Blues 1942-1952,504870,英语,蓝调,blues,blues,46,given_playlist
+30,Saturday Night Boogie Woogie,27077211,02:58,Jimmy Liggins,61211,The R&B Years 1950,2584107,英语,蓝调,blues,blues,47,given_playlist
+31,Information Blues,27077151,02:43,Roy Milton,72930,The R&B Years 1950,2584107,英语,蓝调,blues,blues,48,given_playlist
+32,Choo Choo Ch' Boogie,20954948,02:44,Louis Jordan,38268,Jivin' With Jordan,1941089,英语,蓝调,blues,blues,49,given_playlist
+33,One Monkey Don't Stop The Show,21668908,03:11,Sonny Terry,75595,Sonny Is King,1994714,英语,蓝调,blues,blues,51,given_playlist
+34,Statesboro Blues,5197360,02:30,Blind Willie McTell,48760,Martin Scorsese Presents The Blues: A Musical Journey,508508,英语,蓝调,blues,blues,53,given_playlist
+35,When You Are Gone,5089076,02:48,Blind Boy Fuller,48752,Blind Man Blues: Blues from Within,503531,英语,蓝调,blues,blues,54,given_playlist
+36,Blind Arthur's Breakdown,23747578,03:01,Blind Blake,29660,The Story Of The Blues,2148388,纯音乐,蓝调,blues,blues,55,given_playlist
+37,Rollin' Stone,1704016,03:08,Muddy Waters,38879,The Anthology: 1947-1972,172748,英语,蓝调,blues,blues,56,given_playlist
+38,Double Trouble,27224272,03:25,Otis Rush,40923,Live @ Joe's Place Boston,2593557,纯音乐,蓝调,blues,blues,57,given_playlist
+39,Give Me Back My Wig,5197444,03:35,Hound Dog Taylor / The Houserockers,34631 / 238931,Martin Scorsese Presents The Blues: A Musical Journey,508508,英语,蓝调,blues,blues,58,given_playlist
+40,Everytime I Sing the Blues,27490248,07:36,Buddy Guy / Eric Clapton,29345 / 32664,Bring 'Em In/Skin Deep,1536180,英语,流行 / 蓝调,pop / blues,blues,59,given_playlist
+41,Baby What You Want Me to Do,5304838,02:21,Jimmy Reed,123775,Found Love,516846,英语,蓝调,blues,blues,60,given_playlist
+42,Everything Gonna Be Alright,18582091,03:16,James Cotton,35697,Mighty Long Time,1705675,英语,蓝调,blues,blues,61,given_playlist
+43,Dust My Broom,28145057,02:53,Elmore James,32816,The Wolf Of Wall Street (Music From The Motion Picture),2735332,英语,原声带 / 蓝调,soundtrack / blues,blues,62,given_playlist
+44,Have a Good Time,16709296,03:46,Big Walter Horton,48750,Big Walter Horton with Carey Bell,1540399,纯音乐,蓝调,blues,blues,64,given_playlist
+45,Oh Baby,2598022,02:32,Floyd Dixon,56912,Marshall Texas Is My Home,261657,英语,蓝调,blues,blues,66,given_playlist
+46,In The Middle Of The Night,22434031,02:41,Amos Milburn,27944,Down The Road Apiece -The Best Of Amos Milburn,2053855,英语,爵士 / 蓝调,jazz / blues,blues,67,given_playlist
+47,How Long Blues,18763379,03:04,Jimmy Yancey,61212,Jimmy Yancey Vol. 1 (1939-1940),1719190,纯音乐,蓝调,blues,blues,68,given_playlist
+48,Pine Top's Boogie Woogie,5197362,03:22,Pine Top Smith,0,Martin Scorsese Presents The Blues: A Musical Journey,508508,纯音乐,蓝调,blues,blues,72,given_playlist
+49,Dark Was the Night,28631328,03:23,Blind Willie Johnson,48754,Murmurs of Earth,2848433,英语,蓝调,blues,blues,73,given_playlist
+50,Easy Rider Blues,2218736,02:57,Blind Lemon Jefferson,48753,Texas Blues,223737,英语,蓝调,blues,blues,74,given_playlist
+51,Ain't No Big Deal On You,17746415,03:32,Freddie King,33479,The Best Of Freddie King: The Shelter Years,1634231,英语,流行 / 蓝调,pop / blues,blues,77,given_playlist
+52,Too Many Dirty Dishes,16319044,06:53,Albert Collins,27943,Cold Snap,1505437,英语,蓝调,blues,blues,78,given_playlist
+53,Call It Stormy Monday,2037745,03:08,T-Bone Walker,44716,T-Bone Blues,205284,英语,R&B / 蓝调,rnb / blues,blues,79,given_playlist
+54,I Like To Boogie,20969282,03:55,Lightnin' Hopkins,38185,Straight Blues,1941963,英语,蓝调,blues,blues,80,given_playlist
+55,Can't Hold Out (Talk To Me Baby) (With Ben Harper),29344702,04:08,Johnny Winter,35472,Step Back,2998531,英语,摇滚 / 蓝调,rock / blues,blues,81,given_playlist
+56,The Things That I Used to Do,5197403,03:04,Guitar Slim,58097,Martin Scorsese Presents The Blues: A Musical Journey,508508,英语,蓝调,blues,blues,84,given_playlist
+57,Give Me Flowers While I'm Living,27180068,05:00,Champion Jack Dupree,30232,Box of the Blues,2592228,纯音乐,蓝调,blues,blues,87,given_playlist
+58,Mother Earth,23747620,02:44,Memphis Slim,66768,The Story Of The Blues,2148388,英语,蓝调,blues,blues,88,given_playlist
+59,Me and My Chauffeur Blues,5197382,02:47,Memphis Minnie,66760,Martin Scorsese Presents The Blues: A Musical Journey,508508,英语,蓝调,blues,blues,89,given_playlist
+60,Annie Mae,5057030,05:19,John Lee Hooker,35367,Stealing Beauty,501527,英语,蓝调,blues,blues,90,given_playlist
+61,Why Blues,1211260,03:25,Chris Thomas King,30933,"Me, My Guitar And The Blues",125433,英语,蓝调,blues,blues,91,given_playlist
+62,3 O'Clock In The Morning Blues,22268863,02:40,Ike And Tina Turner,60429,Outta Season,2046026,英语,摇滚 / 蓝调,rock / blues,blues,93,given_playlist
+63,The More You Lie To Me,5207923,03:38,Artie White,0,Putumayo Presents: Mississippi Blues,509074,英语,世界音乐 / 蓝调,world / blues,blues,94,given_playlist
+64,Part Time Love,5207920,02:45,Luther Allison,38159,Putumayo Presents: Mississippi Blues,509074,英语,蓝调,blues,blues,95,given_playlist
+65,Frankie,24680610,03:24,Mississippi John Hurt,39129,Essential Delta Blues,2193218,英语,蓝调,blues,blues,96,given_playlist
+66,Crow Jane,1969416,02:58,Skip James,43242,Today!,198585,英语,蓝调,blues,blues,97,given_playlist
+67,Me And The Devil Blues (Alternate Take),21555886,02:36,Robert Johnson,41950,The Complete Recordings,1986461,英语,蓝调,blues,blues,98,given_playlist
+68,Grinnin' in Your Face,1946912,02:06,Son House,43011,original delta blues,196015,英语,蓝调,blues,blues,99,given_playlist
+69,Waiting for My Baby,21166031,03:23,Mississippi Fred McDowell,39134,Heritage of the Blues,1957217,英语,蓝调,blues,blues,101,given_playlist
+70,(Somebody) Loan Me a Dime,1473194722,07:50,Pat O'Bryan,36524693,Uncle Pat's Imaginary Blues Band (Terlingua Bootleg),94356183,英语,蓝调,blues,blues,1,supplement_playlist:14274068640
+71,Slightly Hung Over,1378608598,04:46,Blues Delight,32773757,Rock Island Line,80453386,英语,摇滚 / 蓝调,rock / blues,blues,2,supplement_playlist:14274068640
+72,Silent Nite,1308363636,05:57,Blues Company,144079,Damn! Let's Jam,73172658,英语,蓝调,blues,blues,3,supplement_playlist:14274068640
+73,Standing on Melting Ice,567332480,10:27,Twelve Bar Blues Band,14763577,The Blues Has Got Me,39336385,英语,R&B / 蓝调,rnb / blues,blues,4,supplement_playlist:14274068640
+74,Shook My World,1445798378,08:23,Hughes Taylor,13856026,Hear My Melody,88993032,纯音乐,摇滚 / 蓝调,rock / blues,blues,5,supplement_playlist:14274068640
+75,She's Crazy,1610824,05:23,JT Coldfire,37292,Crazy Sun,163745,英语,摇滚 / 蓝调,rock / blues,blues,6,supplement_playlist:14274068640
+76,Tears From My Eyes,1398482520,07:39,Detroit Blues Band,32774338,Can't Get You Off My Mind,82624756,英语,蓝调,blues,blues,7,supplement_playlist:14274068640
+77,The Time Has Come,568259500,04:47,Snowy White,76307,"Rarities & Outtakes, Vol. 3",39394572,英语,摇滚 / R&B / 蓝调,rock / rnb / blues,blues,8,supplement_playlist:14274068640
+78,The Man Wants Me Dead,16715433,05:01,Byther Smith,50159,Throw Away The Book,1540861,英语,蓝调,blues,blues,9,supplement_playlist:14274068640
+79,Storm Watch Warning,1403606964,07:47,Dr. Wu',46748706,"""Texas Blues"" Project",83361275,英语,蓝调,blues,blues,10,supplement_playlist:14274068640
+80,Ain't Enough Whiskey (feat. Manuel Grimaldi),1400711970,08:34,D Man / Manuel Grimaldi,651020 / 33596440,Blues... Off the Neck,82953507,英语,蓝调,blues,blues,11,supplement_playlist:14274068640
+81,What You Gonna Do,496311140,07:38,Eb Davis Blues Band,12555168,Good Time Blues,35895196,英语,蓝调,blues,blues,14,supplement_playlist:14274068640
+82,I Shouldn't but I Do,1421053184,02:42,Jimmy Reiter,14666632,What You Need,85484649,英语,蓝调,blues,blues,15,supplement_playlist:14274068640
+83,Back Door Man,1438009439,03:58,Boo Boo Davis / ElectroBluesSociety,50647 / 13162369,Back Door Man,87670672,英语,蓝调,blues,blues,16,supplement_playlist:14274068640
+84,A Soul That's Been Abused,1364330189,07:20,Hubert Sumlin,59391,Hubert Sumlin's Blues Party,79035715,英语,蓝调,blues,blues,18,supplement_playlist:14274068640
+85,Chocolate,1436950651,04:19,Boo Boo Davis,50647,Tree Man,87503564,英语,蓝调,blues,blues,19,supplement_playlist:14274068640
+86,Full Moon over Orlean,1354786270,04:04,Ray Cashman,31787594,Houston Electric,78226785,英语,蓝调,blues,blues,20,supplement_playlist:14274068640
+87,Two Steps to Hell,1438167247,04:27,Fruteland Jackson,34216991,Good as Your Last Dollar,87689613,英语,蓝调,blues,blues,23,supplement_playlist:14274068640
+88,Back in My Arms,1365830519,03:10,DEREK DAVIS,29993531,Resonator Blues,79183198,英语,蓝调,blues,blues,24,supplement_playlist:14274068640
+89,The Thing I Haven't Got,1466012809,06:06,Maria Daines,530888,Your Time Will Come,93055647,未知,蓝调 / 摇滚,blues / rock,blues,25,supplement_playlist:14274068640
+90,Back to the Dirty Town,1470200396,05:35,The Blues Mystery,789214,The Blues Mystery,93806670,纯音乐,摇滚 / 蓝调,rock / blues,blues,27,supplement_playlist:14274068640
+91,Days Like This,1882033894,08:15,Danny Bryant's RedEyeBand / Walter Trout,49933903 / 84593,Days Like This,133888827,英语,蓝调,blues,blues,29,supplement_playlist:14274068640
+92,Love You Night and Day,484028501,05:17,Steve Big Man Clayton,12746670,You Know What I Mean ?,35620079,英语,蓝调,blues,blues,30,supplement_playlist:14274068640
+93,Chubata Africa,1307456288,06:21,Roland Tchakounte / Roland Tchakounte,29626751 / 29626104,Nguémé & Smiling Blues,72992037,英语,蓝调,blues,blues,31,supplement_playlist:14274068640
+94,Can't Run Anymore,1982978336,04:08,Frankie Rose Duffy Group,51267117,Can't Run Anymore,151901504,英语,蓝调,blues,blues,32,supplement_playlist:14274068640
+95,Can't Let Go,2071790347,02:46,David Paul Shaw,57828768,Can't Let Go,171891943,未知,蓝调,blues,blues,34,supplement_playlist:14274068640
+96,Bad Feelin',2104523998,04:00,The Burton Stinson Project,59283519,The Burton Stinson Project,180186276,未知,蓝调,blues,blues,35,supplement_playlist:14274068640
+97,Somebody Hurt You,28455010,03:37,Keb' Mo',37669,BluesAmericana,2800130,英语,蓝调,blues,blues,39,supplement_playlist:14274068640
+98,Don't Answer The Door,27785209,05:19,B.B. King,29326,Don't Answer The Door,2674186,英语,蓝调,blues,blues,40,supplement_playlist:14274068640
+99,Forgot Mrs. Claus,1401248489,02:43,Ben Levin,14698681,Forgot Mrs. Claus,83009823,英语,蓝调 / 节日音乐,blues / holiday,blues,42,supplement_playlist:14274068640
+100,Still Blue,33085201,07:03,Long John Hunter,0,Ride With Me,3184050,英语,蓝调,blues,blues,43,supplement_playlist:14274068640
+1,小夜曲,5276791,05:31,Franz Schubert,33363,史上最优美钢琴小品精华,513361,纯音乐,古典,classical,classical,1,given_playlist
+2,月光奏鸣曲,5276808,07:09,Ludwig van Beethoven,38731,史上最优美钢琴小品精华,513361,纯音乐,古典,classical,classical,2,given_playlist
+3,D小调幻想曲,5276802,06:20,Wolfgang Amadeus Mozart,804174,史上最优美钢琴小品精华,513361,纯音乐,古典,classical,classical,3,given_playlist
+4,前奏曲 No.15 雨滴,5276799,05:31,Frédéric François Chopin,33737,史上最优美钢琴小品精华,513361,纯音乐,其他 / 原声带 / 古典,other / soundtrack / classical,classical,4,given_playlist
+5,"Waltz No. 9 in A flat major, Op. 69 No. 1 'Farewell Waltz'",26818416,03:40,Jean-Marc Luisada,145596,Chopin: Favourite Piano Pieces,2556812,纯音乐,古典,classical,classical,5,given_playlist
+6,"Impromptu No. 4 in C sharp minor, Op. 66 'Fantaisie-Impromptu': Allegro agitato",26818410,05:31,Anatol Ugorski,29131,Chopin: Favourite Piano Pieces,2556812,纯音乐,古典,classical,classical,6,given_playlist
+7,24 Préludes Op.28:4. In E Minor,26818412,01:56,Martha Argerich,66396,Chopin: Favourite Piano Pieces,2556812,纯音乐,古典,classical,classical,7,given_playlist
+8,"Waltz No.10 in B Minor, Op.69 No.2",27708290,05:04,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典,classical,classical,8,given_playlist
+9,"Waltz No.1 in E Flat, Op.18 -""Grande valse brillante""",27708281,06:11,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,9,given_playlist
+10,"Waltz No.6 in D Flat, Op.64 No.1 -""Minute""",27708286,02:27,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典,classical,classical,10,given_playlist
+11,"Waltz No.19 in A minor, Op.posth.",27708297,02:31,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典 / 节日音乐,classical / holiday,classical,11,given_playlist
+12,"Nocturne No. 1 in B Flat Minor, Op. 9, No. 1",1060910,05:28,Arthur Rubinstein,12541250,The Chopin Collection: The Nocturnes,110646,纯音乐,古典,classical,classical,12,given_playlist
+13,"Nocturne No. 2 in E Flat Major, Op. 9, No. 2",1060914,04:27,Arthur Rubinstein,12541250,The Chopin Collection: The Nocturnes,110646,纯音乐,古典,classical,classical,13,given_playlist
+14,"Scherzo No. 3 in C-Sharp Minor, Op. 39",400690410,07:17,Arthur Rubinstein / Fréderic Chopin,12541250 / 31144231,Chopin: Ballades & Scherzos,34437093,纯音乐,古典,classical,classical,14,given_playlist
+15,"Ballade No.1 In G Minor, Op.23",32696188,09:38,Krystian Zimerman,37997,Chopin: 4 Ballades - Barcarolle - Fantaisie,3169854,纯音乐,古典,classical,classical,15,given_playlist
+16,"Nocturne No.8 in D flat, Op.27 No.2",26160788,05:33,Peter Schmalfuss,150951,Chopin: Les Nocturnes,2401106,纯音乐,古典,classical,classical,16,given_playlist
+17,"12 Etudes Op.10:No.3 In E ""Tristesse""",21095798,03:42,Maurizio Pollini,40049,Chopin: Etudes Opp.10 & 25,1951871,纯音乐,古典,classical,classical,17,given_playlist
+18,"Valse in A minor, Op. posth., KKIVb No. 11a Mineur, Op. Posth, Kkivb",1057693,01:57,Alexandre Tharaud,28451,Chopin: Waltzes,110378,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,18,given_playlist
+19,"12 Etudes Op.25:No.11 In A Minor ""Winter Wind""",33497925,04:16,Jorge Bolet,45376,Chopin: Pièces célèbres pour piano,3213449,纯音乐,古典,classical,classical,19,given_playlist
+20,"Piano Concerto No. 1 in E Minor, Op. 11:II. Romance. Larghetto",1779120,10:17,Maurizio Pollini / Paul Kletzki / Philharmonia Orchestra,40049 / 0 / 0,"Chopin: Piano Concerto No. 1, 4 Nocturnes, Ballade No. 1 & Polonaise No. 6",179901,纯音乐,古典,classical,classical,20,given_playlist
+21,"Mazurka No. 41 in C-Sharp Minor, Op. 63 No. 3. Allegretto",5164981,02:29,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,21,given_playlist
+22,"Polonaise No.3 in A Op.40 No.1:""Military""",5164955,05:06,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,22,given_playlist
+23,"12 Etudes, Op. 10:No. 12 in C Minor ""Revolutionary""",5164947,02:43,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,23,given_playlist
+24,"쇼팽::Polonaise No. 6 in A-Flat Major, Op. 53 ""Heroic""",22006123,07:18,Vladimir Horowitz,45688,Horowitz - Complete Recordings On Deutsche Grammophon,2021362,纯音乐,古典,classical,classical,24,given_playlist
+25,"Préludes, Préludes - Livre I: VIII. La fille aux cheveux de lin",1145407,02:27,Jean-Bernard Pommier,156156,The Very Best of Debussy,118703,纯音乐,古典,classical,classical,25,given_playlist
+26,"Suite bergamasque, L.75 - 3. Clair de lune",27682855,05:32,Pascal Rogé,72609,Debussy: Clair de Lune & Other Piano Works,2657669,纯音乐,古典,classical,classical,26,given_playlist
+27,"Rêverie, L.68",27682865,04:57,Pascal Rogé,72609,Debussy: Clair de Lune & Other Piano Works,2657669,纯音乐,古典,classical,classical,27,given_playlist
+28,Petite Suite (4hand):1 En bateau,27711175,03:41,Marco Rapetti / Massimiliano Damerini,12504123 / 479538,Debussy: Complete Music for Piano Duo,2663280,纯音乐,古典,classical,classical,28,given_playlist
+29,Valse romantique,558973806,03:12,Peter Frankl / Claude Debussy,31088795 / 29976,Discover Debussy,38663572,英语,古典,classical,classical,29,given_playlist
+30,Arabesque No.1,28718125,04:05,Leff Pouishnov,29994066,Debussy Plays Debussy,2866521,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,30,given_playlist
+31,"Bagatelle In A Minor, WoO 59:Für Elise",5180136,03:59,Anatol Ugorski,29131,A Piano Weekend,507593,纯音乐,古典,classical,classical,31,given_playlist
+32,"Sonata No. 8 in C Minor, Op. 13, ""Pathétique"": III. Rondo: Allegro",25842623,04:52,Arthur Rubinstein,12541250,Beethoven: Sonatas (Moonlight; Les Adieux; Pathetique; Appassionata),2332787,纯音乐,古典,classical,classical,32,given_playlist
+33,"Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto",25842621,06:10,Arthur Rubinstein,12541250,Beethoven: Sonatas (Moonlight; Les Adieux; Pathetique; Appassionata),2332787,纯音乐,古典,classical,classical,33,given_playlist
+34,"Piano Sonata No.17 in D minor, Op.31 No.2 -""Tempest"":3. Allegretto",20675052,06:57,Daniel Barenboim,31969,Beethoven: The Piano Sonatas,1921574,纯音乐,古典,classical,classical,34,given_playlist
+35,"Sonate No. 23 en fa mineur, Op. 57 ""Appassionata"": I. Allegro assai",556994916,10:37,Ludwig van Beethoven / Zvi Meniker,38731 / 14081269,Beethoven: Intégrale des sonates pour piano sur instruments d'époque: Volume II,38551752,纯音乐,古典,classical,classical,35,given_playlist
+36,"Piano Concerto No. 5 In E Flat, Op. 73 ""Emperor"":1.Allegro",1068262,20:57,Alfred Brendel / London Philharmonic Orchestra / Bernard Haitink,28718 / 65198 / 136205,"Beethoven: Piano Concerto No. 5 ""Emperor"" / Choral Fantasy",111384,纯音乐,古典,classical,classical,36,given_playlist
+37,"Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"":II. Adagio cantabile",5164953,07:05,Radu Lupu,42738,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,37,given_playlist
+38,"10 Preludes, Op. 23:No. 5 in G Minor (Alla marcia)",5164975,03:53,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,38,given_playlist
+39,"Piano Concerto No.3 in D minor, Op.30:1. Allegro ma non tanto",25911741,17:31,Vladimir Ashkenazy / Concertgebouworkest / Bernard Haitink,45746 / 14197847 / 136205,Rachmaninov: Piano Concerto No. 3,2340268,纯音乐,古典,classical,classical,39,given_playlist
+40,"Arr. Zoltan Kocsis - Vocalise, Op.34:No.14",28744764,05:58,Vladimir Ashkenazy,45746,Rachmaninov: Complete Works For Piano,2885435,纯音乐,古典,classical,classical,40,given_playlist
+41,"Prelude in C-Sharp Minor, Op. 3, No. 2",25954374,03:46,Сергей Рахманинов,43613,A Window In Time Rachmaninoff performs his solo piano works,2350441,纯音乐,古典,classical,classical,41,given_playlist
+42,"Piano Concerto No.2 In C Minor, Op.18:1. Moderato",3541224,11:13,Sviatoslav Richter / Stanislaw Wislocki / Warsaw National Philharmonic Orchestra,77564 / 13064031 / 12502023,Rachmaninov: Piano Concerto No.2 / Tchaikovsky: Piano Concerto No.1,358981,纯音乐,古典,classical,classical,42,given_playlist
+43,"Piano Concerto No.2 In C Minor, Op.18:2. Adagio sostenuto",3541226,11:54,Sviatoslav Richter / Stanislaw Wislocki / Warsaw National Philharmonic Orchestra,77564 / 13064031 / 12502023,Rachmaninov: Piano Concerto No.2 / Tchaikovsky: Piano Concerto No.1,358981,纯音乐,古典,classical,classical,43,given_playlist
+44,"Piano Concerto No.2 In C Minor, Op.18:3. Allegro scherzando",3541228,11:39,Sviatoslav Richter / Stanislaw Wislocki / Warsaw National Philharmonic Orchestra,77564 / 13064031 / 12502023,Rachmaninov: Piano Concerto No.2 / Tchaikovsky: Piano Concerto No.1,358981,纯音乐,古典,classical,classical,44,given_playlist
+45,Six Grand Etudes After Paganini (2001 Remastered Version):III. No.3 'La Campanella',5189132,04:36,André Watts / Marc Aubort / Joanna Nickrenz,157893 / 31166593 / 31166594,100 Best Piano,508076,纯音乐,古典,classical,classical,46,given_playlist
+46,Liebestraum No.3 In A-Flat Major S.541 No.3:Notturno III: O lieb so lang du lieben kannst,26928683,04:35,Daniel Barenboim,31969,Les chefs d'oeuvre du piano romantique,2574244,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,47,given_playlist
+47,6 Consolations S. 172:No. 3 In D Flat Major (Lento placido),26928685,04:13,Daniel Barenboim,31969,Les chefs d'oeuvre du piano romantique,2574244,纯音乐,古典 / 节日音乐,classical / holiday,classical,48,given_playlist
+48,Un sospiro,27778047,05:41,Van Cliburn,31007,Van Cliburn - Complete Album Collection,2673993,纯音乐,古典,classical,classical,49,given_playlist
+49,Reminiscences De Norma S394,36687250,17:36,Giuseppe Albanese,1181678,Après une lecture de Liszt,3388640,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,50,given_playlist
+50,"Sonata for 2 pianos in D, K.448:2. Andante",39869702,09:23,Ingrid Haebler / Ludwig Hoffmann,60310 / 357197,"Mozart: Piano Duets (Mozart Edition, Vol. 16)",3439197,纯音乐,古典,classical,classical,51,given_playlist
+51,"Sonata No. 13 in B-flat Major for Piano, KV. 333 (315c):III. Allegretto grazioso",1375838,05:52,Glenn Gould,33850,"Mozart: The Complete Piano Sonatas, Fantasias K.397 & K.475",141277,纯音乐,古典,classical,classical,52,given_playlist
+52,"Sonata No. 11 in A Major for Piano, K. 331:III. Alla Turca:Allegretto",1375805,04:03,Glenn Gould,33850,"Mozart: The Complete Piano Sonatas, Fantasias K.397 & K.475",141277,纯音乐,古典,classical,classical,53,given_playlist
+53,"Piano Sonata No.8 in A minor, K.310:1. Allegro maestoso",667120,08:15,内田光子,18131,Mozart: The Piano Sonatas,64332,纯音乐,古典,classical,classical,54,given_playlist
+54,"Piano Concerto No. 23 in A Major, K. 488:II. Adagio",22006156,05:34,Vladimir Horowitz / Orchestra del Teatro alla Scala di Milano / Carlo Maria Giulini,45688 / 13187933 / 31030,Horowitz - Complete Recordings On Deutsche Grammophon,2021362,纯音乐,古典 / 节日音乐,classical / holiday,classical,55,given_playlist
+55,"모차르트::Rondo in D Major, K. 485",22006165,06:23,Vladimir Horowitz,45688,Horowitz - Complete Recordings On Deutsche Grammophon,2021362,纯音乐,古典,classical,classical,56,given_playlist
+56,"Keyboard Sonata in G Major, Hob. XVI:8: I. Allegro",29803725,02:21,Rudolf Buchbinder,137886,Haydn Edition Volume 3 - Piano Sonatas [Complete],3081187,纯音乐,古典,classical,classical,57,given_playlist
+57,"Keyboard Sonata in C Major, Hob. XVI:10: I. Moderato",29803741,03:48,Rudolf Buchbinder,137886,Haydn Edition Volume 3 - Piano Sonatas [Complete],3081187,纯音乐,古典,classical,classical,58,given_playlist
+58,"Fantasia in C, H.XVII No.4",401814827,06:03,John McCabe / Franz Joseph Haydn,185541 / 603992,Haydn: The Piano Sonatas/Variations/The Seven Last Words (12 CDs),34473390,纯音乐,古典,classical,classical,59,given_playlist
+59,"Piano Concerto No.1 In b Flat Minor Op.23 TH.55:1. Allegro non troppo e molto maestoso - Allegro con spirito (Live At Philharmonie, Berlin / 1994)",21183819,19:12,Martha Argerich / Berliner Philharmoniker / Claudio Abbado,66396 / 129432 / 30881,Argerich Collection 2 - The Concerto Recordings,1958686,纯音乐,古典,classical,classical,60,given_playlist
+60,"Jesus nahm zu sich die Zwölfe, Cantata BWV 22:5. Sanctify Us (Arr. Cohen)",5164997,03:17,Alicia de Larrocha,48291,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,61,given_playlist
+61,"Siciliano from Sonata for flute and keyboard in E flat major, BWV 1031",26012232,02:16,Hamish Milne,607800,"Bach: Piano Transcriptions, Vol. 5 – Goedicke, Kabalevsky, Catoire & Siloti",2357970,纯音乐,古典,classical,classical,62,given_playlist
+62,"English Suite No. 2 In A Minor, BWV 807:I. Prélude",27137284,04:30,Glenn Gould,33850,Bach: The English Suites,2585741,纯音乐,古典,classical,classical,63,given_playlist
+63,"Goldberg Variations, BWV 988:Aria",18001009,03:05,Glenn Gould,33850,Bach: Goldberg Variations (1981 Digital Recording),1655318,纯音乐,古典,classical,classical,64,given_playlist
+64,"French Suite 3 In B, BWV814:4 Menuett-Trio",26991543,02:00,Glenn Gould,33850,Bach: The French Suites,2579025,纯音乐,古典,classical,classical,65,given_playlist
+65,"4 Impromptus Op.142, D.935:No.3 in B flat: Theme (Andante) with Variations",16254446,11:53,Alfred Brendel,28718,Schubert: The Complete Impromptus / Moments Musicaux,1500562,纯音乐,古典,classical,classical,66,given_playlist
+66,"6 Moments musicaux, Op.94 D.780:No.3 in F Minor (Allegro moderato)",16254454,01:40,Alfred Brendel,28718,Schubert: The Complete Impromptus / Moments Musicaux,1500562,纯音乐,古典,classical,classical,67,given_playlist
+67,"4 Impromptus, Op.90, D.899:No.3 in G flat: Andante",16254442,05:51,Alfred Brendel,28718,Schubert: The Complete Impromptus / Moments Musicaux,1500562,纯音乐,古典,classical,classical,68,given_playlist
+68,Piano Sonata No.20 in A D.959:2. Andantino (Live In Snape / 1999),1067703,07:39,Alfred Brendel,28718,Alfred Brendel plays Schubert,111331,纯音乐,古典,classical,classical,69,given_playlist
+69,An die Musik D.547,5164951,01:45,Joseph Cooper,231434,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,70,given_playlist
+70,Trois Gymnopédies (1888):I: Lent et douloureux,22543917,03:09,Aldo Ciccolini,28998,Satie: Works for Piano,2064292,纯音乐,古典,classical,classical,71,given_playlist
+71,"Waltz in A flat, Op.39 No.15",5220537,01:45,Dame Moura Lympany,238334,The Best Ever Piano Classics,509765,纯音乐,古典,classical,classical,72,given_playlist
+72,"Lieder ohne Worte, Op. 62:6. Allegretto grazioso ""Frühlingslied""",5164972,02:48,András Schiff,27679,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,73,given_playlist
+73,Rondo capriccioso Op.14,5165041,06:54,Jorge Bolet,45376,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,74,given_playlist
+74,"Lieder ohne Worte, Op. 19:6. Andante sostenuto ""Venetian Gondola Song""",5165013,02:44,András Schiff,27679,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,75,given_playlist
+75,Piano Concerto No.1 In G Minor Op.25 MWV O7:1. Molto allegro con fuoco,28908902,06:53,Symphonieorchester des Bayerischen Rundfunks / András Schiff / Charles Dutoit,839112 / 27679 / 42748,Ultimate Mendelssohn: The Essential Masterpieces,2943029,纯音乐,古典,classical,classical,76,given_playlist
+76,"Songs Without Words, Book I, Op. 19b:No. 1, Andante con moto, MWV U86",5189172,04:13,Daniel Adni,155186,100 Best Piano,508076,纯音乐,古典,classical,classical,77,given_playlist
+77,"Aufschwung (from Fantasiestücke, Op 12)",557376514,03:14,Robert Schumann / Stuttgart Radio Symphony Orchestra / Sir Neville Marriner / Sir Neville Marriner & Stuttgart Radio Symphony Orchestra,130021 / 31101417 / 13971373 / 13341705,Robert Schumann - Classical Best,38570408,纯音乐,古典,classical,classical,78,given_playlist
+78,"Romance in F Minor, Op. 5, TH 127",3541092,06:35,Sviatoslav Richter,77564,Tchaikovsky: Piano Music,358967,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,79,given_playlist
+79,"Concerto pour piano in A Minor, Op. 16: I. Allegro molto moderato",484458166,13:17,Edvard Grieg / Jean-Marie Auberson,33258 / 12870163,Grieg: Concerto pour piano & Suite Holberg,35633724,纯音乐,古典,classical,classical,80,given_playlist
+80,Badarzewska-Baranowska: The Maiden's Prayer,5164960,02:59,Joseph Cooper,231434,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,81,given_playlist
+81,"Dolly, Op. 56:Berceuse (1894)",1415529,02:43,Kathryn Stott / Gabriel Fauré,63975 / 34225,Fauré: The Complete Music for Piano,145198,纯音乐,古典,classical,classical,82,given_playlist
+82,"2 Mélodies, Op. 3:1. Moderato assai",5164987,04:20,Shura Cherkassky,44014,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,83,given_playlist
+83,Prelude in C major BWV 846,1778976,01:53,Maurizio Pollini,40049,Bach: The Well-Tempered Clavier I,179886,纯音乐,古典,classical,classical,84,given_playlist
+84,Gymnopedies 1,5299097,03:02,Aldo Ciccolini,28998,Best of Satie,516010,纯音乐,古典,classical,classical,85,given_playlist
+85,Humoresque Op.101 No.7,5164954,03:04,Joseph Cooper,231434,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,86,given_playlist
+86,Jeux d'eau M.30,5165034,05:52,Pascal Rogé,72609,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,87,given_playlist
+87,"Piano Concerto No.3 in E major, Sz.119 (1945, Tibor Serly):1. Allegretto",27466131,07:33,Pierre Boulez / Hélène Grimaud / London Symphony Orchestra,130005 / 60240 / 78360,Bartók: The Piano Concertos,2612103,纯音乐,古典,classical,classical,88,given_playlist
+88,Kinderszenen Op.15:7. Träumerei,26928678,02:43,Daniel Barenboim,31969,Les chefs d'oeuvre du piano romantique,2574244,纯音乐,古典,classical,classical,89,given_playlist
+89,"12 Études, Op. 8:No. 12 in D-Sharp Minor",5189187,02:32,Moura Lympany / Simon Woods,129790 / 587201,100 Best Piano,508076,纯音乐,古典,classical,classical,90,given_playlist
+90,Invitation to the Dance,5189160,07:59,Thierry De Brunhoff,31167763,100 Best Piano,508076,纯音乐,古典,classical,classical,91,given_playlist
+91,"Miroirs, M.43:3. Une barque sur l'océan",401822871,07:20,Pascal Rogé,72609,Ravel: Piano Works (2 CDs),34473563,纯音乐,古典,classical,classical,92,given_playlist
+92,Música Ricercata: III. Allegro con spirito,28726275,01:12,Pierre-Laurent Aimard,41668,Ligeti: Études; Musica Ricercata,2866568,纯音乐,古典,classical,classical,93,given_playlist
+93,Petrouchka - Three Movements for Piano (1921):Scene 2 - Petrouchka's Room,403813450,05:17,Anatol Ugorski,29131,"Mussorgsky: Pictures At An Exhibition / Stravinsky: Three Movements From ""Petrushka""",34496966,纯音乐,古典,classical,classical,94,given_playlist
+94,"Neuf danses slaves - Dumka (mi mineur), op. 46 no. 2",573430669,04:39,Renée Morisset / Victor Bouchard,15230500 / 15230499,Oeuvres pour 2 pianos et piano 4 mains (Enregistrements de 1960 à 1994),39706833,纯音乐,古典,classical,classical,95,given_playlist
+95,Moonlight' Sonata:1st movement,406347410,05:27,Ludwig van Beethoven,38731,The Top 100 Masterpieces of Classical Music,34559089,纯音乐,古典,classical,classical,1,supplement_playlist:8621500200
+96,"베토벤::Für Elise, Bagatelle in A Minor, WoO 59",1340400140,03:26,郎朗,3707,Piano Book (Deluxe Edition),75651642,纯音乐,古典,classical,classical,2,supplement_playlist:8621500200
+97,"Pavane pour une infante défunte, M. 19 (Arr. for Violin and Piano by Louis Fleury)",2024241929,05:29,Manon Galy / Jorge Gonzalez Buajasan,37578217 / 51482799,Nuits parisiennes,160468453,纯音乐,古典,classical,classical,3,supplement_playlist:8621500200
+98,"Widmung, Op. 25 No. 1 (Arr. Liszt, S. 566a)",1357762002,03:58,Martin James Bartlett,31889688,Love and Death,78851478,纯音乐,古典,classical,classical,4,supplement_playlist:8621500200
+99,"The Well-Tempered Clavier, Book 1, BWV 846-869: I. Prelude and Fugue in C Major, BWV 846",27471628,04:25,Jeno Jando,36640,BACH (THE VERY BEST OF),2610811,纯音乐,古典,classical,classical,6,supplement_playlist:8621500200
+100,"3 Nocturnes, Op. 9: No. 2 in E-Flat Major. Andante",1920519136,03:53,Lars Vogt,995034,Chopin,140418234,未知,古典,classical,classical,8,supplement_playlist:8621500200
+1,"Take Me Home, Country Roads",1477334,03:14,John Denver,35341,Songs for America,151097,英语,乡村,country,country,1,given_playlist
+2,It Never Rains in Southern California,26459609,03:52,Albert Hammond,28587,Pure (Legends),2503852,英语,摇滚 / 乡村,rock / country,country,2,given_playlist
+3,Country Roads,4104211,03:17,Hermes House Band,93793,The Album,414985,英语,流行 / 乡村,pop / country,country,7,given_playlist
+4,You Needed Me,22485480,03:42,Anne Murray,46571,Anne Murray The Best Of...So Far - 20 Greatest Hits,2059638,英语,流行 / 乡村,pop / country,country,11,given_playlist
+5,It Never Rains in Southern California,1063590,03:51,Albert Hammond / Michael Omartian,28587 / 39354,The Very Best Of Albert Hammond,110907,英语,摇滚 / 原声带 / 乡村,rock / soundtrack / country,country,18,given_playlist
+6,My Infinite Love,18018057,03:46,George Strait,33873,Honkytonkville,1656414,英语,乡村,country,country,20,given_playlist
+7,Highwayman,18828614,03:03,Johnny Cash / Willie Nelson / Waylon Jennings / Kris Kristofferson,35347 / 45846 / 45858 / 37540,The Legend Of Johnny Cash,1724416,英语,乡村,country,country,23,given_playlist
+8,Take Me Home Country Roads,21509136,03:22,Roch Voisine,42031,Americana 2,1983273,英语,乡村,country,country,27,given_playlist
+9,21 Summer,37993590,03:34,Brothers Osborne,1131021,Pawn Shop,3418564,英语,乡村,country,country,30,given_playlist
+10,Paradise Hotel,17631682,04:06,Eliza Gilkyson,55565,Paradise Hotel,1623167,英语,民谣 / 乡村,folk / country,country,33,given_playlist
+11,Heart Of Gold,5195504,03:09,Willie Nelson,45846,A Selection Of American Country Songs,508411,英语,乡村,country,country,34,given_playlist
+12,Good Ol' Boys Club,32619184,03:18,Kacey Musgraves,816361,Pageant Material,3162452,英语,乡村,country,country,35,given_playlist
+13,Every Now And Then,986626,03:48,Alan Jackson,27596,Freight Train,103526,英语,乡村,country,country,36,given_playlist
+14,You Belong to Me (Live),1147087,02:06,Charlie Landsborough,29981,Live from Dublin,118837,英语,乡村,country,country,37,given_playlist
+15,Boys 'Round Here (feat. Pistol Annies & Friends),26232445,04:49,Blake Shelton / Pistol Annies & Friends,29452 / 34352522,Based on a True Story...,2429990,英语,嘻哈说唱 / 乡村,hiphop / country,country,39,given_playlist
+16,Where Were You (When the World Stopped Turning),987032,05:05,Alan Jackson,27596,The Very Best Of,103560,英语,流行 / 乡村 / 唱作人,pop / country / singer_songwriter,country,41,given_playlist
+17,A Lot To Learn About Livin' (Album Version),17560526,03:47,Easton Corbin,33098,Easton Corbin,1616476,英语,乡村,country,country,42,given_playlist
+18,Toes,19895086,04:23,Zac Brown Band,46327,The Foundation,1836410,英语,乡村,country,country,44,given_playlist
+19,Lay Low,29378448,04:21,Josh Turner,35385,Lay Low,3017099,英语,乡村,country,country,45,given_playlist
+20,Lazy Days,1232779,04:10,Dean Brody,31275,Dean Brody,127313,英语,乡村,country,country,46,given_playlist
+21,Dark Road,22223522,03:58,Richard Hawley,41986,Lady's Bridge,2042917,英语,乡村,country,country,47,given_playlist
+22,When Somebody Loves You,16350301,03:27,Alan Jackson,27596,When Somebody Loves You,1508763,英语,流行 / 乡村,pop / country,country,48,given_playlist
+23,Troubadour,5117924,02:54,George Strait,33873,Now That's What I Call Country Volume 2,504839,英语,乡村,country,country,49,given_playlist
+24,He Stopped Loving Her Today,1391523,03:19,George Jones,33929,God's Country: George Jones and Friends,142595,英语,乡村,country,country,50,given_playlist
+25,Whatcha Reckon,18641838,03:25,Josh Turner,35385,Punching Bag (Deluxe Edition),1709859,英语,乡村,country,country,51,given_playlist
+26,Designated Drinker (A Duet With George Strait),16350208,03:51,Alan Jackson / George Strait,27596 / 33873,Drive,1508759,英语,乡村,country,country,53,given_playlist
+27,She Is Gone,2081707,02:57,Willie Nelson,45846,Songs,209691,英语,乡村,country,country,54,given_playlist
+28,Some Broken Hearts Never Mend (Single Version),2424308,02:44,Don Williams,53271,The Definitive Collection,244456,英语,乡村,country,country,55,given_playlist
+29,Letter to Me,16661917,04:42,Brad Paisley,29317,5th Gear,1536266,英语,乡村,country,country,56,given_playlist
+30,Overtime,20750904,03:45,Willie Nelson / Lucinda Williams,45846 / 64175,It Always Will Be,1927072,英语,乡村,country,country,57,given_playlist
+31,Desperately,2425151,03:10,Don Williams,53271,Traces,244540,英语,乡村,country,country,58,given_playlist
+32,Blowing in the wind,5256312,05:11,David Roth,31215,Audiophile Male Voice,512129,英语,乡村,country,country,59,given_playlist
+33,Livin' On Love,987076,03:48,Alan Jackson,27596,The Very Best Of,103560,英语,流行 / 乡村 / 唱作人,pop / country / singer_songwriter,country,60,given_playlist
+34,American Pie,1216195,08:33,Don McLean,31191,The Very Best Of Don McLean,125914,英语,摇滚 / 乡村,rock / country,country,62,given_playlist
+35,Five Hundred Miles,27759600,03:27,Justin Timberlake / Carey Mulligan / Stark Sands,35331 / 27947531 / 27947532,Inside Llewyn Davis: Original Soundtrack Recording,2672349,英语,民谣 / 乡村,folk / country,country,69,given_playlist
+36,Take Me Home Country Roads,1477670,03:13,John Denver,35341,Take Me Home: The John Denver Story,151118,英语,乡村,country,country,74,given_playlist
+37,Where have all the flowers gone,5212456,03:08,ringston trio,30105713,Country music from America,509321,英语,乡村,country,country,75,given_playlist
+38,Tell Laura I Love Her,5136983,02:58,Ray Peterson,73056,Baby Love,505683,英语,乡村,country,country,90,given_playlist
+39,The Tennessee Waltz,5162954,05:06,Allan Taylor,27594,TAS: The Absolute Sound 2008,506816,英语,乡村,country,country,95,given_playlist
+40,Blownin in the wing,5212449,02:24,The Brother Four,14508967,Country music from America,509321,英语,乡村,country,country,96,given_playlist
+41,Quizas quizas quizas,5212448,02:19,Trio San Juan,285204,Country music from America,509321,西班牙语,乡村,country,country,97,given_playlist
+42,The end of the world,5212446,02:36,Skeeter Davis,74670,Country music from America,509321,英语,乡村,country,country,98,given_playlist
+43,Yesterday when I was still young,5212444,03:43,glen compebell,30105696,Country music from America,509321,英语,乡村,country,country,99,given_playlist
+44,Seven lonely days,5212443,02:16,paftsy clion,30185954,Country music from America,509321,英语,乡村,country,country,100,given_playlist
+45,4:55(part of game),5212442,03:14,Wynners,28572946,Country music from America,509321,英语,乡村,country,country,101,given_playlist
+46,Jambalaya hank williams,5212440,03:43,Various Artists,104700,Country music from America,509321,英语,乡村,country,country,102,given_playlist
+47,Lemon tree,5212439,03:07,The Brothers Four,44278,Country music from America,509321,英语,乡村,country,country,103,given_playlist
+48,California Dreaming,5212437,02:41,The Mamas & the Papas,78207,Country music from America,509321,英语,流行 / 乡村,pop / country,country,104,given_playlist
+49,EI condor pasa,5212435,03:13,Andy Williams,27611,Country music from America,509321,英语,乡村,country,country,105,given_playlist
+50,take my home country roads,5212436,03:12,John Denver,35341,Country music from America,509321,英语,乡村,country,country,106,given_playlist
+51,Handle On You,1969762824,03:39,Parker McCollum,12871723,Handle On You,149241182,英语,乡村,country,country,1,supplement_playlist:8282791588
+52,If This Was A Movie (Taylor’s Version),2031001720,03:57,Taylor Swift,44266,If This Was A Movie (Taylor’s Version),161981711,英语,乡村,country,country,4,supplement_playlist:8282791588
+53,You Proof,1947054980,02:37,Morgan Wallen,969001,You Proof,144912624,英语,乡村,country,country,5,supplement_playlist:8282791588
+54,Thought You Should Know,1944937494,03:36,Morgan Wallen,969001,Thought You Should Know,144558147,英语,乡村,country,country,6,supplement_playlist:8282791588
+55,Fearless (Taylor’s Version),2031035458,04:02,Taylor Swift,44266,The More Fearless (Taylor’s Version) Chapter,161988867,英语,乡村,country,country,7,supplement_playlist:8282791588
+56,Step Off,27571335,03:03,Kacey Musgraves,816361,Same Trailer Different Park,2639346,英语,乡村,country,country,8,supplement_playlist:8282791588
+57,Just A Kiss,16686122,03:39,Lady A,95456,Own The Night,1537595,英语,乡村,country,country,9,supplement_playlist:8282791588
+58,What He Didn't Do,1878784168,03:11,Carly Pearce,342699,29: Written In Stone,133352220,英语,乡村,country,country,11,supplement_playlist:8282791588
+59,Next Thing You Know,1971621974,02:55,Jordan Davis,12441198,Next Thing You Know,149602704,英语,乡村,country,country,13,supplement_playlist:8282791588
+60,Kinfolks,1396299139,03:02,Sam Hunt,942264,Kinfolks,82316504,英语,乡村,country,country,14,supplement_playlist:8282791588
+61,Love Story (Taylor’s Version),2031034573,03:56,Taylor Swift,44266,The More Fearless (Taylor’s Version) Chapter,161988867,英语,乡村,country,country,15,supplement_playlist:8282791588
+62,You Belong With Me (Taylor's Version),1832431773,03:51,Taylor Swift,44266,Fearless (Taylor's Version),125149262,英语,乡村,country,country,17,supplement_playlist:8282791588
+63,I Deserve A Drink,2027163647,03:26,Morgan Wallen,969001,One Thing At A Time,161177021,英语,乡村,country,country,18,supplement_playlist:8282791588
+64,Mr. Perfectly Fine (Taylor’s Version) (From The Vault),1832428129,04:38,Taylor Swift,44266,Fearless (Taylor's Version),125149262,英语,乡村,country,country,19,supplement_playlist:8282791588
+65,Bartender,28546538,03:18,Lady A,95456,Bartender,2834114,英语,流行 / 乡村,pop / country,country,21,supplement_playlist:8282791588
+66,Waking Up Dreaming,1983702440,03:19,Shania Twain,74624,Waking Up Dreaming,152083100,英语,乡村,country,country,22,supplement_playlist:8282791588
+67,In Case You Didn't Know,403382427,03:46,Brett Young,12024051,Brett Young EP,34480543,英语,乡村,country,country,23,supplement_playlist:8282791588
+68,Are You With Me,17560536,03:40,Easton Corbin,33098,All Over The Road,1616477,英语,乡村,country,country,24,supplement_playlist:8282791588
+69,5 Foot 9,1948970281,03:10,Tyler Hubbard,28054993,5 Foot 9,145281905,英语,乡村,country,country,25,supplement_playlist:8282791588
+70,I Wouldn't Be A Man,18641944,03:33,Josh Turner,35385,Haywire (Deluxe Edition),1709867,英语,乡村,country,country,26,supplement_playlist:8282791588
+71,Tonight I Wanna Cry,22224889,04:20,Keith Urban,37525,Be Here,2043007,英语,乡村,country,country,27,supplement_playlist:8282791588
+72,Tulsa Texas (Album Version),17560539,04:34,Easton Corbin,33098,All Over The Road,1616477,英语,乡村,country,country,29,supplement_playlist:8282791588
+73,Kick the Dust Up,32102843,03:11,Luke Bryan,38207,Kick the Dust Up,3152362,英语,乡村,country,country,30,supplement_playlist:8282791588
+74,Not Just A Girl,1967047366,03:11,Shania Twain,74624,Not Just A Girl (The Highlights),148671869,英语,乡村,country,country,31,supplement_playlist:8282791588
+75,Villain,1500654888,02:56,Lily Rose,35746517,Villain,99171758,英语,乡村,country,country,32,supplement_playlist:8282791588
+76,Soon You’ll Get Better,1382781478,03:22,Taylor Swift / The Chicks,44266 / 90517,Lover,80752440,英语,乡村,country,country,33,supplement_playlist:8282791588
+77,Am I The Only One,1858072451,04:30,Aaron Lewis,28301,Am I The Only One,129844169,英语,乡村,country,country,34,supplement_playlist:8282791588
+78,Trailer Park,1927355992,03:39,Jackson Dean,31689700,Greenbroke,141677146,英语,乡村,country,country,35,supplement_playlist:8282791588
+79,"Huntin', Fishin' and Lovin' Every Day",33715047,04:39,Luke Bryan,38207,Kill the Lights,3233515,英语,乡村,country,country,36,supplement_playlist:8282791588
+80,Tied One On,1393553069,03:05,Jon Pardi,839005,Heartache Medication,81973225,英语,乡村,country,country,37,supplement_playlist:8282791588
+81,Hell Yeah,1981769904,02:56,Little Big Town,64320,Mr. Sun,151689537,英语,乡村,country,country,38,supplement_playlist:8282791588
+82,29,1821444609,03:43,Carly Pearce,342699,29,123272648,英语,乡村,country,country,39,supplement_playlist:8282791588
+83,Love You Like That,32785284,03:24,Canaan Smith,31070,Bronco,3172096,英语,摇滚 / 乡村,rock / country,country,40,supplement_playlist:8282791588
+84,Radio (Album Version),26402808,03:10,Darius Rucker,31366,True Believers (Deluxe Edition),2480116,英语,乡村,country,country,41,supplement_playlist:8282791588
+85,Velvet Heartbreak,1954881287,03:03,Carrie Underwood,50891,Denim & Rhinestones,146311451,英语,乡村,country,country,42,supplement_playlist:8282791588
+86,Friends Don't,555974382,03:10,Maddie & Tae,964386,Friends Don't,38513061,英语,乡村,country,country,43,supplement_playlist:8282791588
+87,Speed,2029092403,04:30,Parker McCollum,12871723,Speed,161588104,英语,乡村,country,country,44,supplement_playlist:8282791588
+88,This Feels A Lot Like Love (Album Version),17560537,03:44,Easton Corbin,33098,All Over The Road,1616477,英语,乡村,country,country,45,supplement_playlist:8282791588
+89,Drive You Out Of My Mind,2025080681,03:32,Kassi Ashton,13059659,Drive You Out Of My Mind,160674939,英语,乡村,country,country,46,supplement_playlist:8282791588
+90,That's How Love Is Made,2029098406,03:47,The War and Treaty,14916489,Lover's Game,161587832,英语,乡村,country,country,47,supplement_playlist:8282791588
+91,It Was Me,18018024,03:10,George Strait,33873,Troubadour,1656412,英语,乡村,country,country,48,supplement_playlist:8282791588
+92,She's Mine,1383142257,03:49,Kip Moore,38085,She's Mine,80864706,英语,乡村,country,country,49,supplement_playlist:8282791588
+93,May We All,1996806249,03:47,Florida Georgia Line / Tim McGraw,181011 / 44312,Greatest Hits,154619617,英语,乡村,country,country,50,supplement_playlist:8282791588
+94,"Courtesy Of The Red, White And Blue (The Angry American)",19277283,03:16,Toby Keith,44345,Toby Keith 35 Biggest Hits,1768765,英语,乡村,country,country,51,supplement_playlist:8282791588
+95,Summer In A Small Town,1900161863,02:58,Kidd G,34014387,Big Machine: Big Songs Of 2021,136978004,英语,乡村,country,country,52,supplement_playlist:8282791588
+96,Off The Deep End,1969759562,03:16,Priscilla Block,35351087,Off The Deep End,149240046,英语,乡村,country,country,53,supplement_playlist:8282791588
+97,Red Wine + White Couch,521731020,03:09,Danielle Bradbery,737175,I Don't Believe We've Met,36861443,英语,乡村,country,country,54,supplement_playlist:8282791588
+98,Getting Good,1458202468,03:22,Lauren Alaina / Trisha Yearwood,66160 / 78283,Getting Good,91531833,英语,乡村,country,country,55,supplement_playlist:8282791588
+99,Someone,1915794775,04:00,Aaron Lewis,28301,Frayed At Both Ends,139591149,英语,乡村,country,country,56,supplement_playlist:8282791588
+100,Stronger Than I Am,1878785447,03:52,Lily Rose,35746517,Stronger Than I Am,133352454,英语,乡村,country,country,57,supplement_playlist:8282791588
+1,Tell You Like This,1500337099,03:08,Snow tha Product,78123,Tell You Like This,99112531,英语,嘻哈说唱,hiphop,hiphop,1,given_playlist
+2,RAW,1447521944,02:00,99 God,31511662,RAW,89039162,英语,嘻哈说唱,hiphop,hiphop,2,given_playlist
+3,Misbehaving,1401831843,03:34,Dawin,1046081,Memory Card,83095178,英语,流行 / 嘻哈说唱,pop / hiphop,hiphop,3,given_playlist
+4,Soulja (feat. Fulmetalparka$),1464315707,02:15,$atori Zoom / Fulmetalparka$,34139704 / 35039493,Sadie and All Her Friends,92725511,英语,嘻哈说唱,hiphop,hiphop,4,given_playlist
+5,VIBEZ,1393579198,02:25,DaBaby,14629637,KIRK,81976669,英语,嘻哈说唱,hiphop,hiphop,5,given_playlist
+6,Back Out (with Ty Dolla $ign & Dom Kennedy),1358178891,03:36,24hrs / Ty Dolla $ign / Dom Kennedy,12074612 / 789235 / 32440,Back Out (with Ty Dolla $ign & Dom Kennedy),78479032,英语,嘻哈说唱,hiphop,hiphop,6,given_playlist
+7,Cry Baby (feat. DaBaby),1496819212,02:18,Megan Thee Stallion / DaBaby,14233498 / 14629637,Good News,98557375,英语,嘻哈说唱,hiphop,hiphop,7,given_playlist
+8,Wam,1384311234,02:38,A$AP Ferg / MadeinTYO,750038 / 12004034,Floor Seats,80955326,英语,嘻哈说唱,hiphop,hiphop,8,given_playlist
+9,Get Back,1422652903,01:48,Pop Smoke,32256542,Meet The Woo 2 (Deluxe),85656793,英语,嘻哈说唱,hiphop,hiphop,9,given_playlist
+10,SMALL TALK,1839812377,02:01,Russ,241588,SMALL TALK,126477264,英语,嘻哈说唱,hiphop,hiphop,10,given_playlist
+11,Ends Up (Remix),1294653285,03:13,Tha Alkaholiks / Das EFX / DJ Katch,81756 / 53344 / 1182602,Ends Up (Remix),71890141,英语,嘻哈说唱,hiphop,hiphop,11,given_playlist
+12,Walk It out!,863489439,01:59,ROY PURDY,12647477,Walk It out!,71614073,英语,嘻哈说唱,hiphop,hiphop,12,given_playlist
+13,yes yes yes (Prod. beats by distro),1371322578,02:11,TrippyThaKid,12165078,yes yes yes (Prod. beats by distro),79749965,英语,嘻哈说唱,hiphop,hiphop,13,given_playlist
+14,mememe,1428666410,02:21,bbno$ / Lentra,12054171 / 31551456,good luck have fun,96032861,英语,嘻哈说唱,hiphop,hiphop,14,given_playlist
+15,Ayy Macarena (Remix),1423379006,02:12,Tyga / Ozuna,45033 / 1087403,Ayy Macarena (Remix),85735136,英语,嘻哈说唱,hiphop,hiphop,15,given_playlist
+16,R.E.D.,1399368351,02:26,Sleiman / Gilli / 6ix9ine,12009018 / 200503 / 12863035,R.E.D.,82769747,英语,嘻哈说唱,hiphop,hiphop,17,given_playlist
+17,Some L.A. Niggaz,17405600,04:25,Dr. Dre / Xzibit / Defari / Hittman / Knoc-Turn'al / Koka Kambon / MC Ren / Ms. Roq / Time Bomb,53243 / 46179 / 53804 / 35010 / 37828 / 262515 / 39185 / 262479 / 262524,2001,1603658,英语,嘻哈说唱,hiphop,hiphop,18,given_playlist
+18,Goofy,1404250299,03:19,A.D.C / Shanghai Phantom / D4 Music,31313458 / 12564128 / 12781682,Goofy,83368100,英语,嘻哈说唱,hiphop,hiphop,19,given_playlist
+19,U Don't Know My Name (2F Remix),2101725,04:10,Alicia Keys,46489,The Remix LP,211774,英语,嘻哈说唱 / R&B,hiphop / rnb,hiphop,21,given_playlist
+20,Sally Walker,1378627129,02:59,Iggy Azalea,60906,In My Defense,80456458,英语,嘻哈说唱,hiphop,hiphop,22,given_playlist
+21,Eve,26348186,03:33,Eve / Miss Kitty,55560 / 29718468,Lip Lock,2461032,英语,嘻哈说唱,hiphop,hiphop,23,given_playlist
+22,Rip A Rhyme,17233214,03:24,Da Youngsta's,31529,The Aftermath,1588699,英语,嘻哈说唱,hiphop,hiphop,25,given_playlist
+23,Break Of Dawn,3453023,03:46,Salt-N-Pepa,75282,Very Necessary,349770,英语,嘻哈说唱,hiphop,hiphop,26,given_playlist
+24,I'll Make U Famous,1259062,04:05,Da Youngsta's,31529,I'll Make U Famous,130073,英语,嘻哈说唱,hiphop,hiphop,27,given_playlist
+25,1985 (Intro to “The Fall Off”),554200163,03:10,J. Cole,36910,KOD,38426028,英语,其他 / 嘻哈说唱,other / hiphop,hiphop,28,given_playlist
+26,Mobb Brown - The G.O.D. Father of Soul Pt. III (Soul Mates Remix),28733376,05:13,Amerigo Gazaway,818067,The Big Payback Vol. 3: J.B. & The Soul Mates,2883621,英语,嘻哈说唱,hiphop,hiphop,29,given_playlist
+27,$100 Dollar Bill Y'All,1460837,03:39,Ice Cube,35051,In the Movies,149612,英语,嘻哈说唱,hiphop,hiphop,30,given_playlist
+28,GET READY,1320594302,04:11,Black Eyed Peas,88146,MASTERS OF THE SUN VOL. 1,74099331,英语,嘻哈说唱,hiphop,hiphop,31,given_playlist
+29,Gaspar Yanga,1418983727,02:16,D Smoke / Snoop Dogg,33516005 / 42939,Black Habits,85223151,英语,嘻哈说唱,hiphop,hiphop,32,given_playlist
+30,Bang Bang,17405604,03:42,Dr. Dre / Hittman / Knoc-Turn'al,53243 / 35010 / 37828,2001,1603658,英语,嘻哈说唱,hiphop,hiphop,33,given_playlist
+31,Wu Tang Forever,1313348880,08:08,Logic / Ghostface Killah / Raekwon / RZA / Method Man / Inspectah Deck / Cappadonna / Jackpot Scotty Wotty / U-God / Masta Killa / GZA,1015122 / 33889 / 42020 / 72755 / 67049 / 35114 / 30071 / 13408782 / 83435 / 67760 / 33954,YSIV,73672292,英语,嘻哈说唱,hiphop,hiphop,34,given_playlist
+32,Endless Rhymes (Feat. Nieve),26089355,03:34,the 49ers,103501,The Ultrasound,2384030,英语,嘻哈说唱,hiphop,hiphop,37,given_playlist
+33,Bee Hive,1364185780,02:14,inimicvs / Anka / Otxhello / Dilip,12029024 / 143255 / 12008164 / 911123,Mojava,79018293,英语,嘻哈说唱,hiphop,hiphop,39,given_playlist
+34,BagBak,457766328,02:41,Vince Staples,791076,BagBak,35165215,英语,嘻哈说唱,hiphop,hiphop,40,given_playlist
+35,Clones,21918384,04:54,The Roots / Dice Raw / M.A.R.S.,78279 / 54567 / 577280,Illadelph Halflife,2014537,英语,嘻哈说唱 / R&B,hiphop / rnb,hiphop,41,given_playlist
+36,Ruffneck,3046096,03:57,MC Lyte,66519,Rhyme Masters,307966,英语,嘻哈说唱,hiphop,hiphop,42,given_playlist
+37,Team,407007641,03:30,Iggy Azalea,60906,Team,34567122,英语,嘻哈说唱,hiphop,hiphop,45,given_playlist
+38,Taste,562494194,03:53,Tyga / Offset,45033 / 832703,Taste,38976046,英语,嘻哈说唱,hiphop,hiphop,46,given_playlist
+39,Percussion X (Instrumental in style of BUSTA RHYMES productions),417915719,03:34,Raw-Flava Productions,0,"50 RnB & HipHop Beats, Vol.1 (New Rap & Soul Karaoke Chart Playbacks)",34745482,纯音乐,嘻哈说唱,hiphop,hiphop,50,given_playlist
+40,MOP - Ante Up...Bang [Edit Beats] (feat Busta Rhymes),1320697263,03:40,DJ BX'TREME,30496752,THIS IS THE BATTLE [?*?EXCLUSIVE BEATS?*?] (ALBUM),74107064,英语,嘻哈说唱,hiphop,hiphop,52,given_playlist
+41,Like This,22333133,03:24,MIMS,68869,Music Is My Savior,2049393,英语,嘻哈说唱,hiphop,hiphop,53,given_playlist
+42,Nášlap,529586408,03:19,DJ Fatte,12831811,Což takhle dát si Tesař,37232643,未知,嘻哈说唱 / 电子,hiphop / electronic,hiphop,54,given_playlist
+43,Boom! Shake the Room,2436443,03:46,DJ Jazzy Jeff & the Fresh Prince,53389,Code Red,245510,英语,电子 / 嘻哈说唱,electronic / hiphop,hiphop,55,given_playlist
+44,Tired,1306064,02:22,Everlast,32695,Whitey Ford Sings the Blues,134429,英语,嘻哈说唱,hiphop,hiphop,56,given_playlist
+45,Da Joint,17616858,03:28,EPMD,55606,Back In Business,1621212,英语,嘻哈说唱,hiphop,hiphop,57,given_playlist
+46,Sing For The Moment (Instrumental),1299923,06:24,Eminem,32665,Sing For The Moment,133998,英语,嘻哈说唱,hiphop,hiphop,58,given_playlist
+47,The Streets,1620400,03:43,Kool G Rap,37556,The Giancana Story,164569,英语,嘻哈说唱,hiphop,hiphop,60,given_playlist
+48,Mr. Bentley,1408941727,02:39,KnowKnow / Higher Brothers,27868624 / 12002201,Mr. Enjoy Da Money,84033640,华语,嘻哈说唱,hiphop,hiphop,62,given_playlist
+49,R&B All Night,1408941731,03:54,KnowKnow / Higher Brothers,27868624 / 12002201,Mr. Enjoy Da Money,84033640,华语,嘻哈说唱,hiphop,hiphop,63,given_playlist
+50,Zheng,37132458,02:49,Coubo,1186007,Zheng,3415356,纯音乐,嘻哈说唱,hiphop,hiphop,64,given_playlist
+51,who dat boi,519913419,02:11,bbno$ / So Loki,12054171 / 30956541,whatever,74750294,英语,嘻哈说唱,hiphop,hiphop,66,given_playlist
+52,Addicted to My Ex (Challenge Version),447296413,03:43,M City JR,12231058,This Is A Challenge,35065104,英语,嘻哈说唱,hiphop,hiphop,67,given_playlist
+53,Bounce Back,438580521,03:42,Big Sean,185832,Bounce Back,34952076,英语,嘻哈说唱,hiphop,hiphop,69,given_playlist
+54,Pure Water,1340266806,03:15,Mustard / Migos,14871398 / 776824,Pure Water,75212263,英语,嘻哈说唱,hiphop,hiphop,71,given_playlist
+55,The Game & Skrillex: El Chapo,35407496,03:40,The Game / Skrillex,44270 / 43755,The Documentary 2.5,3317298,未知,嘻哈说唱,hiphop,hiphop,74,given_playlist
+56,KING Bitch,27772766,03:31,Yo Gotti / T.I.,84935 / 44267,King Sh*t,2673478,英语,嘻哈说唱,hiphop,hiphop,75,given_playlist
+57,Come Back Kid Freeze,409302046,01:51,SIR ROCKET JUICE,12024522,Come Back Kid Freeze,34604192,英语,流行 / 嘻哈说唱,pop / hiphop,hiphop,76,given_playlist
+58,El Chapo Jr,34364798,03:04,2 Chainz,46481,Trapavelli Tre',3281135,英语,嘻哈说唱,hiphop,hiphop,78,given_playlist
+59,Cant Sit With Us,33469348,02:50,Honey Cocaine,748010,Like A Drug,3211139,英语,嘻哈说唱,hiphop,hiphop,79,given_playlist
+60,What A Year,400074031,04:34,Big Sean / Pharrell Williams / Detail,185832 / 41151 / 887070,What A Year,34427013,英语,嘻哈说唱,hiphop,hiphop,80,given_playlist
+61,Dum Dum,450222826,03:25,Tedashii / Lecrae,82626 / 65440,Neptønes III: The Final Chapter,35104154,英语,嘻哈说唱,hiphop,hiphop,81,given_playlist
+62,Bounce,3040237,03:10,Manafest,66455,Glory,307461,英语,摇滚 / 嘻哈说唱,rock / hiphop,hiphop,82,given_playlist
+63,Get a Grip,28234236,04:14,Gramatik / Gibbz,185721 / 1087240,The Age of Reason,2759035,英语,电子 / 嘻哈说唱,electronic / hiphop,hiphop,83,given_playlist
+64,Was Dat,1400390100,02:50,J Blaze,31242269,Was Dat,82917923,英语,嘻哈说唱,hiphop,hiphop,85,given_playlist
+65,Hit My Phone (feat. Kehlani),1428702980,02:31,Megan Thee Stallion / Kehlani,14233498 / 1060155,Suga,86281050,英语,嘻哈说唱,hiphop,hiphop,86,given_playlist
+66,Hit Yo Dance,1395741915,02:46,Rubi Rose / Yella Beezy / NLE Choppa,33045032 / 27692505 / 31286120,Hit Yo Dance,82230327,英语,嘻哈说唱,hiphop,hiphop,88,given_playlist
+67,0 To 100 / The Catch Up,28815860,06:07,Drake,53283,0 To 100 / The Catch Up,2897330,英语,嘻哈说唱,hiphop,hiphop,89,given_playlist
+68,Life,515549315,03:48,Hamza,350218,1994,36674247,法语,嘻哈说唱,hiphop,hiphop,90,given_playlist
+69,Real Hip-Hop (Solid Scheme Remix),27135824,04:14,Das EFX,53344,Real HIp Hop,2588515,英语,嘻哈说唱,hiphop,hiphop,92,given_playlist
+70,Runnin,1483967213,03:16,21 Savage / Metro Boomin,12062134 / 976120,SAVAGE MODE II,96269440,英语,嘻哈说唱,hiphop,hiphop,93,given_playlist
+71,Wipeout,20372817,04:28,The Fat Boys,79834,Crushin',1893749,英语,流行 / 另类/独立 / 嘻哈说唱,pop / alternative / hiphop,hiphop,94,given_playlist
+72,Dance With The Devil,31426084,09:39,Immortal Technique,35128,"Revolutionary, Vol. 1",3111791,英语,嘻哈说唱,hiphop,hiphop,95,given_playlist
+73,Any Type of Way,27192670,04:01,Big Daddy Kane,48731,Signature Sounds Vol.1,2591393,英语,嘻哈说唱,hiphop,hiphop,96,given_playlist
+74,Old School Hiphop Mix,410042561,19:12,Dj icedogg,12003127,Old School Hiphop mix,34615624,英语,嘻哈说唱,hiphop,hiphop,99,given_playlist
+75,Planet Rock,23726281,05:19,Afrika Bambaataa,27939,Pure Hip Hop,2147386,英语,嘻哈说唱 / 放克,hiphop / funk,hiphop,100,given_playlist
+76,Hell on Earth (Front Lines),4177783,04:36,Mobb Deep,96298,Hell on Earth,422354,英语,嘻哈说唱,hiphop,hiphop,104,given_playlist
+77,日本风（Rap beat）已买断,488744904,03:25,Deadboy,12056018,采样实验beat,35701786,纯音乐,嘻哈说唱,hiphop,hiphop,106,given_playlist
+78,Twisted,1396150451,04:22,French Montana / Juicy J / Logic / A$AP Rocky,33795 / 62194 / 1015122 / 29100,Twisted,82295487,英语,嘻哈说唱 / R&B,hiphop / rnb,hiphop,108,given_playlist
+79,SOULJO BEATZ 陆,476656629,05:01,Souljo,12287357,SOULJO BEATZ,35458185,纯音乐,嘻哈说唱,hiphop,hiphop,111,given_playlist
+80,hiphop暖场,411754548,35:40,Monster.SO！L,12037157,V5 Party,34672877,英语,嘻哈说唱,hiphop,hiphop,113,given_playlist
+81,BREAK DOWN,1850155476,02:03,$atori Zoom,34139704,BREAK DOWN,128406810,英语,嘻哈说唱,hiphop,hiphop,114,given_playlist
+82,Grave Yard Boyz,429210890,03:17,¥UNG GRAVE,12108749,Grave Yard Boyz,34860971,英语,嘻哈说唱,hiphop,hiphop,115,given_playlist
+83,GALA,1455101010,01:20,99 God,31511662,GALA,90789863,"英语,国语",嘻哈说唱,hiphop,hiphop,117,given_playlist
+84,QUEEN,1972976515,02:23,Mahogany Lox,1081187,QUEEN,149860832,英语,嘻哈说唱,hiphop,hiphop,120,given_playlist
+85,Indian Burn (Sei Do Sei),1459100134,02:08,DJ Fleg,14515204,"Bc One Beats, Vol. 1",91713142,英语,嘻哈说唱,hiphop,hiphop,121,given_playlist
+86,Party,1396296183,02:53,KAEF / Tricky Nicki,13837021 / 31459501,Party,82315896,英语,嘻哈说唱,hiphop,hiphop,122,given_playlist
+87,Throw Ya ****in' Hands Up,26667709,04:37,Afrika Bambaataa,27939,"Warlocks and Witches, Computer Chips, Microchips and You",2545393,英语,嘻哈说唱,hiphop,hiphop,125,given_playlist
+88,On Me,1385304097,02:42,Tyga / Lil Wayne,45033 / 38118,Legendary (Deluxe Edition),81045216,英语,嘻哈说唱,hiphop,hiphop,126,given_playlist
+89,Anything (Old Skool Radio Version),19169489,04:58,SWV / Wu-Tang Clan,75274 / 84060,The Remixes,1757621,英语,嘻哈说唱 / R&B,hiphop / rnb,hiphop,127,given_playlist
+90,Born In X,1972856420,02:20,Beatslaya,34715095,Born In X,149821877,英语,嘻哈说唱,hiphop,hiphop,128,given_playlist
+91,Von Mio zu Ssio (Instrumental),1410138198,03:17,SSIO,29357292,MESSIOS,84143582,未知,嘻哈说唱,hiphop,hiphop,129,given_playlist
+92,Special Delivery,1318249662,02:33,Jabbar Hakeem,13685452,APRIL 7th,73914552,英语,嘻哈说唱,hiphop,hiphop,131,given_playlist
+93,Corleone,29039124,03:05,Lacrim,296391,Corleone,2987099,,嘻哈说唱,hiphop,hiphop,132,given_playlist
+94,One Way (Bonus),518704857,04:47,6LACK / T-Pain,12122239 / 44277,FREE 6LACK (Bonus Track Version),35005042,英语,嘻哈说唱 / R&B,hiphop / rnb,hiphop,133,given_playlist
+95,Drizzy Draco - A COLORS SHOW,1416896418,02:39,Maxo Kream,12073149,Drizzy Draco - A COLORS SHOW,85005628,英语,嘻哈说唱,hiphop,hiphop,134,given_playlist
+96,Suge,1349215186,02:43,DaBaby,14629637,Baby On Baby,75738627,英语,嘻哈说唱,hiphop,hiphop,136,given_playlist
+97,Chosen (feat. Ty Dolla $ign),1491535096,02:42,Blxst / Tyga / Ty Dolla $ign,31100277 / 45033 / 789235,No Love Lost (Deluxe),97647701,英语,嘻哈说唱,hiphop,hiphop,137,given_playlist
+98,California (from Songland),1454838177,02:55,Usher / Tyga,45564 / 45033,California (from Songland),90751574,英语,嘻哈说唱,hiphop,hiphop,140,given_playlist
+99,Cool Girls,1610983,03:34,Jeff Bernat,37300,The Gentleman Approach,163759,未知,嘻哈说唱 / R&B,hiphop / rnb,hiphop,142,given_playlist
+100,DJ Cow Hiphop Beatz  - Track 11,463442763,02:07,DJ Cow,12282270,DJ Cow Hiphop Dance Music,35178571,纯音乐,嘻哈说唱,hiphop,hiphop,145,given_playlist
+1,From The Start,2047103213,02:50,Laufey,35111369,From The Start,165560498,英语,爵士,jazz,jazz,1,given_playlist
+2,City Streets,1518734,04:56,Jim Adkins,35529,City Streets,154504,纯音乐,爵士,jazz,jazz,2,given_playlist
+3,Reach Out,17989373,04:57,George Duke,33910,Guardian Of The Light,1654607,英语,爵士,jazz,jazz,3,given_playlist
+4,Lost In Love,1518743,04:11,Jim Adkins,35529,City Streets,154504,纯音乐,爵士,jazz,jazz,4,given_playlist
+5,I Got Rhythm,1410165,03:46,George Gershwin,34117,An American in Paris (Original Motion Picture Soundtrack),144657,英语,原声带 / 爵士,soundtrack / jazz,jazz,5,given_playlist
+6,No Love Without Tears,2515666,05:42,Dusko Goykovich,55060,Good Old Days,253332,纯音乐,爵士,jazz,jazz,6,given_playlist
+7,Goodnight Moon,1811126205,04:25,Boogie Belgique,986078,Volta,35661405,英语,其他 / 爵士,other / jazz,jazz,7,given_playlist
+8,Evita album ver.,482809351,05:55,toconoma,1028049,NEWTOWN,35589299,纯音乐,爵士,jazz,jazz,8,given_playlist
+9,GIN TONIC ~オヤジ~,637852,02:19,大嶽香子,17533,バーテンダー　オリジナルサウンドトラック,61090,纯音乐,原声带 / 爵士,soundtrack / jazz,jazz,9,given_playlist
+10,Fabulous,2066710146,04:12,BLU-SWING,18792,BLU-SWING 10th ANNIVERSARY BEST,170268835,英语,爵士,jazz,jazz,10,given_playlist
+11,Seven Lonely Days,566530625,02:10,Georgia Gibbs,58666,"Radio Hits from the 50's, Vol. 2",39270528,英语,爵士,jazz,jazz,11,given_playlist
+12,Take Me There,1089411,05:45,Bob James,29354,Joy Ride,113246,纯音乐,爵士,jazz,jazz,12,given_playlist
+13,seesaw,511975188,05:25,toconoma,1028049,POOL,36412808,纯音乐,摇滚 / 爵士,rock / jazz,jazz,13,given_playlist
+14,Westchester Lady,5214140,13:23,Kirk Whalum / Rick Braun / Boney James / Fourplay,37629 / 41984 / 29351 / 92445,Casino Lights '99,509417,纯音乐,爵士,jazz,jazz,14,given_playlist
+15,A Lovely Way to Spend an Evening,2535867,04:12,Eddie Higgins Trio,55556,a lovely way to spend an evening,255116,纯音乐,爵士,jazz,jazz,15,given_playlist
+16,More~Fly Me To The Moon~Moon River,782983,05:18,森田叶月&森川七月,20508,Jazz Cover,77323,英语,爵士,jazz,jazz,16,given_playlist
+17,Virtual Insanity,27461858,04:06,Jamiroquai,60935,Virtual Insanity,2609859,英语,爵士 / 嘻哈说唱,jazz / hiphop,jazz,17,given_playlist
+18,Sum,2066710147,04:27,BLU-SWING,18792,BLU-SWING 10th ANNIVERSARY BEST,170268835,英语,爵士,jazz,jazz,18,given_playlist
+19,Get Down On It,3829930,04:18,Wayman Tisdale,84217,Way Up!,387407,英语,爵士,jazz,jazz,19,given_playlist
+20,シロクマ,29307600,03:51,JABBERLOOP,19997,Jabberloop 台湾特选辑,2966183,纯音乐,爵士,jazz,jazz,20,given_playlist
+21,あなたの家に帰りたい,4056608,07:02,Eddie Higgins / Scott Hamilton,32699 / 43276,My Funny Valentine,410137,纯音乐,爵士,jazz,jazz,21,given_playlist
+22,Evening glow,1364369216,04:47,re:plus / 島裕介,0 / 1081778,Prayer,79039252,纯音乐,爵士,jazz,jazz,22,given_playlist
+23,Reminiscences,1364370190,04:26,re:plus / 島裕介,0 / 1081778,Prayer,79039252,纯音乐,爵士 / 纯演奏音乐,jazz / instrumental,jazz,23,given_playlist
+24,I Love You Baby/can't take my eyes off you,30064371,03:56,Morten Harket,66565,最新热歌慢摇91,3087051,英语,爵士,jazz,jazz,24,given_playlist
+25,What a Difference the Day Made,1308441,06:01,Eddie Higgins,32699,Bewitched,134599,纯音乐,爵士,jazz,jazz,25,given_playlist
+26,Change of Seasons,2029978199,02:46,Tokyo Music Walker,34589915,Change of Seasons,161739497,纯音乐,爵士,jazz,jazz,26,given_playlist
+27,Goodbye to Your Love,526439257,04:43,二宮愛,1054093,Finding Stride,37015863,英语,爵士,jazz,jazz,27,given_playlist
+28,MISSING MY BIRD,29307427,04:21,JABBERLOOP,19997,Exclusive Best Selection,3003066,纯音乐,爵士,jazz,jazz,28,given_playlist
+29,Keep On,1346310809,10:47,Alfa Mist,15365408,Antiphon,75581345,纯音乐,爵士,jazz,jazz,29,given_playlist
+30,Si Tu Vois Ma Mère,3781876,04:16,Tina May,83170,Jazz Piquant,382615,纯音乐,爵士,jazz,jazz,30,given_playlist
+31,Farah,27340528,05:28,Pharoah Sanders,41191,Rejoice,2604087,纯音乐,爵士,jazz,jazz,31,given_playlist
+32,light,414691986,04:12,jizue,20014,story,34700794,日语,摇滚 / 爵士,rock / jazz,jazz,32,given_playlist
+33,Pathetique III,27598898,03:37,Cuba Percussion,193773,Classic Meets Cuba,2643306,纯音乐,爵士 / 古典,jazz / classical,jazz,33,given_playlist
+34,b i g f e e l i n g s,2142132681,04:24,WILLOW,84763,b i g f e e l i n g s,191043859,英语,爵士,jazz,jazz,34,given_playlist
+35,Embers feat. Loumina,2600218616,02:47,西原健一郎,14527,Kaleidoscope Suite -Best Mix and Remix-,239707296,日语,爵士,jazz,jazz,35,given_playlist
+36,Summer Dreams (See the Light Mix),1455315126,05:20,Jazz L'amour,207408,Summer Jazz (Sunny Smooth Jazz For Sunny Beach Moments),90850417,英语,爵士 / 电子 / 流行,jazz / electronic / pop,jazz,36,given_playlist
+37,Moanin',16342016,09:33,Art Blakey / The Jazz Messengers,27678 / 141041,Moanin',1508109,纯音乐,爵士,jazz,jazz,37,given_playlist
+38,Serendipity feat Tamala & Takurah,2600218629,03:58,西原健一郎,14527,Kaleidoscope Suite -Best Mix and Remix-,239707296,日语,爵士,jazz,jazz,38,given_playlist
+39,slic.hertz,2013361823,02:03,Sobrem,12996502,slic.hertz,157963849,英语,爵士,jazz,jazz,39,given_playlist
+40,Jazz Man,434981618,03:51,Beth Hart,49658,Fire on the Floor (Deluxe Edition),34886858,英语,爵士 / 流行 / 摇滚,jazz / pop / rock,jazz,40,given_playlist
+41,Miss Riddle,5193021,06:27,Boz Scaggs,48514,Late Night Moods,508285,英语,爵士,jazz,jazz,41,given_playlist
+42,Morning After Night,1996608069,05:01,Sarah Kang / Sam Ock,36737311 / 15489,Peppermint Tea,154572342,英语,爵士,jazz,jazz,42,given_playlist
+43,Kissez in Gallop,4000191,04:57,Club des Belugas,89578,Caviar at 3 A.M.,404474,纯音乐,爵士,jazz,jazz,43,given_playlist
+44,Living On,1834757038,03:20,OR3O,29706809,Living On,125565489,英语,电子 / 爵士,electronic / jazz,jazz,44,given_playlist
+45,Us - A COLORS SHOW,1984039700,06:14,FKJ / COLORS,797159 / 46584798,Us - A COLORS SHOW,152161127,纯音乐,爵士,jazz,jazz,45,given_playlist
+46,Early Summer,22812037,10:44,Ryo Fukui,30107605,Scenery,2097041,纯音乐,爵士,jazz,jazz,46,given_playlist
+47,Dreamland (Say Goodbye Bye Bye),1387849118,02:57,Swingrowers,344606,Dreamland (Say Goodbye Bye Bye),81279604,英语,爵士 / 电子,jazz / electronic,jazz,47,given_playlist
+48,A Thousand Dreams Of You,26620747,03:31,张国荣,6457,最红,2537127,英语,爵士,jazz,jazz,48,given_playlist
+49,Stars Down (feat. Dominique Fils-Aimé),570296200,04:44,mouse on the keys / Dominique Fils-Aimé,20475 / 28421010,tres,39391593,英语,爵士,jazz,jazz,49,given_playlist
+50,Concierto de Aranjuez,22126201,19:18,Chet Baker / Paul Desmond,29965 / 41218,Together,2035067,纯音乐,爵士,jazz,jazz,50,given_playlist
+51,"All I Need (Rollercoaster, Pt. II)",22751131,03:16,Sam Ock,15489,Rest Easy,2089584,英语,爵士,jazz,jazz,51,given_playlist
+52,It takes some time (feat. 赵宇),2165889860,06:38,磊落,13149016,It takes some time,199024884,英语,流行 / 爵士,pop / jazz,jazz,52,given_playlist
+53,True Love Ways,2190947,02:51,Buddy Holly,48446,The Best Buddy Holly True Love Ways,220934,英语,爵士,jazz,jazz,53,given_playlist
+54,Timeless pulse,405885,04:51,Collioure,13946,Timeless Pulse,40135,纯音乐,流行 / 爵士,pop / jazz,jazz,54,given_playlist
+55,MY FOOLISH HEART ～crazy on shibuya～,27969172,04:39,"椎名林檎 / SOIL & ""PIMP"" SESSIONS",17635 / 816240,浮き名,2705031,英语,爵士,jazz,jazz,55,given_playlist
+56,The Entertainer,494580248,03:44,Scott Joplin,43207,"Platinum Mood on Jazz Piano, Vol. 10",35866421,纯音乐,爵士,jazz,jazz,56,given_playlist
+57,Can't Take My Eyes Off Of You (Feat. Sam Levine),22210172,04:37,Jack Jezzro And Friends,155083,Rio Nights,2042459,纯音乐,爵士,jazz,jazz,57,given_playlist
+58,Still Talking To You,1789112,03:25,Nujabes,162138,Still Talking To You / Steadfast,180762,英语,爵士,jazz,jazz,58,given_playlist
+59,Rolling days,2628314851,05:04,Elena Kato Band,35260744,ELENA KATO BAND,248240895,日语,爵士,jazz,jazz,59,given_playlist
+60,Remember,1805048150,03:38,Sam Ock,15489,Snowy,120555801,英语,流行 / 爵士,pop / jazz,jazz,60,given_playlist
+61,Feel like making love,3056326,04:08,Marlena Shaw,66658,Anthology,308942,英语,爵士,jazz,jazz,61,given_playlist
+62,Boreal Forest,518895199,05:08,Mammal Hands,1015514,Shadow Work,36814048,纯音乐,爵士,jazz,jazz,62,given_playlist
+63,"I OWN,I KNOW（我知·我控）",2737954964,03:04,田冰冰TIBIBI,48450837,I OWN I KNOW(我知·我控）,282119554,英语,爵士,jazz,jazz,63,given_playlist
+64,Lotta Love,18214761,03:16,Halie Loren,60308,Heart First,1673106,英语,爵士,jazz,jazz,64,given_playlist
+65,Twilight,28592631,04:55,Brian Simpson,131017,It's All Good,2848268,纯音乐,爵士,jazz,jazz,65,given_playlist
+66,流光练习曲（Light Stream Etude）,483002866,04:51,MT1990,12395708,MT1990-New Orlean's Jazz(新奥尔良爵士）,35588652,纯音乐,爵士,jazz,jazz,66,given_playlist
+67,Nocturne No.2 Op.9/2,29104342,05:17,Karel Boehlee Trio,200148,Chopinderful!: Chopin Meets Jazz,2991011,纯音乐,爵士 / 古典,jazz / classical,jazz,67,given_playlist
+68,Everybody Loves Somebody,483773394,02:41,Dean Martin,53286,The Very Best of Dean Martin,35606907,英语,轻音乐 / 爵士,easy_listening / jazz,jazz,68,given_playlist
+69,100 Years,1458435040,03:45,OR3O,29706809,100 Years,91576297,英语,爵士,jazz,jazz,69,given_playlist
+70,Summer Love,27566932,04:11,"SOIL & ""PIMP"" SESSIONS / José James",816240 / 36789,CIRCLES,2639218,英语,爵士,jazz,jazz,70,given_playlist
+71,Speak Softly Love,535221196,04:37,Fere Scheidegger,13172059,Lorraine Blues,37496941,纯音乐,爵士,jazz,jazz,71,given_playlist
+72,看向我吧,2740843541,06:26,9m88 / 陳嫺靜,12285372 / 34876884,This Temporary Ensemble Vol. 2,283202228,"英语,国语",爵士,jazz,jazz,72,given_playlist
+73,Les Champs-Elysées,1440291179,03:05,Pomplamoose,98766,En Français,87945299,法语,流行 / 爵士,pop / jazz,jazz,73,given_playlist
+74,fever,26282999,03:21,Peggy Lee,70837,The Marvelous Miss Lee (North Star Vintage Master Series),2443485,英语,爵士,jazz,jazz,74,given_playlist
+75,When It Snows,1996608914,03:33,Sarah Kang / Sam Ock,36737311 / 15489,Peppermint Tea,154572342,英语,流行 / 爵士,pop / jazz,jazz,75,given_playlist
+76,L O V E,5055675,02:32,Nat King Cole,40430,The Parent Trap (O.S.T),501446,英语,原声带 / 爵士,soundtrack / jazz,jazz,76,given_playlist
+77,Hang on Little Tomato,18212778,03:18,Pink Martini,70833,Hang on Little Tomato,1672614,英语,爵士,jazz,jazz,77,given_playlist
+78,Almost Blue,22127754,07:55,Chet Baker,29965,Almost Blue,2035250,英语,爵士,jazz,jazz,78,given_playlist
+79,Joe's Blues,1507246,05:58,Joe Pass,35442,Intercontinental,153430,纯音乐,爵士,jazz,jazz,79,given_playlist
+80,I Wish I Knew How It Would Feel To Be Free,26988741,03:08,Nina Simone,69324,I Got Life and Many Others,2574902,英语,爵士,jazz,jazz,80,given_playlist
+81,Four Leaved Clover feat.Junko Wada,484462,05:12,Namy,15019,Colorful,46395,英语,爵士,jazz,jazz,81,given_playlist
+82,Bitty Boppy Betty,18212701,02:44,Pink Martini,70833,Splendor in the Grass,1672608,英语,爵士,jazz,jazz,82,given_playlist
+83,So What,1301417688,09:22,Miles Davis,38860,Miles Davis - So What and Greatest Hits (Remastered),72290715,纯音乐,爵士,jazz,jazz,83,given_playlist
+84,Saturday Morning,18733191,05:00,Rachael Yamagata,72720,Chesapeake,1715512,英语,爵士,jazz,jazz,84,given_playlist
+85,Singing In The Rain,1394270885,02:59,Gene Kelly,34110,Greats Of The London Palladium - Singing In The Rain,82055627,英语,爵士 / 另类/独立,jazz / alternative,jazz,85,given_playlist
+86,My Way,22174742,04:39,Frank Sinatra,33367,My Way: The Best of Frank Sinatra [1 CD],2038574,英语,爵士,jazz,jazz,86,given_playlist
+87,Sleep Away,1413142680,03:21,Bob Acri,779011,Bob Acri,84622086,纯音乐,爵士,jazz,jazz,87,given_playlist
+88,Blue Eyes,2074754065,07:48,Masaru Imada Trio,54021241,Blue Eyes,172822173,纯音乐,爵士,jazz,jazz,88,given_playlist
+89,Skating In Central Park (Digitally Remastered),22486346,05:24,Bill Evans / Jim Hall,29327 / 35448,Undercurrent,2059700,纯音乐,爵士,jazz,jazz,89,given_playlist
+90,Bossa Break!,2080979419,02:30,Frizk,57897822,Bossa Break!,174454894,纯音乐,爵士,jazz,jazz,90,given_playlist
+91,You Don't Know Me,22064605,04:14,Michael Bublé,38855,It's Time,2029261,英语,流行 / 爵士,pop / jazz,jazz,91,given_playlist
+92,红眼眶,255573,05:01,林忆莲,8336,盖亚,25526,"华语,英语",流行 / 爵士,pop / jazz,jazz,92,given_playlist
+93,Daybreak,2923749,03:14,Lisa Ekdahl,64152,Lisa Ekdahl Sings Salvadore Poe,295281,英语,爵士,jazz,jazz,93,given_playlist
+94,La Cubana Caliente,2535754,05:16,Eddie Higgins Trio,55556,Portraits Of Love,255107,纯音乐,爵士,jazz,jazz,94,given_playlist
+95,今天吃点什么好,2110379120,04:11,裘德,12038239,裘德,181546199,国语,流行 / 爵士,pop / jazz,jazz,95,given_playlist
+96,Slow,18725436,03:36,Rumer,74494,Slow,1715306,英语,爵士,jazz,jazz,96,given_playlist
+97,Evening cicada,1817399292,04:16,re:plus,21182,Floating in the midnight sun,122474361,纯音乐,爵士,jazz,jazz,97,given_playlist
+98,气温差,1905979477,04:13,裘德,12038239,最后的水族馆,137919451,"国语,英语",流行 / 爵士,pop / jazz,jazz,98,given_playlist
+99,Daydream by Design,1306498845,02:40,Gaby Moreno,1132326,Illustrated Songs,72795873,英语,爵士,jazz,jazz,99,given_playlist
+100,Paris Blues,21802719,06:51,Terry Callier,44754,Lookin' Out,2005679,英语,民谣 / 爵士,folk / jazz,jazz,100,given_playlist
+1,Sugar,29019227,03:54,Maroon 5,96266,V,2980029,英语,流行,pop,pop,1,given_playlist
+2,Please Don't Go,37653063,03:31,Joel Adams,1188100,Please Don't Go,3415755,英语,流行,pop,pop,2,given_playlist
+3,Virtual World,35847618,04:19,SmK,1094126,Virtual World,3377121,纯音乐,流行,pop,pop,3,given_playlist
+4,Unity,29759407,04:56,Axero,1035020,Unity,3056864,纯音乐,流行,pop,pop,4,given_playlist
+5,Sparks,405372458,03:31,Elektronomia,1081540,Sparks,34526398,纯音乐,流行 / 电子,pop / electronic,pop,5,given_playlist
+6,Summer Vibes,408332052,04:59,Elektronomia,1081540,Summer Vibes,34588447,纯音乐,流行 / 电子,pop / electronic,pop,6,given_playlist
+7,Imagination,412902533,03:34,Elektronomia,1081540,Imagination,34701207,纯音乐,流行 / 电子,pop / electronic,pop,7,given_playlist
+8,High Above,32431632,03:37,Starix​,1058011,High Above,3161108,纯音乐,流行,pop,pop,8,given_playlist
+9,Five Hours,28263911,05:27,Deorro,366358,Five Hours,2763507,纯音乐,流行 / 电子,pop / electronic,pop,9,given_playlist
+10,California,411314397,03:25,Marc May,1149057,California,34686142,纯音乐,流行 / 电子,pop / electronic,pop,10,given_playlist
+11,Adventures,38391514,03:28,Starix​,1058011,Adventures,3428343,纯音乐,流行,pop,pop,11,given_playlist
+12,Calavera (Original Edit),33955931,03:21,Klaas,106210,Calavera,3266869,英语,流行 / 电子,pop / electronic,pop,12,given_playlist
+13,We Own The Night (The Chainsmokers Extended),27845437,04:20,The Wanted / The Chainsmokers,103095 / 893484,We Own The Night,2684827,英语,流行 / 电子,pop / electronic,pop,13,given_playlist
+14,Crazy Bird,27845535,04:01,Wild Child,37265018,The Runaround,2684836,英语,流行,pop,pop,14,given_playlist
+15,"Relax, Take It Easy",21151698,03:43,MIKA,38849,"Relax, Take It Easy",1956058,英语,流行,pop,pop,15,given_playlist
+16,Don't Push Me,3406379,03:15,Sweetbox,161438,Sweetbox Complete Best,345272,英语,流行,pop,pop,16,given_playlist
+17,Turnin',28859948,03:29,Young Rising Sons,947185,Young Rising Sons,2916129,英语,流行 / 另类/独立,pop / alternative,pop,17,given_playlist
+18,We Can't Stop,29480187,03:42,Boyce Avenue / Bea Miller,29709 / 908180,"Cover Sessions, Vol. 3",83082810,英语,流行,pop,pop,18,given_playlist
+19,28º À L'Ombre,1606883,03:53,Jean-Francois Maurice,37080,28º À L'Ombre,163345,法语,流行,pop,pop,19,given_playlist
+20,Guitar Sound,20244741,07:03,Ronald Jenkees,41935,Disorganized Fun,1879159,纯音乐,流行,pop,pop,20,given_playlist
+21,My Heart,30474763,04:27,Different Heaven / EH!DE,1049917 / 761029,My Heart,3101028,英语,流行 / 电子,pop / electronic,pop,21,given_playlist
+22,Nightcall,18933056,04:17,Kavinsky,37871,Nightcall,1734226,英语,流行,pop,pop,22,given_playlist
+23,Motley Crew,28778561,03:42,Thomston,961310,Argonaut EP,2892309,英语,流行,pop,pop,23,given_playlist
+24,Paradise,30260281,03:41,XOV,1027045,Lucifer,3097054,英语,流行,pop,pop,24,given_playlist
+25,G.U.Y.,27927003,03:53,Lady Gaga,64147,ARTPOP,2635085,英语,流行,pop,pop,25,given_playlist
+26,Stop Pretending,20657358,03:14,Vicci Martinez,84010,Vicci,1920529,英语,流行,pop,pop,26,given_playlist
+27,Painkiller (feat. Adam Levine),30706093,03:32,Rozzi Crane / Adam Levine,74580 / 196215,Space,3104194,英语,流行,pop,pop,27,given_playlist
+28,I Am You,2919622,04:34,Kim Taylor,63943,I Am You,294835,英语,流行 / 乡村,pop / country,pop,28,given_playlist
+29,Far Away From Home,4083399,04:22,Groove Coverage,93186,Greatest Hits,412905,英语,流行,pop,pop,29,given_playlist
+30,Oh Father,27506733,03:48,Bodhi Jones,804385,Oh Father,142167046,英语,流行 / 唱作人,pop / singer_songwriter,pop,30,given_playlist
+31,Money,33111258,03:24,XOV,1027045,Wild,3184254,英语,流行,pop,pop,31,given_playlist
+32,Monkeys Spinning Monkeys,403711640,02:05,Kevin MacLeod,37952,Monkeys Spinning Monkeys,34497174,纯音乐,流行,pop,pop,32,given_playlist
+33,菊次郎的夏天,28718066,03:20,K. Williams,627001,金色钢琴,2866516,纯音乐,流行,pop,pop,33,given_playlist
+34,Always with me(口琴版),28391240,02:15,V.A.,21138,最新热歌慢摇13,2692100,纯音乐,流行,pop,pop,34,given_playlist
+35,Croatian Rhapsody (Arr. Bratos & Kazinoti),1696373,03:32,Craig Pruess / Dragan Bmas / Hrvoje 'Cacique' Rupcic / Lidija Horvat Dunjko / Maksim Mrvica / Nikša Bratoš / Remi Kazinoti / Tonci Huljic / Zdravko 'Barbo' Tabain / Kresimir Tomec,30843 / 31181470 / 31174506 / 13605293 / 38854 / 30221713 / 29535514 / 44845 / 31174507 / 13713520,The Piano Player,172115,纯音乐,流行,pop,pop,35,given_playlist
+36,Bad Apple!!,687506,05:19,のみこ,17423,EXSERENS (A Selection of Alstroemeria Records),66494,日语,流行,pop,pop,36,given_playlist
+37,Ascendance,28461164,04:26,Lindsey Stirling,66225,Shatter Me,2771328,纯音乐,流行,pop,pop,37,given_playlist
+38,Tassel,357126,04:30,Cymophane,90374,Dulcet Series spring special collection,35262,纯音乐,流行,pop,pop,38,given_playlist
+39,New Order,29563306,03:36,Dabeull / HolyBrune,501808 / 127155036,Fonk Delight,3042893,英语,流行 / 电子,pop / electronic,pop,39,given_playlist
+40,Sex (Radio Edit),403710388,03:48,Cheat Codes / Kris Kross Amsterdam,1078252 / 1094081,Sex,34498120,英语,流行 / 电子,pop / electronic,pop,40,given_playlist
+41,Take Me Hand,26092806,04:20,DAISHI DANCE / Cécile Corbel,13953 / 51012,WONDER Tourism,2386097,英语,流行,pop,pop,41,given_playlist
+42,極楽浄土,411907897,03:39,GARNiDELiA,19605,約束 -Promise code-,34686637,日语,流行 / 二次元,pop / acg,pop,42,given_playlist
+43,Can't Stop The Feeling! (original song from DreamWorks Animation 'TROLLS'),425280624,03:56,Justin Timberlake,35331,Now That's What I Call Music! 94,34818050,英语,流行,pop,pop,43,given_playlist
+44,Panda,30482620,03:49,Itro,1049096,Panda,3101075,英语,流行 / 电子,pop / electronic,pop,44,given_playlist
+45,What Are Words,1210496,03:07,Chris Medina,30899,What Are Words,125366,英语,流行,pop,pop,45,given_playlist
+46,Spring In My Step,34468798,01:59,Silent Partner,1146048,Spring In My Step,3286118,纯音乐,流行,pop,pop,46,given_playlist
+47,Best of 2012: Payphone/Call Me Maybe/Wide Awake/Starship/We Are Young,33418570,03:29,Anthem Lights,86862,Anthem Lights Covers,3211051,英语,流行,pop,pop,47,given_playlist
+48,Apologize,4224657,03:28,OneRepublic,98105,Dreaming Out Loud (Tour Edition),427146,英语,流行,pop,pop,48,given_playlist
+49,Undo,28378127,03:08,Sanna Nielsen,74858,Undo,2782020,英语,流行,pop,pop,49,given_playlist
+50,Love home,404459321,02:38,夏小舟,1210034,Love home,34511100,纯音乐,流行,pop,pop,50,given_playlist
+51,The Next Episode instrumental,33111975,02:44,Snoop Dog / Dr. Dre,197109 / 53243,最新热歌慢摇103,3176070,纯音乐,流行,pop,pop,51,given_playlist
+52,You (feat. Katelyn Tarver) [Evan Berg Remix],412327136,03:37,Lost Kings / Katelyn Tarver / Evan Berg,847225 / 63875 / 11995188,You (feat. Katelyn Tarver) [The Remixes],34678787,英语,流行 / 电子,pop / electronic,pop,52,given_playlist
+53,Runaway,413812198,04:17,Vindu,12046913,Runaway,34702416,纯音乐,流行,pop,pop,53,given_playlist
+54,OneRepublic Mash-Up,28681438,02:38,Anthem Lights,86862,"Covers, Pt. III",2879022,英语,流行,pop,pop,54,given_playlist
+55,Love The Way You Lie (Part II),21563004,04:56,Rihanna / Eminem,72724 / 32665,Loud,1986937,英语,流行,pop,pop,55,given_playlist
+56,Roar,27566922,03:44,Katy Perry,62888,Roar,2639215,英语,流行,pop,pop,56,given_playlist
+57,I Really Like You,30841076,03:25,Carly Rae Jepsen,50934,I Really Like You,3103366,英语,流行,pop,pop,57,given_playlist
+58,小樱,406070435,02:50,饭碗的彼岸,1138028,旧作 < 壹 >,34512859,纯音乐,流行,pop,pop,58,given_playlist
+59,Free Loop,5253801,03:53,Daniel Powter,31187,"Cf, Movie & Drama Hits 广告，开麦拉！",511973,英语,流行,pop,pop,59,given_playlist
+60,Monsieur Melody,17423738,02:09,Deep East Music,91721,Vintage Sunshine,1605927,纯音乐,流行,pop,pop,60,given_playlist
+61,O Susanna/Camptown Races (Country Mountain Melodies Album Version),22360441,03:38,Craig Duncan,30992,Country Mountain Melodies,2050692,纯音乐,流行,pop,pop,61,given_playlist
+62,《夜色钢琴曲》虹之间,31134607,03:56,赵海洋,990177,《夜色钢琴曲》,3110201,纯音乐,流行,pop,pop,62,given_playlist
+63,Alejandro,20733579,03:16,Vitamin String Quartet,104696,VSQ Performs Lady Gaga,1925738,纯音乐,流行 / 古典,pop / classical,pop,63,given_playlist
+64,My Way,430297325,03:39,Calvin Harris,29968,My Way,34869626,英语,流行 / 电子,pop / electronic,pop,64,given_playlist
+65,Bad Romance,20733580,04:10,Vitamin String Quartet,104696,VSQ Performs Lady Gaga,1925738,纯音乐,流行 / 古典,pop / classical,pop,65,given_playlist
+66,骄傲的少年,408332757,04:20,南征北战NZBZ,189873,骄傲的少年,34589709,国语,流行 / 原声带,pop / soundtrack,pop,66,given_playlist
+67,Don't Wanna Know/We Don't Talk Anymore,465675773,03:25,Sam Tsui / Alex Blue,43722 / 48409,Sam Tsui Covers Vol.4,34675154,英语,流行,pop,pop,67,given_playlist
+68,We Don't Talk Anymore,461544175,03:38,Charlie Puth / Selena Gomez,90331 / 140196,BRIT Awards 2017,35196298,英语,流行,pop,pop,68,given_playlist
+69,Fall,461518895,03:25,D!avolo / COLIN / caroline,1085107 / 37546982 / 98054839,Fall,35210215,英语,流行 / 电子,pop / electronic,pop,69,given_playlist
+70,Except For Us,449818962,02:51,Austin Mahone,29121,For Me + You,35093372,英语,流行,pop,pop,70,given_playlist
+71,Paper Love,475207414,03:18,Allie X,973030,Paper Love,35377988,英语,流行 / 电子,pop / electronic,pop,71,given_playlist
+72,Dream It Possible,38592976,03:24,Delacey,489045,Dream It Possible,3426477,英语,流行,pop,pop,72,given_playlist
+73,Shape of You,451703096,03:54,Ed Sheeran,33184,Shape of You,35114127,英语,流行,pop,pop,73,given_playlist
+74,「名探偵コナン」~メインテーマ,27570832,02:34,大野克夫,15105,「名探偵コナン」メインテーマ,2639296,纯音乐,流行 / 二次元,pop / acg,pop,74,given_playlist
+75,Treasure,25657233,02:59,Bruno Mars,178059,Unorthodox Jukebox,2270037,英语,流行 / 放克,pop / funk,pop,75,given_playlist
+76,The Story Never Ends (Piano Version),437802479,03:49,LAUV,1057226,The Story Never Ends (Piano Version),34923230,英语,流行,pop,pop,76,given_playlist
+77,F U Till I F U,411928387,03:54,Call Me Karizma / Cass.,12047264 / 839817,Uninvited,34678448,英语,流行 / 嘻哈说唱,pop / hiphop,pop,77,given_playlist
+78,Here With You,27583305,03:46,Asher Monroe,28727,Here With You,2641180,英语,流行,pop,pop,78,given_playlist
+79,Jumpshot,424155395,03:29,Dawin,1046081,Sunday,34806079,英语,流行,pop,pop,79,given_playlist
+80,Home We'll Go,32526090,03:09,Walk off the Earth,105493,Sing It All Away,3162443,英语,流行 / 摇滚 / 另类/独立,pop / rock / alternative,pop,80,given_playlist
+81,It's Just Begun,27535830,03:31,Jimmy Castor,61287,Backbeats: Paaaarty Time Serious Funk From The 70s,2627668,英语,流行,pop,pop,81,given_playlist
+82,Keep Me in Mind (feat. Kylie Auldist),21948247,04:16,The Bamboos,102289,4,2016467,英语,流行 / 放克,pop / funk,pop,82,given_playlist
+83,Something Just Like This,461347998,04:08,The Chainsmokers / Coldplay,893484 / 89365,Something Just Like This,35196287,英语,流行,pop,pop,83,given_playlist
+84,Look At Me Now,28188171,03:18,Charlie Puth,90331,Ego,2742030,英语,流行,pop,pop,84,given_playlist
+85,God Is a Girl (Album Version),18098592,03:44,Groove Coverage,93186,God Is a Girl,1663166,英语,流行,pop,pop,85,given_playlist
+86,Who Let The Dogs Out,16823382,03:17,Baha Men,88265,Who Let The Dogs Out,1549790,英语,流行,pop,pop,86,given_playlist
+87,Cold Water (R3hab vs Skytech Remix),450222459,02:41,R3HAB / Skytech / Major Lazer / Justin Bieber,197248 / 813379 / 96309 / 35531,Cold Water (R3hab vs Skytech Remix),35105078,英语,流行 / 电子,pop / electronic,pop,87,given_playlist
+88,Like You Love Me,487375325,03:57,Conro / Disero / ALICE FRANCE,1063229 / 14675307 / 13837061,Like You Love Me,35689288,英语,流行 / 电子,pop / electronic,pop,88,given_playlist
+89,In the Long Run,424264971,02:53,Nick Fradiani,1078289,Hurricane,34709475,英语,流行,pop,pop,89,given_playlist
+90,On My Own,16483438,02:53,Ashes Remain,87231,What I've Become,1520528,英语,流行 / 摇滚,pop / rock,pop,90,given_playlist
+91,Angel and Devil,27707270,03:57,Elyonbeats,759203,My Cinderella,2661918,纯音乐,流行 / 嘻哈说唱,pop / hiphop,pop,91,given_playlist
+92,Why,489041829,02:51,Sabrina Carpenter,77993,Why,35723103,英语,流行,pop,pop,92,given_playlist
+93,Cold as Ice,445666857,03:06,The Main Level,1000020,Cold as Ice,35012749,英语,流行,pop,pop,93,given_playlist
+94,High,490381949,03:03,Alyssa Reid,48152,High,35722524,英语,流行 / 电子,pop / electronic,pop,94,given_playlist
+95,All Of Me/Say Something,36307219,04:29,Shaun Reynolds / Lily Me,1149005 / 1182024,All Of Me/Say Something,3394041,英语,流行,pop,pop,95,given_playlist
+96,Attention (Acoustic),483061711,03:27,Charlie Puth,90331,Attention (Acoustic),35585314,英语,流行,pop,pop,96,given_playlist
+97,Fade(徐梦圆Remix2),406821163,04:08,徐梦圆,1142042,Fade(徐梦圆Remix2),34563128,纯音乐,流行 / 电子,pop / electronic,pop,97,given_playlist
+98,I'll Find You,483024877,03:38,Lecrae / Tori Kelly,65440 / 83268,I'll Find You,35572434,英语,流行 / 嘻哈说唱,pop / hiphop,pop,98,given_playlist
+99,Reminding Me,472219602,03:30,Shawn Hook / Vanessa Hudgens,44247 / 83519,Reminding Me,35357334,英语,流行,pop,pop,99,given_playlist
+100,I Just Can't,504492133,02:36,R3HAB / Quintino,197248 / 820303,I Just Can't,36149271,英语,流行,pop,pop,100,given_playlist
+1,Waiting for the End,16686420,03:52,Linkin Park,95439,A Thousand Suns,1537634,英语,摇滚 / 另类/独立,rock / alternative,rock,1,given_playlist
+2,Numb Encore,2417029,04:19,Dr. Dre / 50 Cent / JAŸ-Z / Eminem / Linkin Park,53243 / 46399 / 35334 / 32665 / 95439,Look Out For Detox,243894,英语,摇滚 / 嘻哈说唱,rock / hiphop,rock,2,given_playlist
+3,Uprising,21255944,05:05,Muse,96267,The Resistance,1964054,英语,摇滚,rock,rock,3,given_playlist
+4,Stirb Nicht Vor Mir (Don't Die Before I Do),4261903,04:05,Rammstein / Sharleen Spiteri,99385 / 74820,Rosenrot,430800,"德语,英语",摇滚,rock,rock,4,given_playlist
+5,Desire,28283304,04:44,Meg Myers,388484,Make a Shadow,2767308,英语,摇滚 / 另类/独立,rock / alternative,rock,5,given_playlist
+6,Go,28283306,02:55,Meg Myers,388484,Make a Shadow,2767308,英语,摇滚 / 另类/独立,rock / alternative,rock,6,given_playlist
+7,It's My Life,3950546,03:45,Bon Jovi,88147,It's My Life,399653,英语,摇滚,rock,rock,7,given_playlist
+8,一起摇摆,27785673,04:23,汪峰,5347,生来彷徨,2674252,国语,摇滚,rock,rock,8,given_playlist
+9,Flemington,28702321,04:00,Tom Day,103812,Flemington,2880827,纯音乐,摇滚,rock,rock,9,given_playlist
+10,Apache,27651438,03:18,Copycat,742402,Apache / Shack Up,2651787,纯音乐,摇滚,rock,rock,10,given_playlist
+11,Iron,19781724,03:07,Woodkid,46106,Iron,1823860,英语,摇滚 / 另类/独立,rock / alternative,rock,11,given_playlist
+12,Home We'll Go,32526090,03:09,Walk off the Earth,105493,Sing It All Away,3162443,英语,流行 / 摇滚 / 另类/独立,pop / rock / alternative,rock,12,given_playlist
+13,Numb,4153366,03:06,Linkin Park,95439,Numb,419872,英语,摇滚 / 金属,rock / metal,rock,13,given_playlist
+14,On My Own,16483438,02:53,Ashes Remain,87231,What I've Become,1520528,英语,流行 / 摇滚,pop / rock,rock,14,given_playlist
+15,Stressed Out,31654490,03:22,twenty one pilots,784190,Blurryface,3131123,英语,摇滚 / 另类/独立,rock / alternative,rock,15,given_playlist
+16,Counting Stars,26060065,04:17,OneRepublic,98105,Native (Deluxe Version),2302008,英语,摇滚,rock,rock,16,given_playlist
+17,Centuries,29307038,03:48,Fall Out Boy,56782,Centuries,3003013,英语,摇滚,rock,rock,17,given_playlist
+18,Revolution,471411255,03:52,The Score,212904,Myths & Legends,35357066,英语,摇滚,rock,rock,18,given_playlist
+19,Immigrant Song (Remaster),20065049,02:27,Led Zeppelin,38115,Mothership,1857847,英语,摇滚,rock,rock,19,given_playlist
+20,Viva La Vida,3986017,04:02,Coldplay,89365,Viva La Vida or Death and All His Friends,403157,英语,摇滚,rock,rock,20,given_playlist
+21,Hotel California (2013 Remaster),26289183,06:31,Eagles,91725,The Studio Albums 1972-1979 (2013 Remaster),2446101,英语,摇滚,rock,rock,21,given_playlist
+22,Demons,19945735,02:58,Imagine Dragons,94779,Night Visions (Deluxe),1844256,英语,摇滚,rock,rock,22,given_playlist
+23,Apologize,24953439,03:28,OneRepublic,98105,2009 GRAMMY Nominees,2206679,英语,摇滚,rock,rock,23,given_playlist
+24,Yesterday Once More,3986241,03:59,Carpenters,89363,Yesterday Once More: Greatest Hits 1969-1983,403181,英语,摇滚,rock,rock,24,given_playlist
+25,Sold Out,31010566,03:33,Jonathan Steingard / Hawk Nelson,35526 / 34518,Diamonds,3109316,英语,摇滚,rock,rock,25,given_playlist
+26,In the End,4153632,03:37,Linkin Park,95439,In The End,419897,英语,摇滚 / 金属,rock / metal,rock,26,given_playlist
+27,Come and Get Your Love,28864241,03:28,Redbone,73866,Guardians of the Galaxy (Deluxe),2918034,英语,摇滚,rock,rock,27,given_playlist
+28,Supersonic Rocket Ship,19455142,03:32,The Kinks,78218,Everybody's in Show-Biz,1790657,英语,摇滚,rock,rock,28,given_playlist
+29,走歌人,418990139,05:24,暗杠,1198010,走歌人,34744843,国语,摇滚,rock,rock,29,given_playlist
+30,Burn Baby Burn,16485305,03:29,Ash,85527,Free All Angels,1520719,英语,流行 / 摇滚,pop / rock,rock,30,given_playlist
+31,AKA...What A Life!,1789079,04:24,Noel Gallagher's High Flying Birds / Noel Gallagher,297258 / 40434,Noel Gallagher's High Flying Birds,180758,英语,摇滚,rock,rock,31,given_playlist
+32,Myth,16649839,04:19,Beach House,29369,Myth,1535583,英语,摇滚,rock,rock,32,given_playlist
+33,Don't Stop Believin',5218306,04:10,Journey,36663,Rock: Train Kept a Rollin',509647,英语,摇滚,rock,rock,33,given_playlist
+34,不再犹豫,347597,04:16,Beyond,11127,Deliberate 犹豫,34250,粤语,流行 / 摇滚 / 原声带,pop / rock / soundtrack,rock,34,given_playlist
+35,I Will Wait,17212692,04:37,Mumford & Sons,96495,I Will Wait,1583942,英语,摇滚,rock,rock,35,given_playlist
+36,Highway to Hell,3880720,03:28,AC/DC,85502,Highway to Hell,392621,英语,摇滚,rock,rock,36,given_playlist
+37,So Bad,17572245,05:25,Eminem,32665,Recovery,1618490,英语,摇滚 / 嘻哈说唱,rock / hiphop,rock,37,given_playlist
+38,紅蓮華,1360592706,03:56,LiSA,16995,紅蓮華,78702707,日语,摇滚 / 二次元,rock / acg,rock,38,given_playlist
+39,Lock Me Up,28464997,03:31,The Cab,44403,Lock Me Up EP,2800780,英语,摇滚,rock,rock,39,given_playlist
+40,Come Together,504587524,03:14,Gary Clark Jr. / Junkie XL,598685 / 61573,Come Together,36108398,英语,摇滚,rock,rock,40,given_playlist
+41,生活因你而火热 (Live),1378015948,04:53,新裤子,13282,乐队的夏天 第8期,80398513,国语,摇滚 / 原声带,rock / soundtrack,rock,41,given_playlist
+42,If Heartaches Were Nickels,18643748,07:51,Joe Bonamassa,35551,A New Day Yesterday,1709948,英语,摇滚,rock,rock,42,given_playlist
+43,Ghost Of Me,17456084,03:38,Daughtry,90515,Leave This Town,1609331,英语,摇滚 / 另类/独立,rock / alternative,rock,43,given_playlist
+44,ハルノユキ from polaris,473403775,06:21,リリィ、さよなら。 / 増田俊樹,1101089 / 911008,ハルノユキ from polaris,35377121,日语,摇滚,rock,rock,44,given_playlist
+45,Let It Rain,4085555,04:37,Gotthard,93196,Open,413102,英语,摇滚,rock,rock,45,given_playlist
+46,I Hate Myself for Loving You,4132379,04:08,Joan Jett & the Blackhearts,94968,Greatest Hits,417881,英语,摇滚,rock,rock,46,given_playlist
+47,Prayer X,1299557936,03:18,King Gnu,12551173,Prayer X,74268935,日语,摇滚 / 二次元,rock / acg,rock,47,given_playlist
+48,Birds,1372925906,03:39,Imagine Dragons / Elisa,94779 / 55549,Birds,79897437,英语,摇滚,rock,rock,48,given_playlist
+49,Radioactive,19945726,03:08,Imagine Dragons,94779,Continued Silence EP,1844255,英语,摇滚,rock,rock,49,given_playlist
+50,前前前世 (movie ver.),426881487,04:44,RADWIMPS,21132,君の名は。,34841090,日语,摇滚 / 二次元,rock / acg,rock,50,given_playlist
+51,Imagine,464377298,04:20,Pentatonix,99292,Imagine,35259330,英语,流行 / 摇滚 / 节日音乐,pop / rock / holiday,rock,51,given_playlist
+52,The Other Side Of Paradise,427416520,05:21,Glass Animals,847346,How To Be A Human Being,34839708,英语,摇滚,rock,rock,52,given_playlist
+53,NUMB,545350938,03:06,XXXTENTACION,12107961,?,37873747,英语,摇滚 / 嘻哈说唱,rock / hiphop,rock,53,given_playlist
+54,Seven Nation Army,21968164,03:53,The White Stripes,102026,Seven Nation Army,2017933,英语,摇滚 / 朋克,rock / punk,rock,54,given_playlist
+55,Superheroes,28832241,04:04,The Script,102028,Superheroes,2905044,英语,流行 / 摇滚 / 另类/独立,pop / rock / alternative,rock,55,given_playlist
+56,Wrap Me in Plastic,1383205688,03:14,CHROMANCE,32965506,Wrap Me in Plastic,80868365,英语,流行 / 摇滚 / 电子,pop / rock / electronic,rock,56,given_playlist
+57,Immortals,30967261,03:15,Fall Out Boy,56782,ベイマックス オリジナル・サウンドトラック,3107030,英语,摇滚 / 原声带,rock / soundtrack,rock,57,given_playlist
+58,What a Fool Believes,3613056,03:44,The Doobie Brothers,78841,Minute By Minute,365651,英语,摇滚 / R&B,rock / rnb,rock,58,given_playlist
+59,Fortunate Son,5057892,02:18,Creedence Clearwater Revival,29964,Forrest Gump (The Soundtrack),501575,英语,摇滚,rock,rock,59,given_playlist
+60,I Wouldn't Want To Be Like You,19566010,03:23,The Alan Parsons Project,102069,The Very Best Of The Alan Parsons Project,1802332,英语,摇滚,rock,rock,60,given_playlist
+61,Smoke on the Water,4019367,05:41,Deep Purple,90520,Shades 1968-1998,406415,英语,摇滚,rock,rock,61,given_playlist
+62,Beat It,1698391,04:18,Michael Jackson,38853,"HIStory: Past, Present and Future, Book I",172259,英语,流行 / 摇滚,pop / rock,rock,62,given_playlist
+63,The Sound of Silence,1821488,03:10,Paul Simon,41131,The Paul Simon Songbook,184099,英语,流行 / 摇滚,pop / rock,rock,63,given_playlist
+64,Piano Man,1082544,05:36,Billy Joel,29331,The Essential Billy Joel,112670,英语,流行 / 摇滚,pop / rock,rock,64,given_playlist
+65,Hungry Heart,26367104,03:21,Bruce Springsteen,29325,Collection: 1973-2012,2467636,英语,摇滚,rock,rock,65,given_playlist
+66,Danger Zone,26790418,03:36,Kenny Loggins,37657,Top Gun - Motion Picture Soundtrack (Special Expanded Edition),2552874,英语,摇滚 / 原声带,rock / soundtrack,rock,66,given_playlist
+67,Knockin' On Heaven's Door,26473416,02:31,Bob Dylan,29323,Music & Photos,2505319,英语,摇滚,rock,rock,67,given_playlist
+68,You Belong To Me,5057793,03:10,Bob Dylan,29323,Natural Born Killers [O.S.T],501570,英语,摇滚 / 原声带,rock / soundtrack,rock,68,given_playlist
+69,杀死那个石家庄人,386844,05:44,万能青年旅店,13223,万能青年旅店 同名专辑,38306,国语,摇滚,rock,rock,69,given_playlist
+70,I Can See Clearly Now,18284330,04:55,Hothouse Flowers,59427,The Best Of,1678405,英语,摇滚,rock,rock,70,given_playlist
+71,沙发上的白日梦,1406062963,04:03,SoulFa 灵魂沙发,30110421,SoulFa,83679409,国语,摇滚,rock,rock,71,given_playlist
+72,再见杰克,381821,04:34,痛仰乐队,12971,不要停止我的音乐,37797,国语,摇滚,rock,rock,72,given_playlist
+73,The Fear,1320591862,03:04,The Score,212904,The Fear,74098523,英语,摇滚,rock,rock,73,given_playlist
+74,The Final Countdown,17646724,05:11,Europe,55531,The Final Countdown: The Best Of Europe,1624337,英语,摇滚 / 朋克,rock / punk,rock,74,given_playlist
+75,For What It's Worth,5057898,02:39,Buffalo Springfield,48494,Forrest Gump (The Soundtrack),501575,英语,摇滚 / 原声带,rock / soundtrack,rock,75,given_playlist
+76,桃乐茜的来信,1366467511,04:11,I'll call you.,12626758,Broken Diamond,79181407,国语,摇滚,rock,rock,76,given_playlist
+77,House of the Rising Sun,3573790,04:29,The Animals,78359,All About the Animals,361911,英语,摇滚,rock,rock,77,given_playlist
+78,Lake and Ocean,26177038,04:15,The Coral Sea,139424,Volcano and Heart,2412005,英语,摇滚,rock,rock,78,given_playlist
+79,All I Want,26505362,05:06,Kodaline,727007,In A Perfect World,2512079,英语,摇滚 / 原声带,rock / soundtrack,rock,79,given_playlist
+80,Do Wah Diddy,1376909227,02:25,Manfred Mann,66702,Manfred Mann - The Ultimate Legends Series (15 Best Tracks Ultimate Legends Series Number 25),80295389,英语,摇滚,rock,rock,80,given_playlist
+81,Hotel California,5264843,04:18,Eagles,91725,惠威T200A试音碟,512635,英语,流行 / 摇滚,pop / rock,rock,81,given_playlist
+82,有多少爱可以重来,77131,04:54,迪克牛仔,2516,黄金十载全精选,7576,国语,流行 / 摇滚,pop / rock,rock,82,given_playlist
+83,California Dreaming,4875911,02:40,The Mamas & the Papas,78207,声光回忆,489969,英语,摇滚 / 原声带,rock / soundtrack,rock,83,given_playlist
+84,真的爱你,346075,04:35,Beyond,11127,Beyond 25th Anniversary,34110,粤语,流行 / 摇滚,pop / rock,rock,84,given_playlist
+85,光辉岁月,346576,04:59,Beyond,11127,光辉岁月十五年,34147,粤语,摇滚,rock,rock,85,given_playlist
+86,Butter-Fly,4940920,04:18,和田光司,15800,DIGIMON HISTORY 1999-2006 All The Best,494028,日语,摇滚 / 二次元,rock / acg,rock,86,given_playlist
+87,Stairway To Heaven,27046978,08:01,Led Zeppelin,38115,Hard Zepp,2582578,英语,摇滚,rock,rock,87,given_playlist
+88,Yesterday,1295571534,02:00,The Beatles,101988,Only #s One / 29,71964138,英语,摇滚,rock,rock,88,given_playlist
+89,Thunderstruck,27375486,04:55,AC/DC,85502,Thunderstruck,2602725,英语,摇滚,rock,rock,89,given_playlist
+90,灰色轨迹,32701152,05:25,Beyond,11127,Beyond 24K Gold 金碟至尊精选,3170026,粤语,摇滚 / 原声带,rock / soundtrack,rock,91,given_playlist
+91,Don't Cry (Original),18094989,04:44,Guns N' Roses,93183,Greatest Hits,1662752,英语,摇滚,rock,rock,92,given_playlist
+92,November Rain,18094919,08:56,Guns N' Roses,93183,Use Your Illusion I,1662749,英语,摇滚,rock,rock,93,given_playlist
+93,Dream On,20506035,04:28,Aerosmith,85504,Aerosmith,1909393,英语,摇滚,rock,rock,94,given_playlist
+94,挪威的森林,156915,06:33,伍佰,5354,滚石香港黄金十年 伍佰精选,15791,国语,摇滚,rock,rock,95,given_playlist
+95,Yellow,17177324,04:27,Coldplay,89365,Yellow,1582613,英语,摇滚,rock,rock,96,given_playlist
+96,Everglow,37239018,04:43,Coldplay,89365,Everglow,3419012,英语,摇滚 / 另类/独立,rock / alternative,rock,97,given_playlist
+97,Tummy,28095564,04:47,RADWIMPS,21132,×と○と罪と,2726075,日语,流行 / 摇滚,pop / rock,rock,98,given_playlist
+98,We Are the Champions,1868480,03:03,Queen,41906,Absolute Greatest,188637,英语,摇滚,rock,rock,99,given_playlist
+99,Bohemian Rhapsody,1868553,05:55,Queen,41906,Absolute Greatest,188637,英语,摇滚,rock,rock,100,given_playlist
+100,Like A Rolling Stone,26473399,06:09,Bob Dylan,29323,Music & Photos,2505319,英语,摇滚,rock,rock,101,given_playlist

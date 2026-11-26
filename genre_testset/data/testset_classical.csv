@@ -1,0 +1,101 @@
+﻿序号,歌曲名称,song id,总时长,歌手,artist id,专辑,album id,语种,歌曲类型,歌曲类型_en,genre,歌单位置,数据来源
+1,小夜曲,5276791,05:31,Franz Schubert,33363,史上最优美钢琴小品精华,513361,纯音乐,古典,classical,classical,1,given_playlist
+2,月光奏鸣曲,5276808,07:09,Ludwig van Beethoven,38731,史上最优美钢琴小品精华,513361,纯音乐,古典,classical,classical,2,given_playlist
+3,D小调幻想曲,5276802,06:20,Wolfgang Amadeus Mozart,804174,史上最优美钢琴小品精华,513361,纯音乐,古典,classical,classical,3,given_playlist
+4,前奏曲 No.15 雨滴,5276799,05:31,Frédéric François Chopin,33737,史上最优美钢琴小品精华,513361,纯音乐,其他 / 原声带 / 古典,other / soundtrack / classical,classical,4,given_playlist
+5,"Waltz No. 9 in A flat major, Op. 69 No. 1 'Farewell Waltz'",26818416,03:40,Jean-Marc Luisada,145596,Chopin: Favourite Piano Pieces,2556812,纯音乐,古典,classical,classical,5,given_playlist
+6,"Impromptu No. 4 in C sharp minor, Op. 66 'Fantaisie-Impromptu': Allegro agitato",26818410,05:31,Anatol Ugorski,29131,Chopin: Favourite Piano Pieces,2556812,纯音乐,古典,classical,classical,6,given_playlist
+7,24 Préludes Op.28:4. In E Minor,26818412,01:56,Martha Argerich,66396,Chopin: Favourite Piano Pieces,2556812,纯音乐,古典,classical,classical,7,given_playlist
+8,"Waltz No.10 in B Minor, Op.69 No.2",27708290,05:04,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典,classical,classical,8,given_playlist
+9,"Waltz No.1 in E Flat, Op.18 -""Grande valse brillante""",27708281,06:11,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,9,given_playlist
+10,"Waltz No.6 in D Flat, Op.64 No.1 -""Minute""",27708286,02:27,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典,classical,classical,10,given_playlist
+11,"Waltz No.19 in A minor, Op.posth.",27708297,02:31,Claudio Arrau,30980,Chopin: 19 Waltzes,2663036,纯音乐,古典 / 节日音乐,classical / holiday,classical,11,given_playlist
+12,"Nocturne No. 1 in B Flat Minor, Op. 9, No. 1",1060910,05:28,Arthur Rubinstein,12541250,The Chopin Collection: The Nocturnes,110646,纯音乐,古典,classical,classical,12,given_playlist
+13,"Nocturne No. 2 in E Flat Major, Op. 9, No. 2",1060914,04:27,Arthur Rubinstein,12541250,The Chopin Collection: The Nocturnes,110646,纯音乐,古典,classical,classical,13,given_playlist
+14,"Scherzo No. 3 in C-Sharp Minor, Op. 39",400690410,07:17,Arthur Rubinstein / Fréderic Chopin,12541250 / 31144231,Chopin: Ballades & Scherzos,34437093,纯音乐,古典,classical,classical,14,given_playlist
+15,"Ballade No.1 In G Minor, Op.23",32696188,09:38,Krystian Zimerman,37997,Chopin: 4 Ballades - Barcarolle - Fantaisie,3169854,纯音乐,古典,classical,classical,15,given_playlist
+16,"Nocturne No.8 in D flat, Op.27 No.2",26160788,05:33,Peter Schmalfuss,150951,Chopin: Les Nocturnes,2401106,纯音乐,古典,classical,classical,16,given_playlist
+17,"12 Etudes Op.10:No.3 In E ""Tristesse""",21095798,03:42,Maurizio Pollini,40049,Chopin: Etudes Opp.10 & 25,1951871,纯音乐,古典,classical,classical,17,given_playlist
+18,"Valse in A minor, Op. posth., KKIVb No. 11a Mineur, Op. Posth, Kkivb",1057693,01:57,Alexandre Tharaud,28451,Chopin: Waltzes,110378,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,18,given_playlist
+19,"12 Etudes Op.25:No.11 In A Minor ""Winter Wind""",33497925,04:16,Jorge Bolet,45376,Chopin: Pièces célèbres pour piano,3213449,纯音乐,古典,classical,classical,19,given_playlist
+20,"Piano Concerto No. 1 in E Minor, Op. 11:II. Romance. Larghetto",1779120,10:17,Maurizio Pollini / Paul Kletzki / Philharmonia Orchestra,40049 / 0 / 0,"Chopin: Piano Concerto No. 1, 4 Nocturnes, Ballade No. 1 & Polonaise No. 6",179901,纯音乐,古典,classical,classical,20,given_playlist
+21,"Mazurka No. 41 in C-Sharp Minor, Op. 63 No. 3. Allegretto",5164981,02:29,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,21,given_playlist
+22,"Polonaise No.3 in A Op.40 No.1:""Military""",5164955,05:06,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,22,given_playlist
+23,"12 Etudes, Op. 10:No. 12 in C Minor ""Revolutionary""",5164947,02:43,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,23,given_playlist
+24,"쇼팽::Polonaise No. 6 in A-Flat Major, Op. 53 ""Heroic""",22006123,07:18,Vladimir Horowitz,45688,Horowitz - Complete Recordings On Deutsche Grammophon,2021362,纯音乐,古典,classical,classical,24,given_playlist
+25,"Préludes, Préludes - Livre I: VIII. La fille aux cheveux de lin",1145407,02:27,Jean-Bernard Pommier,156156,The Very Best of Debussy,118703,纯音乐,古典,classical,classical,25,given_playlist
+26,"Suite bergamasque, L.75 - 3. Clair de lune",27682855,05:32,Pascal Rogé,72609,Debussy: Clair de Lune & Other Piano Works,2657669,纯音乐,古典,classical,classical,26,given_playlist
+27,"Rêverie, L.68",27682865,04:57,Pascal Rogé,72609,Debussy: Clair de Lune & Other Piano Works,2657669,纯音乐,古典,classical,classical,27,given_playlist
+28,Petite Suite (4hand):1 En bateau,27711175,03:41,Marco Rapetti / Massimiliano Damerini,12504123 / 479538,Debussy: Complete Music for Piano Duo,2663280,纯音乐,古典,classical,classical,28,given_playlist
+29,Valse romantique,558973806,03:12,Peter Frankl / Claude Debussy,31088795 / 29976,Discover Debussy,38663572,英语,古典,classical,classical,29,given_playlist
+30,Arabesque No.1,28718125,04:05,Leff Pouishnov,29994066,Debussy Plays Debussy,2866521,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,30,given_playlist
+31,"Bagatelle In A Minor, WoO 59:Für Elise",5180136,03:59,Anatol Ugorski,29131,A Piano Weekend,507593,纯音乐,古典,classical,classical,31,given_playlist
+32,"Sonata No. 8 in C Minor, Op. 13, ""Pathétique"": III. Rondo: Allegro",25842623,04:52,Arthur Rubinstein,12541250,Beethoven: Sonatas (Moonlight; Les Adieux; Pathetique; Appassionata),2332787,纯音乐,古典,classical,classical,32,given_playlist
+33,"Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto",25842621,06:10,Arthur Rubinstein,12541250,Beethoven: Sonatas (Moonlight; Les Adieux; Pathetique; Appassionata),2332787,纯音乐,古典,classical,classical,33,given_playlist
+34,"Piano Sonata No.17 in D minor, Op.31 No.2 -""Tempest"":3. Allegretto",20675052,06:57,Daniel Barenboim,31969,Beethoven: The Piano Sonatas,1921574,纯音乐,古典,classical,classical,34,given_playlist
+35,"Sonate No. 23 en fa mineur, Op. 57 ""Appassionata"": I. Allegro assai",556994916,10:37,Ludwig van Beethoven / Zvi Meniker,38731 / 14081269,Beethoven: Intégrale des sonates pour piano sur instruments d'époque: Volume II,38551752,纯音乐,古典,classical,classical,35,given_playlist
+36,"Piano Concerto No. 5 In E Flat, Op. 73 ""Emperor"":1.Allegro",1068262,20:57,Alfred Brendel / London Philharmonic Orchestra / Bernard Haitink,28718 / 65198 / 136205,"Beethoven: Piano Concerto No. 5 ""Emperor"" / Choral Fantasy",111384,纯音乐,古典,classical,classical,36,given_playlist
+37,"Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"":II. Adagio cantabile",5164953,07:05,Radu Lupu,42738,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,37,given_playlist
+38,"10 Preludes, Op. 23:No. 5 in G Minor (Alla marcia)",5164975,03:53,Vladimir Ashkenazy,45746,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,38,given_playlist
+39,"Piano Concerto No.3 in D minor, Op.30:1. Allegro ma non tanto",25911741,17:31,Vladimir Ashkenazy / Concertgebouworkest / Bernard Haitink,45746 / 14197847 / 136205,Rachmaninov: Piano Concerto No. 3,2340268,纯音乐,古典,classical,classical,39,given_playlist
+40,"Arr. Zoltan Kocsis - Vocalise, Op.34:No.14",28744764,05:58,Vladimir Ashkenazy,45746,Rachmaninov: Complete Works For Piano,2885435,纯音乐,古典,classical,classical,40,given_playlist
+41,"Prelude in C-Sharp Minor, Op. 3, No. 2",25954374,03:46,Сергей Рахманинов,43613,A Window In Time Rachmaninoff performs his solo piano works,2350441,纯音乐,古典,classical,classical,41,given_playlist
+42,"Piano Concerto No.2 In C Minor, Op.18:1. Moderato",3541224,11:13,Sviatoslav Richter / Stanislaw Wislocki / Warsaw National Philharmonic Orchestra,77564 / 13064031 / 12502023,Rachmaninov: Piano Concerto No.2 / Tchaikovsky: Piano Concerto No.1,358981,纯音乐,古典,classical,classical,42,given_playlist
+43,"Piano Concerto No.2 In C Minor, Op.18:2. Adagio sostenuto",3541226,11:54,Sviatoslav Richter / Stanislaw Wislocki / Warsaw National Philharmonic Orchestra,77564 / 13064031 / 12502023,Rachmaninov: Piano Concerto No.2 / Tchaikovsky: Piano Concerto No.1,358981,纯音乐,古典,classical,classical,43,given_playlist
+44,"Piano Concerto No.2 In C Minor, Op.18:3. Allegro scherzando",3541228,11:39,Sviatoslav Richter / Stanislaw Wislocki / Warsaw National Philharmonic Orchestra,77564 / 13064031 / 12502023,Rachmaninov: Piano Concerto No.2 / Tchaikovsky: Piano Concerto No.1,358981,纯音乐,古典,classical,classical,44,given_playlist
+45,Six Grand Etudes After Paganini (2001 Remastered Version):III. No.3 'La Campanella',5189132,04:36,André Watts / Marc Aubort / Joanna Nickrenz,157893 / 31166593 / 31166594,100 Best Piano,508076,纯音乐,古典,classical,classical,46,given_playlist
+46,Liebestraum No.3 In A-Flat Major S.541 No.3:Notturno III: O lieb so lang du lieben kannst,26928683,04:35,Daniel Barenboim,31969,Les chefs d'oeuvre du piano romantique,2574244,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,47,given_playlist
+47,6 Consolations S. 172:No. 3 In D Flat Major (Lento placido),26928685,04:13,Daniel Barenboim,31969,Les chefs d'oeuvre du piano romantique,2574244,纯音乐,古典 / 节日音乐,classical / holiday,classical,48,given_playlist
+48,Un sospiro,27778047,05:41,Van Cliburn,31007,Van Cliburn - Complete Album Collection,2673993,纯音乐,古典,classical,classical,49,given_playlist
+49,Reminiscences De Norma S394,36687250,17:36,Giuseppe Albanese,1181678,Après une lecture de Liszt,3388640,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,50,given_playlist
+50,"Sonata for 2 pianos in D, K.448:2. Andante",39869702,09:23,Ingrid Haebler / Ludwig Hoffmann,60310 / 357197,"Mozart: Piano Duets (Mozart Edition, Vol. 16)",3439197,纯音乐,古典,classical,classical,51,given_playlist
+51,"Sonata No. 13 in B-flat Major for Piano, KV. 333 (315c):III. Allegretto grazioso",1375838,05:52,Glenn Gould,33850,"Mozart: The Complete Piano Sonatas, Fantasias K.397 & K.475",141277,纯音乐,古典,classical,classical,52,given_playlist
+52,"Sonata No. 11 in A Major for Piano, K. 331:III. Alla Turca:Allegretto",1375805,04:03,Glenn Gould,33850,"Mozart: The Complete Piano Sonatas, Fantasias K.397 & K.475",141277,纯音乐,古典,classical,classical,53,given_playlist
+53,"Piano Sonata No.8 in A minor, K.310:1. Allegro maestoso",667120,08:15,内田光子,18131,Mozart: The Piano Sonatas,64332,纯音乐,古典,classical,classical,54,given_playlist
+54,"Piano Concerto No. 23 in A Major, K. 488:II. Adagio",22006156,05:34,Vladimir Horowitz / Orchestra del Teatro alla Scala di Milano / Carlo Maria Giulini,45688 / 13187933 / 31030,Horowitz - Complete Recordings On Deutsche Grammophon,2021362,纯音乐,古典 / 节日音乐,classical / holiday,classical,55,given_playlist
+55,"모차르트::Rondo in D Major, K. 485",22006165,06:23,Vladimir Horowitz,45688,Horowitz - Complete Recordings On Deutsche Grammophon,2021362,纯音乐,古典,classical,classical,56,given_playlist
+56,"Keyboard Sonata in G Major, Hob. XVI:8: I. Allegro",29803725,02:21,Rudolf Buchbinder,137886,Haydn Edition Volume 3 - Piano Sonatas [Complete],3081187,纯音乐,古典,classical,classical,57,given_playlist
+57,"Keyboard Sonata in C Major, Hob. XVI:10: I. Moderato",29803741,03:48,Rudolf Buchbinder,137886,Haydn Edition Volume 3 - Piano Sonatas [Complete],3081187,纯音乐,古典,classical,classical,58,given_playlist
+58,"Fantasia in C, H.XVII No.4",401814827,06:03,John McCabe / Franz Joseph Haydn,185541 / 603992,Haydn: The Piano Sonatas/Variations/The Seven Last Words (12 CDs),34473390,纯音乐,古典,classical,classical,59,given_playlist
+59,"Piano Concerto No.1 In b Flat Minor Op.23 TH.55:1. Allegro non troppo e molto maestoso - Allegro con spirito (Live At Philharmonie, Berlin / 1994)",21183819,19:12,Martha Argerich / Berliner Philharmoniker / Claudio Abbado,66396 / 129432 / 30881,Argerich Collection 2 - The Concerto Recordings,1958686,纯音乐,古典,classical,classical,60,given_playlist
+60,"Jesus nahm zu sich die Zwölfe, Cantata BWV 22:5. Sanctify Us (Arr. Cohen)",5164997,03:17,Alicia de Larrocha,48291,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,61,given_playlist
+61,"Siciliano from Sonata for flute and keyboard in E flat major, BWV 1031",26012232,02:16,Hamish Milne,607800,"Bach: Piano Transcriptions, Vol. 5 – Goedicke, Kabalevsky, Catoire & Siloti",2357970,纯音乐,古典,classical,classical,62,given_playlist
+62,"English Suite No. 2 In A Minor, BWV 807:I. Prélude",27137284,04:30,Glenn Gould,33850,Bach: The English Suites,2585741,纯音乐,古典,classical,classical,63,given_playlist
+63,"Goldberg Variations, BWV 988:Aria",18001009,03:05,Glenn Gould,33850,Bach: Goldberg Variations (1981 Digital Recording),1655318,纯音乐,古典,classical,classical,64,given_playlist
+64,"French Suite 3 In B, BWV814:4 Menuett-Trio",26991543,02:00,Glenn Gould,33850,Bach: The French Suites,2579025,纯音乐,古典,classical,classical,65,given_playlist
+65,"4 Impromptus Op.142, D.935:No.3 in B flat: Theme (Andante) with Variations",16254446,11:53,Alfred Brendel,28718,Schubert: The Complete Impromptus / Moments Musicaux,1500562,纯音乐,古典,classical,classical,66,given_playlist
+66,"6 Moments musicaux, Op.94 D.780:No.3 in F Minor (Allegro moderato)",16254454,01:40,Alfred Brendel,28718,Schubert: The Complete Impromptus / Moments Musicaux,1500562,纯音乐,古典,classical,classical,67,given_playlist
+67,"4 Impromptus, Op.90, D.899:No.3 in G flat: Andante",16254442,05:51,Alfred Brendel,28718,Schubert: The Complete Impromptus / Moments Musicaux,1500562,纯音乐,古典,classical,classical,68,given_playlist
+68,Piano Sonata No.20 in A D.959:2. Andantino (Live In Snape / 1999),1067703,07:39,Alfred Brendel,28718,Alfred Brendel plays Schubert,111331,纯音乐,古典,classical,classical,69,given_playlist
+69,An die Musik D.547,5164951,01:45,Joseph Cooper,231434,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,70,given_playlist
+70,Trois Gymnopédies (1888):I: Lent et douloureux,22543917,03:09,Aldo Ciccolini,28998,Satie: Works for Piano,2064292,纯音乐,古典,classical,classical,71,given_playlist
+71,"Waltz in A flat, Op.39 No.15",5220537,01:45,Dame Moura Lympany,238334,The Best Ever Piano Classics,509765,纯音乐,古典,classical,classical,72,given_playlist
+72,"Lieder ohne Worte, Op. 62:6. Allegretto grazioso ""Frühlingslied""",5164972,02:48,András Schiff,27679,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,73,given_playlist
+73,Rondo capriccioso Op.14,5165041,06:54,Jorge Bolet,45376,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,74,given_playlist
+74,"Lieder ohne Worte, Op. 19:6. Andante sostenuto ""Venetian Gondola Song""",5165013,02:44,András Schiff,27679,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,75,given_playlist
+75,Piano Concerto No.1 In G Minor Op.25 MWV O7:1. Molto allegro con fuoco,28908902,06:53,Symphonieorchester des Bayerischen Rundfunks / András Schiff / Charles Dutoit,839112 / 27679 / 42748,Ultimate Mendelssohn: The Essential Masterpieces,2943029,纯音乐,古典,classical,classical,76,given_playlist
+76,"Songs Without Words, Book I, Op. 19b:No. 1, Andante con moto, MWV U86",5189172,04:13,Daniel Adni,155186,100 Best Piano,508076,纯音乐,古典,classical,classical,77,given_playlist
+77,"Aufschwung (from Fantasiestücke, Op 12)",557376514,03:14,Robert Schumann / Stuttgart Radio Symphony Orchestra / Sir Neville Marriner / Sir Neville Marriner & Stuttgart Radio Symphony Orchestra,130021 / 31101417 / 13971373 / 13341705,Robert Schumann - Classical Best,38570408,纯音乐,古典,classical,classical,78,given_playlist
+78,"Romance in F Minor, Op. 5, TH 127",3541092,06:35,Sviatoslav Richter,77564,Tchaikovsky: Piano Music,358967,纯音乐,古典 / 世界乐器体裁,classical / world_instrument,classical,79,given_playlist
+79,"Concerto pour piano in A Minor, Op. 16: I. Allegro molto moderato",484458166,13:17,Edvard Grieg / Jean-Marie Auberson,33258 / 12870163,Grieg: Concerto pour piano & Suite Holberg,35633724,纯音乐,古典,classical,classical,80,given_playlist
+80,Badarzewska-Baranowska: The Maiden's Prayer,5164960,02:59,Joseph Cooper,231434,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,81,given_playlist
+81,"Dolly, Op. 56:Berceuse (1894)",1415529,02:43,Kathryn Stott / Gabriel Fauré,63975 / 34225,Fauré: The Complete Music for Piano,145198,纯音乐,古典,classical,classical,82,given_playlist
+82,"2 Mélodies, Op. 3:1. Moderato assai",5164987,04:20,Shura Cherkassky,44014,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,83,given_playlist
+83,Prelude in C major BWV 846,1778976,01:53,Maurizio Pollini,40049,Bach: The Well-Tempered Clavier I,179886,纯音乐,古典,classical,classical,84,given_playlist
+84,Gymnopedies 1,5299097,03:02,Aldo Ciccolini,28998,Best of Satie,516010,纯音乐,古典,classical,classical,85,given_playlist
+85,Humoresque Op.101 No.7,5164954,03:04,Joseph Cooper,231434,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,86,given_playlist
+86,Jeux d'eau M.30,5165034,05:52,Pascal Rogé,72609,Ultimate Classical Piano,506900,纯音乐,古典,classical,classical,87,given_playlist
+87,"Piano Concerto No.3 in E major, Sz.119 (1945, Tibor Serly):1. Allegretto",27466131,07:33,Pierre Boulez / Hélène Grimaud / London Symphony Orchestra,130005 / 60240 / 78360,Bartók: The Piano Concertos,2612103,纯音乐,古典,classical,classical,88,given_playlist
+88,Kinderszenen Op.15:7. Träumerei,26928678,02:43,Daniel Barenboim,31969,Les chefs d'oeuvre du piano romantique,2574244,纯音乐,古典,classical,classical,89,given_playlist
+89,"12 Études, Op. 8:No. 12 in D-Sharp Minor",5189187,02:32,Moura Lympany / Simon Woods,129790 / 587201,100 Best Piano,508076,纯音乐,古典,classical,classical,90,given_playlist
+90,Invitation to the Dance,5189160,07:59,Thierry De Brunhoff,31167763,100 Best Piano,508076,纯音乐,古典,classical,classical,91,given_playlist
+91,"Miroirs, M.43:3. Une barque sur l'océan",401822871,07:20,Pascal Rogé,72609,Ravel: Piano Works (2 CDs),34473563,纯音乐,古典,classical,classical,92,given_playlist
+92,Música Ricercata: III. Allegro con spirito,28726275,01:12,Pierre-Laurent Aimard,41668,Ligeti: Études; Musica Ricercata,2866568,纯音乐,古典,classical,classical,93,given_playlist
+93,Petrouchka - Three Movements for Piano (1921):Scene 2 - Petrouchka's Room,403813450,05:17,Anatol Ugorski,29131,"Mussorgsky: Pictures At An Exhibition / Stravinsky: Three Movements From ""Petrushka""",34496966,纯音乐,古典,classical,classical,94,given_playlist
+94,"Neuf danses slaves - Dumka (mi mineur), op. 46 no. 2",573430669,04:39,Renée Morisset / Victor Bouchard,15230500 / 15230499,Oeuvres pour 2 pianos et piano 4 mains (Enregistrements de 1960 à 1994),39706833,纯音乐,古典,classical,classical,95,given_playlist
+95,Moonlight' Sonata:1st movement,406347410,05:27,Ludwig van Beethoven,38731,The Top 100 Masterpieces of Classical Music,34559089,纯音乐,古典,classical,classical,1,supplement_playlist:8621500200
+96,"베토벤::Für Elise, Bagatelle in A Minor, WoO 59",1340400140,03:26,郎朗,3707,Piano Book (Deluxe Edition),75651642,纯音乐,古典,classical,classical,2,supplement_playlist:8621500200
+97,"Pavane pour une infante défunte, M. 19 (Arr. for Violin and Piano by Louis Fleury)",2024241929,05:29,Manon Galy / Jorge Gonzalez Buajasan,37578217 / 51482799,Nuits parisiennes,160468453,纯音乐,古典,classical,classical,3,supplement_playlist:8621500200
+98,"Widmung, Op. 25 No. 1 (Arr. Liszt, S. 566a)",1357762002,03:58,Martin James Bartlett,31889688,Love and Death,78851478,纯音乐,古典,classical,classical,4,supplement_playlist:8621500200
+99,"The Well-Tempered Clavier, Book 1, BWV 846-869: I. Prelude and Fugue in C Major, BWV 846",27471628,04:25,Jeno Jando,36640,BACH (THE VERY BEST OF),2610811,纯音乐,古典,classical,classical,6,supplement_playlist:8621500200
+100,"3 Nocturnes, Op. 9: No. 2 in E-Flat Major. Andante",1920519136,03:53,Lars Vogt,995034,Chopin,140418234,未知,古典,classical,classical,8,supplement_playlist:8621500200

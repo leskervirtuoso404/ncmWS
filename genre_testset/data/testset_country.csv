@@ -1,0 +1,101 @@
+﻿序号,歌曲名称,song id,总时长,歌手,artist id,专辑,album id,语种,歌曲类型,歌曲类型_en,genre,歌单位置,数据来源
+1,"Take Me Home, Country Roads",1477334,03:14,John Denver,35341,Songs for America,151097,英语,乡村,country,country,1,given_playlist
+2,It Never Rains in Southern California,26459609,03:52,Albert Hammond,28587,Pure (Legends),2503852,英语,摇滚 / 乡村,rock / country,country,2,given_playlist
+3,Country Roads,4104211,03:17,Hermes House Band,93793,The Album,414985,英语,流行 / 乡村,pop / country,country,7,given_playlist
+4,You Needed Me,22485480,03:42,Anne Murray,46571,Anne Murray The Best Of...So Far - 20 Greatest Hits,2059638,英语,流行 / 乡村,pop / country,country,11,given_playlist
+5,It Never Rains in Southern California,1063590,03:51,Albert Hammond / Michael Omartian,28587 / 39354,The Very Best Of Albert Hammond,110907,英语,摇滚 / 原声带 / 乡村,rock / soundtrack / country,country,18,given_playlist
+6,My Infinite Love,18018057,03:46,George Strait,33873,Honkytonkville,1656414,英语,乡村,country,country,20,given_playlist
+7,Highwayman,18828614,03:03,Johnny Cash / Willie Nelson / Waylon Jennings / Kris Kristofferson,35347 / 45846 / 45858 / 37540,The Legend Of Johnny Cash,1724416,英语,乡村,country,country,23,given_playlist
+8,Take Me Home Country Roads,21509136,03:22,Roch Voisine,42031,Americana 2,1983273,英语,乡村,country,country,27,given_playlist
+9,21 Summer,37993590,03:34,Brothers Osborne,1131021,Pawn Shop,3418564,英语,乡村,country,country,30,given_playlist
+10,Paradise Hotel,17631682,04:06,Eliza Gilkyson,55565,Paradise Hotel,1623167,英语,民谣 / 乡村,folk / country,country,33,given_playlist
+11,Heart Of Gold,5195504,03:09,Willie Nelson,45846,A Selection Of American Country Songs,508411,英语,乡村,country,country,34,given_playlist
+12,Good Ol' Boys Club,32619184,03:18,Kacey Musgraves,816361,Pageant Material,3162452,英语,乡村,country,country,35,given_playlist
+13,Every Now And Then,986626,03:48,Alan Jackson,27596,Freight Train,103526,英语,乡村,country,country,36,given_playlist
+14,You Belong to Me (Live),1147087,02:06,Charlie Landsborough,29981,Live from Dublin,118837,英语,乡村,country,country,37,given_playlist
+15,Boys 'Round Here (feat. Pistol Annies & Friends),26232445,04:49,Blake Shelton / Pistol Annies & Friends,29452 / 34352522,Based on a True Story...,2429990,英语,嘻哈说唱 / 乡村,hiphop / country,country,39,given_playlist
+16,Where Were You (When the World Stopped Turning),987032,05:05,Alan Jackson,27596,The Very Best Of,103560,英语,流行 / 乡村 / 唱作人,pop / country / singer_songwriter,country,41,given_playlist
+17,A Lot To Learn About Livin' (Album Version),17560526,03:47,Easton Corbin,33098,Easton Corbin,1616476,英语,乡村,country,country,42,given_playlist
+18,Toes,19895086,04:23,Zac Brown Band,46327,The Foundation,1836410,英语,乡村,country,country,44,given_playlist
+19,Lay Low,29378448,04:21,Josh Turner,35385,Lay Low,3017099,英语,乡村,country,country,45,given_playlist
+20,Lazy Days,1232779,04:10,Dean Brody,31275,Dean Brody,127313,英语,乡村,country,country,46,given_playlist
+21,Dark Road,22223522,03:58,Richard Hawley,41986,Lady's Bridge,2042917,英语,乡村,country,country,47,given_playlist
+22,When Somebody Loves You,16350301,03:27,Alan Jackson,27596,When Somebody Loves You,1508763,英语,流行 / 乡村,pop / country,country,48,given_playlist
+23,Troubadour,5117924,02:54,George Strait,33873,Now That's What I Call Country Volume 2,504839,英语,乡村,country,country,49,given_playlist
+24,He Stopped Loving Her Today,1391523,03:19,George Jones,33929,God's Country: George Jones and Friends,142595,英语,乡村,country,country,50,given_playlist
+25,Whatcha Reckon,18641838,03:25,Josh Turner,35385,Punching Bag (Deluxe Edition),1709859,英语,乡村,country,country,51,given_playlist
+26,Designated Drinker (A Duet With George Strait),16350208,03:51,Alan Jackson / George Strait,27596 / 33873,Drive,1508759,英语,乡村,country,country,53,given_playlist
+27,She Is Gone,2081707,02:57,Willie Nelson,45846,Songs,209691,英语,乡村,country,country,54,given_playlist
+28,Some Broken Hearts Never Mend (Single Version),2424308,02:44,Don Williams,53271,The Definitive Collection,244456,英语,乡村,country,country,55,given_playlist
+29,Letter to Me,16661917,04:42,Brad Paisley,29317,5th Gear,1536266,英语,乡村,country,country,56,given_playlist
+30,Overtime,20750904,03:45,Willie Nelson / Lucinda Williams,45846 / 64175,It Always Will Be,1927072,英语,乡村,country,country,57,given_playlist
+31,Desperately,2425151,03:10,Don Williams,53271,Traces,244540,英语,乡村,country,country,58,given_playlist
+32,Blowing in the wind,5256312,05:11,David Roth,31215,Audiophile Male Voice,512129,英语,乡村,country,country,59,given_playlist
+33,Livin' On Love,987076,03:48,Alan Jackson,27596,The Very Best Of,103560,英语,流行 / 乡村 / 唱作人,pop / country / singer_songwriter,country,60,given_playlist
+34,American Pie,1216195,08:33,Don McLean,31191,The Very Best Of Don McLean,125914,英语,摇滚 / 乡村,rock / country,country,62,given_playlist
+35,Five Hundred Miles,27759600,03:27,Justin Timberlake / Carey Mulligan / Stark Sands,35331 / 27947531 / 27947532,Inside Llewyn Davis: Original Soundtrack Recording,2672349,英语,民谣 / 乡村,folk / country,country,69,given_playlist
+36,Take Me Home Country Roads,1477670,03:13,John Denver,35341,Take Me Home: The John Denver Story,151118,英语,乡村,country,country,74,given_playlist
+37,Where have all the flowers gone,5212456,03:08,ringston trio,30105713,Country music from America,509321,英语,乡村,country,country,75,given_playlist
+38,Tell Laura I Love Her,5136983,02:58,Ray Peterson,73056,Baby Love,505683,英语,乡村,country,country,90,given_playlist
+39,The Tennessee Waltz,5162954,05:06,Allan Taylor,27594,TAS: The Absolute Sound 2008,506816,英语,乡村,country,country,95,given_playlist
+40,Blownin in the wing,5212449,02:24,The Brother Four,14508967,Country music from America,509321,英语,乡村,country,country,96,given_playlist
+41,Quizas quizas quizas,5212448,02:19,Trio San Juan,285204,Country music from America,509321,西班牙语,乡村,country,country,97,given_playlist
+42,The end of the world,5212446,02:36,Skeeter Davis,74670,Country music from America,509321,英语,乡村,country,country,98,given_playlist
+43,Yesterday when I was still young,5212444,03:43,glen compebell,30105696,Country music from America,509321,英语,乡村,country,country,99,given_playlist
+44,Seven lonely days,5212443,02:16,paftsy clion,30185954,Country music from America,509321,英语,乡村,country,country,100,given_playlist
+45,4:55(part of game),5212442,03:14,Wynners,28572946,Country music from America,509321,英语,乡村,country,country,101,given_playlist
+46,Jambalaya hank williams,5212440,03:43,Various Artists,104700,Country music from America,509321,英语,乡村,country,country,102,given_playlist
+47,Lemon tree,5212439,03:07,The Brothers Four,44278,Country music from America,509321,英语,乡村,country,country,103,given_playlist
+48,California Dreaming,5212437,02:41,The Mamas & the Papas,78207,Country music from America,509321,英语,流行 / 乡村,pop / country,country,104,given_playlist
+49,EI condor pasa,5212435,03:13,Andy Williams,27611,Country music from America,509321,英语,乡村,country,country,105,given_playlist
+50,take my home country roads,5212436,03:12,John Denver,35341,Country music from America,509321,英语,乡村,country,country,106,given_playlist
+51,Handle On You,1969762824,03:39,Parker McCollum,12871723,Handle On You,149241182,英语,乡村,country,country,1,supplement_playlist:8282791588
+52,If This Was A Movie (Taylor’s Version),2031001720,03:57,Taylor Swift,44266,If This Was A Movie (Taylor’s Version),161981711,英语,乡村,country,country,4,supplement_playlist:8282791588
+53,You Proof,1947054980,02:37,Morgan Wallen,969001,You Proof,144912624,英语,乡村,country,country,5,supplement_playlist:8282791588
+54,Thought You Should Know,1944937494,03:36,Morgan Wallen,969001,Thought You Should Know,144558147,英语,乡村,country,country,6,supplement_playlist:8282791588
+55,Fearless (Taylor’s Version),2031035458,04:02,Taylor Swift,44266,The More Fearless (Taylor’s Version) Chapter,161988867,英语,乡村,country,country,7,supplement_playlist:8282791588
+56,Step Off,27571335,03:03,Kacey Musgraves,816361,Same Trailer Different Park,2639346,英语,乡村,country,country,8,supplement_playlist:8282791588
+57,Just A Kiss,16686122,03:39,Lady A,95456,Own The Night,1537595,英语,乡村,country,country,9,supplement_playlist:8282791588
+58,What He Didn't Do,1878784168,03:11,Carly Pearce,342699,29: Written In Stone,133352220,英语,乡村,country,country,11,supplement_playlist:8282791588
+59,Next Thing You Know,1971621974,02:55,Jordan Davis,12441198,Next Thing You Know,149602704,英语,乡村,country,country,13,supplement_playlist:8282791588
+60,Kinfolks,1396299139,03:02,Sam Hunt,942264,Kinfolks,82316504,英语,乡村,country,country,14,supplement_playlist:8282791588
+61,Love Story (Taylor’s Version),2031034573,03:56,Taylor Swift,44266,The More Fearless (Taylor’s Version) Chapter,161988867,英语,乡村,country,country,15,supplement_playlist:8282791588
+62,You Belong With Me (Taylor's Version),1832431773,03:51,Taylor Swift,44266,Fearless (Taylor's Version),125149262,英语,乡村,country,country,17,supplement_playlist:8282791588
+63,I Deserve A Drink,2027163647,03:26,Morgan Wallen,969001,One Thing At A Time,161177021,英语,乡村,country,country,18,supplement_playlist:8282791588
+64,Mr. Perfectly Fine (Taylor’s Version) (From The Vault),1832428129,04:38,Taylor Swift,44266,Fearless (Taylor's Version),125149262,英语,乡村,country,country,19,supplement_playlist:8282791588
+65,Bartender,28546538,03:18,Lady A,95456,Bartender,2834114,英语,流行 / 乡村,pop / country,country,21,supplement_playlist:8282791588
+66,Waking Up Dreaming,1983702440,03:19,Shania Twain,74624,Waking Up Dreaming,152083100,英语,乡村,country,country,22,supplement_playlist:8282791588
+67,In Case You Didn't Know,403382427,03:46,Brett Young,12024051,Brett Young EP,34480543,英语,乡村,country,country,23,supplement_playlist:8282791588
+68,Are You With Me,17560536,03:40,Easton Corbin,33098,All Over The Road,1616477,英语,乡村,country,country,24,supplement_playlist:8282791588
+69,5 Foot 9,1948970281,03:10,Tyler Hubbard,28054993,5 Foot 9,145281905,英语,乡村,country,country,25,supplement_playlist:8282791588
+70,I Wouldn't Be A Man,18641944,03:33,Josh Turner,35385,Haywire (Deluxe Edition),1709867,英语,乡村,country,country,26,supplement_playlist:8282791588
+71,Tonight I Wanna Cry,22224889,04:20,Keith Urban,37525,Be Here,2043007,英语,乡村,country,country,27,supplement_playlist:8282791588
+72,Tulsa Texas (Album Version),17560539,04:34,Easton Corbin,33098,All Over The Road,1616477,英语,乡村,country,country,29,supplement_playlist:8282791588
+73,Kick the Dust Up,32102843,03:11,Luke Bryan,38207,Kick the Dust Up,3152362,英语,乡村,country,country,30,supplement_playlist:8282791588
+74,Not Just A Girl,1967047366,03:11,Shania Twain,74624,Not Just A Girl (The Highlights),148671869,英语,乡村,country,country,31,supplement_playlist:8282791588
+75,Villain,1500654888,02:56,Lily Rose,35746517,Villain,99171758,英语,乡村,country,country,32,supplement_playlist:8282791588
+76,Soon You’ll Get Better,1382781478,03:22,Taylor Swift / The Chicks,44266 / 90517,Lover,80752440,英语,乡村,country,country,33,supplement_playlist:8282791588
+77,Am I The Only One,1858072451,04:30,Aaron Lewis,28301,Am I The Only One,129844169,英语,乡村,country,country,34,supplement_playlist:8282791588
+78,Trailer Park,1927355992,03:39,Jackson Dean,31689700,Greenbroke,141677146,英语,乡村,country,country,35,supplement_playlist:8282791588
+79,"Huntin', Fishin' and Lovin' Every Day",33715047,04:39,Luke Bryan,38207,Kill the Lights,3233515,英语,乡村,country,country,36,supplement_playlist:8282791588
+80,Tied One On,1393553069,03:05,Jon Pardi,839005,Heartache Medication,81973225,英语,乡村,country,country,37,supplement_playlist:8282791588
+81,Hell Yeah,1981769904,02:56,Little Big Town,64320,Mr. Sun,151689537,英语,乡村,country,country,38,supplement_playlist:8282791588
+82,29,1821444609,03:43,Carly Pearce,342699,29,123272648,英语,乡村,country,country,39,supplement_playlist:8282791588
+83,Love You Like That,32785284,03:24,Canaan Smith,31070,Bronco,3172096,英语,摇滚 / 乡村,rock / country,country,40,supplement_playlist:8282791588
+84,Radio (Album Version),26402808,03:10,Darius Rucker,31366,True Believers (Deluxe Edition),2480116,英语,乡村,country,country,41,supplement_playlist:8282791588
+85,Velvet Heartbreak,1954881287,03:03,Carrie Underwood,50891,Denim & Rhinestones,146311451,英语,乡村,country,country,42,supplement_playlist:8282791588
+86,Friends Don't,555974382,03:10,Maddie & Tae,964386,Friends Don't,38513061,英语,乡村,country,country,43,supplement_playlist:8282791588
+87,Speed,2029092403,04:30,Parker McCollum,12871723,Speed,161588104,英语,乡村,country,country,44,supplement_playlist:8282791588
+88,This Feels A Lot Like Love (Album Version),17560537,03:44,Easton Corbin,33098,All Over The Road,1616477,英语,乡村,country,country,45,supplement_playlist:8282791588
+89,Drive You Out Of My Mind,2025080681,03:32,Kassi Ashton,13059659,Drive You Out Of My Mind,160674939,英语,乡村,country,country,46,supplement_playlist:8282791588
+90,That's How Love Is Made,2029098406,03:47,The War and Treaty,14916489,Lover's Game,161587832,英语,乡村,country,country,47,supplement_playlist:8282791588
+91,It Was Me,18018024,03:10,George Strait,33873,Troubadour,1656412,英语,乡村,country,country,48,supplement_playlist:8282791588
+92,She's Mine,1383142257,03:49,Kip Moore,38085,She's Mine,80864706,英语,乡村,country,country,49,supplement_playlist:8282791588
+93,May We All,1996806249,03:47,Florida Georgia Line / Tim McGraw,181011 / 44312,Greatest Hits,154619617,英语,乡村,country,country,50,supplement_playlist:8282791588
+94,"Courtesy Of The Red, White And Blue (The Angry American)",19277283,03:16,Toby Keith,44345,Toby Keith 35 Biggest Hits,1768765,英语,乡村,country,country,51,supplement_playlist:8282791588
+95,Summer In A Small Town,1900161863,02:58,Kidd G,34014387,Big Machine: Big Songs Of 2021,136978004,英语,乡村,country,country,52,supplement_playlist:8282791588
+96,Off The Deep End,1969759562,03:16,Priscilla Block,35351087,Off The Deep End,149240046,英语,乡村,country,country,53,supplement_playlist:8282791588
+97,Red Wine + White Couch,521731020,03:09,Danielle Bradbery,737175,I Don't Believe We've Met,36861443,英语,乡村,country,country,54,supplement_playlist:8282791588
+98,Getting Good,1458202468,03:22,Lauren Alaina / Trisha Yearwood,66160 / 78283,Getting Good,91531833,英语,乡村,country,country,55,supplement_playlist:8282791588
+99,Someone,1915794775,04:00,Aaron Lewis,28301,Frayed At Both Ends,139591149,英语,乡村,country,country,56,supplement_playlist:8282791588
+100,Stronger Than I Am,1878785447,03:52,Lily Rose,35746517,Stronger Than I Am,133352454,英语,乡村,country,country,57,supplement_playlist:8282791588

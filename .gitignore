@@ -4,6 +4,7 @@ data/storage_state.json
 
 # 原生数据与缓存（可用脚本重新生成）
 data/raw/
+genre_testset/data/raw/
 
 # Python
 __pycache__/
