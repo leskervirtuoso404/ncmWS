@@ -1,0 +1,21 @@
+# 登录凭证
+data/cookies.json
+data/storage_state.json
+
+# 原生数据与缓存（可用脚本重新生成）
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器/系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
