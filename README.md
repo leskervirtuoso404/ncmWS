@@ -9,7 +9,7 @@
 
 ```
 ncmWS/
-├── task.md                  # 任务说明（原始 task.txt 的 Markdown 版）
+├── task.md                  # 任务说明
 ├── README.md
 ├── src/
 │   ├── ncm_common.py        # 公共配置：会话、Cookie、时长格式化等
