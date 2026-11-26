@@ -66,7 +66,7 @@ GENRES: list[dict] = [
     {"genre": "country", "tag": "乡村", "playlist_id": "697173945", "cat": "乡村"},
     {"genre": "hiphop", "tag": "嘻哈说唱", "playlist_id": "439484002", "cat": "说唱"},
     {"genre": "jazz", "tag": "爵士", "playlist_id": "2829895462", "cat": "爵士"},
-    {"genre": "pop", "tag": "流行", "playlist_id": "18639113421", "cat": "流行"},
+    {"genre": "pop", "tag": "流行", "playlist_id": "18639172099", "cat": "流行"},
     {"genre": "rock", "tag": "摇滚", "playlist_id": "8240950353", "cat": "摇滚",
      "fallback_playlist_id": "722234258"},
 ]
