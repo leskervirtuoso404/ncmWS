@@ -21,11 +21,12 @@ ncmWS/
 │   ├── src/
 │   │   ├── build_testset.py # 按给定歌单抓取 + 类型校验 + 分类补足
 │   │   └── fetch_blues.py   # 旧版蓝调艺人补充脚本（已弃用，保留备查）
-│   └── data/
-│       ├── testset_{genre}.csv   # 分流派数据，每类 100 首
-│       ├── testset_all.csv       # 七类汇总
-│       ├── testset_summary.csv   # 抓取统计
-│       └── raw/                  # 接口缓存（本地生成，不入库）
+│   ├── data/
+│   │   ├── testset_{genre}.csv   # 分流派数据，每类 100 首
+│   │   ├── testset_all.csv       # 七类汇总
+│   │   ├── testset_summary.csv   # 抓取统计
+│   │   └── raw/                  # 接口缓存（本地生成，不入库）
+│   └── skipped_songs.md          # 各类别被跳过的曲目位置与原因
 └── data/
     ├── step1_playlist.csv       # 阶段1 中间结果
     ├── step2_style.csv          # 阶段2 中间结果
@@ -140,27 +141,32 @@ python src/step3_merge.py
 ### 抓取规则
 
 1. 按给定歌单的**原始顺序**逐首扫描，用专辑音乐百科的「歌曲类型」标签校验是否包含目标流派（如 blues 必须含「蓝调」）；
-2. 类型不属于该风格的曲目**跳过并继续往后取**，直到该类别收满 100 首；
-3. 给定歌单扫完仍不足 100 首时，从网易云对应分类（蓝调 / 古典 / 乡村 / 说唱 / 爵士 / 流行 / 摇滚）的热门歌单依次补充，补充曲目同样逐首校验标签；
-4. 跨歌单按 song id 与歌名去重（同一首歌不会在同一类别内重复出现）。
+2. 校验音源可用性：调用播放地址接口，返回 `url` 为空（`code=404`）的曲目视为**无音源、无法下载**，即使歌单里仍在、详情页可访问也一并剔除；
+3. 类型不符或无音源的曲目**跳过并继续往后取**，直到该类别收满 100 首；
+4. 给定歌单扫完仍不足 100 首时，从网易云对应分类（蓝调 / 古典 / 乡村 / 说唱 / 爵士 / 流行 / 摇滚）的热门歌单依次补充，补充曲目同样逐首校验标签与音源；
+5. 跨歌单按 song id 与歌名去重（同一首歌不会在同一类别内重复出现）。
+
+各类别具体跳过了歌单中的第几首、以及跳过原因，见 [genre_testset/skipped_songs.md](genre_testset/skipped_songs.md)。
 
 ### 运行
 
-复用主项目的登录 Cookie（`data/cookies.json`），语种/类型标签取自需要登录的音乐百科接口：
+复用主项目的登录 Cookie（`data/cookies.json`），语种/类型标签与播放地址均取自需要登录的接口：
 
 ```bash
 python genre_testset/src/build_testset.py                 # 默认每类 100 首
 python genre_testset/src/build_testset.py --target 50     # 验证用，只取 50 首
-python genre_testset/src/build_testset.py --workers 4 --delay 0.2
+python genre_testset/src/build_testset.py --genre pop     # 只重建指定类别，其余沿用原 CSV
+python genre_testset/src/build_testset.py --no-url-check  # 关闭音源过滤（保留无音源曲目）
 ```
 
-接口缓存写入 `genre_testset/data/raw/`（已加入 `.gitignore`），重跑自动复用，可断点续跑；删除缓存即可完全重抓。
+接口缓存写入 `genre_testset/data/raw/`（含 `song_url_*.json` 音源检查结果，已加入 `.gitignore`），重跑自动复用，可断点续跑；删除缓存即可完全重抓。
 
 ### 输出文件
 
 - `genre_testset/data/testset_{genre}.csv`：分流派数据，每类 100 行
 - `genre_testset/data/testset_all.csv`：七类汇总，700 行
 - `genre_testset/data/testset_summary.csv`：各类抓取统计
+- `genre_testset/skipped_songs.md`：各流派在给定歌单中被跳过的曲目位置与原因
 
 字段：`序号, 歌曲名称, song id, 总时长, 歌手, artist id, 专辑, album id, 语种, 歌曲类型, 歌曲类型_en, genre, 歌单位置, 数据来源`
 
@@ -168,18 +174,19 @@ python genre_testset/src/build_testset.py --workers 4 --delay 0.2
 
 ### 抓取统计
 
-| 流派 | 给定歌单曲目数 | 扫描曲目数 | 命中 | 类型不符跳过 | 补充歌单 | 补充曲目 | 满额 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| blues | 102 | 145 | 100 | 45 | 1 | 31 | 是 |
-| classical | 95 | 103 | 100 | 0 | 1 | 6 | 是 |
-| country | 106 | 163 | 100 | 61 | 1 | 50 | 是 |
-| hiphop | 309 | 145 | 100 | 45 | 0 | 0 | 是 |
-| jazz | 100 | 100 | 100 | 0 | 0 | 0 | 是 |
-| pop | 906 | 100 | 100 | 0 | 0 | 0 | 是 |
-| rock | 393 | 101 | 100 | 0 | 0 | 0 | 是 |
+| 流派 | 给定歌单曲目数 | 扫描曲目数 | 命中 | 类型不符 | 无音源 | 补充歌单 | 补充曲目 | 满额 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| blues | 102 | 145 | 100 | 45 | 0 | 1 | 31 | 是 |
+| classical | 95 | 103 | 100 | 0 | 0 | 1 | 6 | 是 |
+| country | 106 | 163 | 100 | 61 | 0 | 1 | 50 | 是 |
+| hiphop | 309 | 146 | 100 | 45 | 1 | 0 | 0 | 是 |
+| jazz | 100 | 100 | 100 | 0 | 0 | 0 | 0 | 是 |
+| pop | 906 | 102 | 100 | 0 | 2 | 0 | 0 | 是 |
+| rock | 393 | 102 | 100 | 0 | 1 | 0 | 0 | 是 |
 
 说明：
 
+- 已剔除 4 首无音源曲目（hiphop《Pure Water》、pop《Always with me(口琴版)》《夜色钢琴曲》虹之间、rock《The Fear》），并向后取曲补足至 100 首；
 - blues、classical、country 的给定歌单本身不足 100 首或混有民谣、新世纪等类型，需从分类歌单补足；
 - pop 与 rock 来自同一用户的自建歌单，其中有 2 首同时带「流行」「摇滚」双标签（`Home We'll Go`、`On My Own`），**允许跨类重复**，因此全集 700 行中含 2 组重复样本（698 个唯一样本）。
 

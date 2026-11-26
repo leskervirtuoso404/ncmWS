@@ -4,13 +4,15 @@
 1. 七种流派各对应一个给定歌单；
 2. 按歌单顺序逐首抓取歌曲信息；
 3. 仅当歌曲的「歌曲类型」包含该流派标签时计入（blues->蓝调、classical->古典 …）；
-4. 若类型不符则继续向后扫描，直到该类别收满 100 首；
+4. 仅保留能取到播放地址的曲目，无音源/不可下载的歌曲（歌单里仍在、详情页可访问）一并剔除；
+5. 若类型不符或无音源则继续向后扫描，直到该类别收满 100 首；
    若给定歌单耗尽仍不足 100 首，则从同风格「分类歌单」继续补足（同样需通过标签校验）。
 
 数据来源：
 - 歌单曲目：/api/v6/playlist/detail
 - 分类歌单：/api/playlist/list
 - 歌曲信息：/api/song/detail（批量）
+- 音源可用性：/api/song/enhance/player/url（无 url 视为无音源、不可下载，剔除）
 - 语种/歌曲类型：音乐百科 /api/rep/ugc/album/get（需登录 Cookie，data/cookies.json）
 
 输出（genre_testset/data/）：
@@ -49,8 +51,10 @@ from ncm_common import (  # noqa: E402
 PLAYLIST_DETAIL_API = "https://music.163.com/api/v6/playlist/detail"
 PLAYLIST_LIST_API = "https://music.163.com/api/playlist/list"
 SONG_DETAIL_API = "https://music.163.com/api/song/detail"
+SONG_URL_API = "https://music.163.com/api/song/enhance/player/url"
 ALBUM_API = "https://music.163.com/api/rep/ugc/album/get"
 BATCH_SIZE = 200
+URL_BATCH = 100
 CHUNK = 150
 
 # genre -> 给定歌单 id、判定标签、补充抓取用的分类歌单 cat
@@ -114,6 +118,25 @@ def fetch_song_details(session: requests.Session, ids: list[int], playlist_id: s
             songs[song["id"]] = song
     save_json(cache, {"songs": list(songs.values())})
     return songs
+
+
+def fetch_song_urls(session: requests.Session, ids: list[int], cache_key: str) -> dict[int, bool]:
+    """返回 song id -> 是否有可播放音源（url 非空）。无音源的歌曲无法下载，需剔除。"""
+    cache = RAW_DIR / f"song_url_{cache_key}.json"
+    known: dict[int, bool] = {}
+    if cache.exists():
+        known = {int(k): bool(v) for k, v in json.loads(cache.read_text(encoding="utf-8")).get("urls", {}).items()}
+    pending = [i for i in dict.fromkeys(ids) if i not in known]
+    for start in range(0, len(pending), URL_BATCH):
+        batch = pending[start : start + URL_BATCH]
+        resp = session.get(SONG_URL_API, params={"ids": json.dumps(batch), "br": 320000}, timeout=30)
+        for item in resp.json().get("data") or []:
+            known[int(item["id"])] = bool(item.get("url"))
+        for sid in batch:
+            known.setdefault(sid, False)
+    if pending:
+        save_json(cache, {"urls": {str(k): v for k, v in known.items()}})
+    return known
 
 
 def fetch_category_playlists(session: requests.Session, cat: str, genre: str) -> list[dict]:
@@ -197,15 +220,16 @@ def pick(tags_map: dict, name: str, song_id: int) -> tuple[str, str] | None:
     return None
 
 
-def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_ids, seen_names, source):
-    """按歌单顺序扫描，返回符合 tag 的曲目（最多 need 首）及统计。"""
+def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_ids, seen_names, source,
+                  check_url=True):
+    """按歌单顺序扫描，返回符合 tag 且有音源的曲目（最多 need 首）及统计。"""
     detail = fetch_playlist(session, str(playlist_id))
     pl = detail["playlist"]
     ids = [t["id"] for t in pl.get("trackIds", [])]
     songs = fetch_song_details(session, ids, str(playlist_id))
 
     out: list[dict] = []
-    st = {"扫描曲目数": 0, "类型不符": 0, "无类型信息": 0, "重复跳过": 0}
+    st = {"扫描曲目数": 0, "类型不符": 0, "无音源": 0, "无类型信息": 0, "重复跳过": 0}
     tag_cache: dict[int, dict] = {}
     idx = 0
     while len(out) < need and idx < len(ids):
@@ -216,6 +240,7 @@ def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_
             if song:
                 album_ids.append(int((song.get("al") or song.get("album") or {}).get("id") or 0))
         prefetch_albums(cookie, album_ids, workers, delay)
+        playable = fetch_song_urls(session, chunk, str(playlist_id)) if check_url else {}
 
         for off, sid in enumerate(chunk):
             if len(out) >= need:
@@ -236,6 +261,9 @@ def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_
             language, tags = hit
             if tag not in split_tags(tags):
                 st["类型不符"] += 1
+                continue
+            if check_url and not playable.get(sid):
+                st["无音源"] += 1
                 continue
             artists = song.get("ar") or song.get("artists") or []
             artist_text = " / ".join(a.get("name", "") for a in artists)
@@ -266,14 +294,14 @@ def scan_playlist(session, cookie, playlist_id, tag, need, workers, delay, seen_
     return pl, out, st, len(ids)
 
 
-def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=20):
+def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=20, check_url=True):
     genre, tag = cfg["genre"], cfg["tag"]
     seen_ids: set[int] = set()
     seen_names: set[tuple[str, str]] = set()
 
     pl, rows, st, total = scan_playlist(
         session, cookie, cfg["playlist_id"], tag, target, workers, delay,
-        seen_ids, seen_names, "given_playlist",
+        seen_ids, seen_names, "given_playlist", check_url,
     )
     stat = {
         "genre": genre,
@@ -282,6 +310,7 @@ def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=2
         "给定歌单曲目数": total,
         "扫描曲目数": st["扫描曲目数"],
         "类型不符": st["类型不符"],
+        "无音源": st["无音源"],
         "无类型信息": st["无类型信息"],
         "重复跳过": st["重复跳过"],
         "补充歌单数": 0,
@@ -301,10 +330,11 @@ def collect_genre(session, cookie, cfg, target, workers, delay, max_supplement=2
                 continue
             _, got, st2, _ = scan_playlist(
                 session, cookie, p["id"], tag, target - len(rows), workers, delay,
-                seen_ids, seen_names, f"supplement_playlist:{p['id']}",
+                seen_ids, seen_names, f"supplement_playlist:{p['id']}", check_url,
             )
             stat["扫描曲目数"] += st2["扫描曲目数"]
             stat["类型不符"] += st2["类型不符"]
+            stat["无音源"] += st2["无音源"]
             stat["无类型信息"] += st2["无类型信息"]
             stat["重复跳过"] += st2["重复跳过"]
             if got:
@@ -335,6 +365,9 @@ def main() -> None:
     parser.add_argument("--workers", type=int, default=4, help="专辑 wiki 预取线程数")
     parser.add_argument("--delay", type=float, default=0.2, help="请求间隔秒数")
     parser.add_argument("--max-supplement", type=int, default=20, help="每类最多补充多少个分类歌单")
+    parser.add_argument("--genre", action="append", choices=[g["genre"] for g in GENRES],
+                        help="只重建指定流派（可多次指定），其余类别保留原结果")
+    parser.add_argument("--no-url-check", action="store_true", help="不检查音源可用性（默认会剔除无音源歌曲）")
     args = parser.parse_args()
 
     cookie = load_cookie_from_file()
@@ -345,24 +378,35 @@ def main() -> None:
 
     fields = ["序号", "歌曲名称", "song id", "总时长", "歌手", "artist id", "专辑", "album id",
               "语种", "歌曲类型", "歌曲类型_en", "genre", "歌单位置", "数据来源"]
-    summary = []
-    all_rows = []
+    summary_fields = ["genre", "给定歌单名称", "给定歌单 id", "给定歌单曲目数", "扫描曲目数", "命中数",
+                      "类型不符", "无音源", "无类型信息", "重复跳过", "补充歌单数", "补充曲目数", "是否满额"]
+    summary_path = OUT_DIR / "testset_summary.csv"
+    summary_map: dict[str, dict] = {}
+    if summary_path.exists():
+        summary_map = {r["genre"]: r for r in csv.DictReader(open(summary_path, encoding="utf-8-sig"))}
 
-    for cfg in GENRES:
+    selected = [cfg for cfg in GENRES if not args.genre or cfg["genre"] in args.genre]
+    check_url = not args.no_url_check
+
+    for cfg in selected:
         print(f"[{cfg['genre']}] 歌单 {cfg['playlist_id']} ...", flush=True)
-        rows, stat = collect_genre(session, cookie, cfg, args.target, args.workers, args.delay, args.max_supplement)
+        rows, stat = collect_genre(session, cookie, cfg, args.target, args.workers, args.delay,
+                                   args.max_supplement, check_url)
         write_csv(OUT_DIR / f"testset_{cfg['genre']}.csv", fields, rows)
-        summary.append(stat)
-        all_rows.extend(rows)
+        summary_map[cfg["genre"]] = stat
         print(f"  -> {len(rows)} 首（补充 {stat['补充曲目数']}，{stat['是否满额']}）", flush=True)
 
+    # 合并所有类别（未重建的类别沿用已有 CSV）
+    all_rows: list[dict] = []
+    for cfg in GENRES:
+        path = OUT_DIR / f"testset_{cfg['genre']}.csv"
+        if not path.exists():
+            continue
+        for r in csv.DictReader(open(path, encoding="utf-8-sig")):
+            r["genre"] = cfg["genre"]
+            all_rows.append(r)
     write_csv(OUT_DIR / "testset_all.csv", fields, all_rows)
-    write_csv(
-        OUT_DIR / "testset_summary.csv",
-        ["genre", "给定歌单名称", "给定歌单 id", "给定歌单曲目数", "扫描曲目数", "命中数",
-         "类型不符", "无类型信息", "重复跳过", "补充歌单数", "补充曲目数", "是否满额"],
-        summary,
-    )
+    write_csv(summary_path, summary_fields, [summary_map[g["genre"]] for g in GENRES if g["genre"] in summary_map])
     print(f"合计 {len(all_rows)} 首 -> {OUT_DIR}")
 
 
