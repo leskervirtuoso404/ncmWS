@@ -6,6 +6,7 @@ data/storage_state.json
 data/raw/
 data/audio/
 genre_testset/data/raw/
+genre_testset/dataset/
 
 # Python
 __pycache__/

@@ -21,12 +21,15 @@ ncmWS/
 ├── genre_testset/           # 七流派测试集（见下文「七流派测试集」）
 │   ├── src/
 │   │   ├── build_testset.py # 按给定歌单抓取 + 类型校验 + 分类补足
+│   │   ├── download_audio.py# 按流派 CSV 批量下载音频到 dataset/
 │   │   └── fetch_blues.py   # 旧版蓝调艺人补充脚本（已弃用，保留备查）
 │   ├── data/
 │   │   ├── testset_{genre}.csv   # 分流派数据，每类 100 首
 │   │   ├── testset_all.csv       # 七类汇总
 │   │   ├── testset_summary.csv   # 抓取统计
 │   │   └── raw/                  # 接口缓存（本地生成，不入库）
+│   ├── dataset/{genre}/          # 已下载的音频文件（本地生成，不入库）
+│   ├── audio_download.md         # country / hiphop 音频下载说明
 │   └── skipped_songs.md          # 各类别被跳过的曲目位置与原因
 └── data/
     ├── step1_playlist.csv       # 阶段1 中间结果
@@ -212,6 +215,9 @@ python genre_testset/src/build_testset.py --no-url-check  # 关闭音源过滤�
 - 已剔除 1 首无音源曲目（hiphop《Pure Water》），并向后取曲补足至 100 首；
 - blues、classical、country 的给定歌单本身不足 100 首或混有民谣、新世纪等类型，需从分类歌单补足；
 - 全集 700 行中含 1 组跨类重复（`Johnny B. Goode` 同时出现在 blues 与 rock），**允许跨类重复**，唯一样本 699 个。
+
+业务说明：
+- `genre_testset/src/download_audio.py` 按流派 CSV 批量下载音频到 `genre_testset/dataset/<genre>/`，country / hiphop 的执行方式与结果见 [genre_testset/audio_download.md](genre_testset/audio_download.md)。
 
 ## 已知限制
 
