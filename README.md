@@ -1,6 +1,6 @@
 # ncmWS — 网易云音乐歌单爬虫
 
-抓取指定歌单下所有歌曲的基本信息（歌曲名称、时长、歌手、专辑及各类 ID），并补充每首歌的**语种**与**歌曲类型**，最终输出两份 CSV。
+抓取指定歌单下所有歌曲的基本信息（歌曲名称、时长、歌手、专辑及各类 ID），并补充每首歌的**语种**与**歌曲类型**，最终输出两份 CSV；阶段 4 支持按 song id / 歌曲 URL 直接下载音频文件。
 
 - 目标歌单：<https://music.163.com/playlist?id=565910665>（鸿日虹桥红谷滩喜欢的音乐）
 - 任务说明：[task.md](task.md)
@@ -16,7 +16,8 @@ ncmWS/
 │   ├── get_cookie.py        # 扫码登录并保存 Cookie（阶段2需要）
 │   ├── step1_playlist.py    # 阶段1：歌单基本信息
 │   ├── step2_wiki.py        # 阶段2：语种与歌曲类型
-│   └── step3_merge.py       # 阶段3：汇总输出两份 CSV
+│   ├── step3_merge.py       # 阶段3：汇总输出两份 CSV
+│   └── step4_audio.py       # 阶段4：按 song id / 歌曲 URL 抓取音频文件
 ├── genre_testset/           # 七流派测试集（见下文「七流派测试集」）
 │   ├── src/
 │   │   ├── build_testset.py # 按给定歌单抓取 + 类型校验 + 分类补足
@@ -33,6 +34,7 @@ ncmWS/
     ├── ncm_songs_all_info.csv   # 阶段3 全部信息
     ├── ncm_songs_key_info.csv   # 阶段3 关键信息
     ├── cookies.json             # 登录 Cookie（本地生成，不入库）
+    ├── audio/                   # 阶段4 下载的音频文件（本地生成，不入库）
     └── raw/                     # 原生数据与缓存（本地生成，不入库）
         ├── playlist_page.html
         ├── playlist_detail.json
@@ -93,6 +95,23 @@ python src/step3_merge.py
 ```
 
 按 song id 合并阶段 1、阶段 2 结果，输出两份 CSV。
+
+### 阶段 4：抓取音频文件
+
+在歌曲详情页点击播放时，前端实际请求 `https://music.163.com/api/song/enhance/player/url/v1?ids=[{song_id}]&level=exhigh&encodeType=aac`，其返回的 `data[].url` 即音频直链（通常为 `.m4a`，托管在 `m7xx.music.126.net`）。本阶段用登录 Cookie 请求该接口，再直接下载直链文件并按 `歌手 - 歌曲名称.扩展名` 重命名。
+
+```bash
+python src/step4_audio.py --playlist 697173945 --limit 5   # 测试：歌单前 5 首
+python src/step4_audio.py --id 1477334                     # 单个 song id
+python src/step4_audio.py --url "https://music.163.com/#/song?id=1477334"
+python src/step4_audio.py --playlist 697173945 --out genre_testset/dataset/country
+```
+
+- 输入支持 `--id`（可重复）、`--url`（歌曲详情页链接，可重复）、`--playlist` + `--limit`；
+- 音质 `--level` 可选 `standard / higher / exhigh / lossless`，默认 `exhigh`（aac → `.m4a`）；
+- 直链为空的歌曲（无版权/下架/需付费）会跳过并计入失败；
+- 命名与 `genre_testset/dataset` 下的 mp3 一致：`歌手 - 歌曲名称`，多歌手用 ` & ` 连接（如 `Eric Clapton & B.B. King - Riding With the King`），扩展名取自直链；
+- 默认输出到 `data/audio/`，已存在同名文件默认跳过，`--overwrite` 可覆盖。
 
 ## 输出文件
 
